@@ -11,8 +11,8 @@
 - 📝 Resume: https://drive.google.com/file/d/1JaWdla59LsTuzC4KJMDsV3rjsjbCfCER/view?usp=share_link
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats) [![sudhanshu1402's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-dark-mode-only)
-[![sudhanshu1402's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-light-mode-only) <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&show_icons=true&theme=dark"/>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats) 
+[![sudhanshu1402's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-dark-mode-only) [![sudhanshu1402's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-light-mode-only) <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&show_icons=true&theme=dark"/>
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 

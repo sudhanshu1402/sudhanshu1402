@@ -7,9 +7,11 @@
 - 👀 Learning : SQL & JavaScript
 - 🌟 Fervent for AI/ML & Robotics
 - 📫 Mail ID : sudhanshusingh1402@gmail.com
-- 🙌 Connect at : https://www.linkedin.com/in/sudhanshusingh1402/ 
 - ⚡ I love watching anime & playing strategy games
 - 📝 Resume: https://drive.google.com/file/d/1JaWdla59LsTuzC4KJMDsV3rjsjbCfCER/view?usp=share_link
+
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
+[![](https://img.shields.io/badge/gmail-%230077B5.svg?style=for-the-badge&logo=gmail)](sudhanshusingh1402@gmail.com)
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats)

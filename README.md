@@ -1,7 +1,7 @@
 # Hey! Nice to see you. Welcome to my page!
 ## I'm Sudhanshu, self-taught passionate Python Developer from Mumbai, India. 
 
-### About me [![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
+### About me 
 - 🎓 I'm a MBA Tech student at NMIMS Mumbai batch of 2023, pursuing BTech in Information Technology & MBA in Business Intelligence Analyst.
 - 💪 Splendid at : Python, C++, HTML, CSS, Mongodb
 - 👀 Learning : SQL & JavaScript
@@ -9,6 +9,9 @@
 - 📫 Mail ID : sudhanshusingh1402@gmail.com
 - ⚡ I love watching anime & playing strategy games
 - 📝 Resume: https://drive.google.com/file/d/1JaWdla59LsTuzC4KJMDsV3rjsjbCfCER/view?usp=share_link
+
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
+
 
 <details>
     <summary><b> 📊 Stats </b></summary><br/>

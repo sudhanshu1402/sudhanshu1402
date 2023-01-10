@@ -11,8 +11,6 @@
 - 📝 Resume: https://drive.google.com/file/d/1JaWdla59LsTuzC4KJMDsV3rjsjbCfCER/view?usp=share_link
 
 [![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
-[![](https://img.shields.io/badge/gmail-%230077B5.svg?style=for-the-badge&logo=gmail)](sudhanshusingh1402@gmail.com)
-
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats)
 
@@ -20,3 +18,7 @@
 [![sudhanshu1402's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-light-mode-only)
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&show_icons=true&theme=dark"/>
+
+- 🔨 Languages and Tools: 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" />
+          

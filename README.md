@@ -6,10 +6,11 @@
 - 💪 Splendid at : Python, C++, HTML, CSS, Mongodb
 - 👀 Learning : SQL & JavaScript
 - 🌟 Fervent for AI/ML & Robotics
-
-
 - 📫 Mail ID : sudhanshusingh1402@gmail.com
 - 🙌 Connect at : https://www.linkedin.com/in/sudhanshusingh1402/ 
 - ⚡ I love watching anime & playing strategy games
+- 📝 Resume: https://drive.google.com/file/d/1JaWdla59LsTuzC4KJMDsV3rjsjbCfCER/view?usp=share_link
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact)](https://github.com/sudhanshu1402/github-readme-stats)
+[![Sudhanshu's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/sudhanshu1402/github-readme-stats#gh-dark-mode-only)

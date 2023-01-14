@@ -9,8 +9,7 @@
 - 📫 Mail ID : sudhanshusingh1402@gmail.com
 - ⚡ I love watching anime & playing strategy games
 - 📝 Resume: https://drive.google.com/file/d/1JaWdla59LsTuzC4KJMDsV3rjsjbCfCER/view?usp=share_link
-
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
+- [![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
 
 
 <details>

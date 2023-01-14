@@ -25,4 +25,5 @@
     
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
-<code><imgwidth="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg"></code>
+
+<code><imgwidth="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg" /></code>

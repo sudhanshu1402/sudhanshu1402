@@ -1,5 +1,5 @@
 # Hey! Nice to see you. Welcome to my page!
-## I'm Sudhanshu, self-taught passionate Python Developer from Mumbai, India. 
+## I'm Sudhanshu, Python Developer from Mumbai, India. 
 
 ### About me 
 - 🎓 I'm a MBA Tech student at NMIMS Mumbai batch of 2023, pursuing BTech in Information Technology & MBA in Business Intelligence Analyst.

@@ -20,12 +20,10 @@
 [![sudhanshu1402's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-light-mode-only) 
     
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&show_icons=true&theme=dark"/>
-
 </details>
     
-![Jokes Card](https://readme-jokes.vercel.app/api)
-
-
+<details>
+    <summary><b> 🛠️ Languages and tools </b></summary><br/>  
 <table width="320px">
     <tbody>
         <tr valign="top">          
@@ -163,3 +161,11 @@
         </tr>
     </tbody>
 </table>
+</details>
+
+<details>
+    <summary><b> 😄 Up for a joke? </b></summary><br/> 
+    
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
+</details>

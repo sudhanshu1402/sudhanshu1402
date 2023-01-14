@@ -25,4 +25,4 @@
     
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/canva/canva-ar21.svg"></code><code><imgwidth="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg"/></code>
+<code><imgwidth="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg"></code>

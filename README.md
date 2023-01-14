@@ -26,4 +26,169 @@
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 
-<code><imgwidth="10%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg" /></code>
+<table width="320px">
+    <tbody>
+        <tr valign="top">
+            
+            <td width="80px" align="center">
+            <span><strong>Python</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br> 
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-line.svg" />                 
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain-wordmark.svg" />  
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" />         
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original-wordmark.svg" />            
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg" />             
+            </td>
+            
+            <td width="80px" align="center">
+            <span><strong>Java</strong></span><br>
+            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" />             
+                        </td>
+        </tr>
+    </tbody>
+</table>

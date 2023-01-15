@@ -153,6 +153,8 @@
             <span><strong>Arduino</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" />             
             </td>
+        </tr>
+        <tr valign="top">
             <td width="80px" align="center">
             <span><strong>Android Studio</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg" />                 </td>

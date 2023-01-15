@@ -69,12 +69,12 @@
             <span><strong>RStudio</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />             
             </td>
+        </tr>
+        <tr valign="top">
             <td width="80px" align="center">
             <span><strong>R</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" />             
             </td>
-        </tr>
-        <tr valign="top">
             <td width="80px" align="center">
             <span><strong>Python</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />            
@@ -111,6 +111,8 @@
             <span><strong>Kaggle</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original-wordmark.svg" />            
             </td>
+        </tr>
+        <tr valign="top">
             <td width="80px" align="center">
             <span><strong>Jupyter</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />            
@@ -119,8 +121,6 @@
             <span><strong>HTML5</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />             
             </td>
-        </tr>
-        <tr valign="top">
             <td width="80px" align="center">
             <span><strong>GitHub</strong></span><br>
             <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />             

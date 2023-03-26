@@ -8,7 +8,7 @@
 - 🌟 Fervent for AI/ML & Robotics
 - 📫 Mail ID : sudhanshusingh1402@gmail.com
 - ⚡ I love watching anime & playing strategy games
-- 📝 Resume: https://drive.google.com/file/d/1SnMvR27jjcq3RNCoNOtboXbHeSoC0-eh/view?usp=share_link
+- 📝 Resume: https://drive.google.com/file/d/1T1oZ4UT2OzZ3V-9jmBb3j7ZgnqAop7bY/view?usp=sharing
 - [![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
 
 

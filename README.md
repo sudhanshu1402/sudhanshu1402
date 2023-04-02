@@ -1,27 +1,43 @@
-# Hey! Nice to see you. Welcome to my page!
-## I'm Sudhanshu, Python Developer from Mumbai, India. 
+# Sudhanshu Singh
+## Python Developer / Data Analyst
+Welcome to my Github page! I'm Sudhanshu Singh, a Python Deveoper based in Mumbai, India.
 
-### About me 
-- 🎓 I'm a MBA Tech student at NMIMS Mumbai batch of 2023, pursuing BTech in Information Technology & MBA in Business Intelligence Analyst.
-- 💪 Splendid at : Python, C++, HTML, CSS, Mongodb
-- 👀 Learning : SQL & JavaScript
-- 🌟 Fervent for AI/ML & Robotics
-- 📫 Mail ID : sudhanshusingh1402@gmail.com
-- ⚡ I love watching anime & playing strategy games
-- 📝 Resume: https://drive.google.com/file/d/1T1oZ4UT2OzZ3V-9jmBb3j7ZgnqAop7bY/view?usp=sharing
-- [![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sudhanshusingh1402/)
+## About me
+I'm passionate about Data Analytics. I'm currently studying MBA in Business Intelligence & Analytics from NMIMS University.
 
+## Contact
+- Mail: sudhanshusingh1402@gmail.com
+- LinkedIn: [Sudhanshu Singh](https://www.linkedin.com/in/sudhanshusingh1402/).
+- Location: Mumbai, Maharashtra, India
+
+Thanks for visiting my Github page!
+
+## Skills
+| Technical Skills | Soft Skills |
+| --- | --- |
+| Python Programming | Logical Thinking |
+| Machine Learning | Communication |
+| Power BI | Flexibility |
+| Data Structures and Algorithms | Analytical Thinking |
+| Web Development | Time Management |
+| Mongo DB | Creativity |
+| Data Analysis | Learning Mindset |
+| Data Visualization | Attention to Detail |
+| Potential | Self-directed Efficiency |
+| HTML/CSS | Research & Presentation Skills |
+| SQL/NoSQL | Organizational & Negotiation Skills |
 
 <details>
-    <summary><b> 📊 Stats </b></summary><br/>  
-    
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats) 
-    
-[![sudhanshu1402's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-dark-mode-only) 
-[![sudhanshu1402's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark)](https://github.com/sudhanshu1402/github-readme-stats#gh-light-mode-only) 
-    
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&show_icons=true&theme=dark"/>
-</details>
+    <summary><b>📊 Stats</b></summary>
+    <br>
+    <div align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="sudhanshu1402's GitHub stats">
+        <br>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&show_icons=true&theme=dark" alt="Top Languages">
+        <br>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&show_icons=true&theme=dark" alt="GitHub Streak">
+    </div>
+</details> 
 
 
 <details>

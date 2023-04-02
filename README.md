@@ -1,18 +1,19 @@
-Welcome to my Github page! 
+### Hi there 👋
+I'm Sudhanshu Singh, a Python Developer and Data Analyst. Here are some things to know about me:
 
-I'm Sudhanshu Singh, a Python Deveoper based in Mumbai, India.
+* 👨‍💼 Pronouns: He/Him
+* 📌 Location: Mumbai, India
+* 🎓 I'm currently studying MBA in Business Intelligence & Analytics from NMIMS University
+* 🔭 I’m currently working on bettering myself and learning new skills
+* 🌱 I’m currently learning JavaScript and Django
+* 🤝 I’m looking for job opportunities as a Python Developer or Data Analyst
+* ❤️ I love Space Exploration, AI & ML, Photography, Exploring other cultures, Gaming, and Anime
+* 📫 How to reach me:
+  * Mail: sudhanshusingh1402@gmail.com
+  * LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
 
 
-## About me
-I'm currently studying MBA in Business Intelligence & Analytics from NMIMS University.
-
-
-## Contact
-- Mail: sudhanshusingh1402@gmail.com
-- LinkedIn: [Sudhanshu Singh](https://www.linkedin.com/in/sudhanshusingh1402/).
-
-Thanks for visiting my Github page!
-
+Thanks for stopping by!
 
 ## Skills
 | Technical Skills | Soft Skills |

@@ -6,11 +6,11 @@ I'm Sudhanshu Singh, a Python Developer and Data Analyst. Here are some things t
 * 🎓 I'm currently studying MBA in Business Intelligence & Analytics from NMIMS University
 * 🔭 I’m currently working on bettering myself and learning new skills
 * 🌱 I’m currently learning JavaScript and Django
-* 🤝 I’m looking for job opportunities as a Python Developer or Data Analyst
 * ❤️ I love Space Exploration, AI & ML, Photography, Exploring other cultures, Gaming, and Anime
 * 📫 How to reach me:
   * Mail: sudhanshusingh1402@gmail.com
   * LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
+* 🤝 I’m currently open for an Intern or a new job opportunity, this is my [resume](https://drive.google.com/file/d/1o6a1VcmEgcWixR_sK0LY5rCVpb8eUXXY/view?usp=sharing)
 
 
 Thanks for stopping by!

@@ -1,5 +1,13 @@
-### Hi there 👋
-I'm Sudhanshu Singh, a Python Developer and Data Analyst. Here are some things to know about me:
+Sudhanshu Singh
+- Mail Id: sudhanshusingh1402@gmail.com
+- LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
+- [Resume](https://drive.google.com/file/d/19R7Lq0DtsXEMLeWGMmwEFpnsyTs087sS/view?usp=sharing) and this is my [Cover Letter](https://drive.google.com/file/d/1G6SLrCtB5xqahc8VNHTpahAqwSOc19WD/view?usp=sharing)
+
+
+🚀 Data Scientist | Python Developer
+🤖 Data Science | Business Intelligence | Artificial Intelligence
+💻 Exploratory Data Analysis | Data Cleaning | Data Visualization
+
 
 * 👨‍💼 Pronouns: He/Him
 * 📌 Location: Mumbai, India
@@ -7,11 +15,7 @@ I'm Sudhanshu Singh, a Python Developer and Data Analyst. Here are some things t
 * 🔭 I’m currently working on bettering myself and learning new skills
 * 🌱 I’m currently learning JavaScript and Django
 * ❤️ I love Space Exploration, AI & ML, Photography, Exploring other cultures, Gaming, and Anime
-* 📫 How to reach me:
-  * Mail: sudhanshusingh1402@gmail.com
-  * LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
-* 🤝 I’m currently open for an Internship or a new job opportunity, this is my [Resume](https://drive.google.com/file/d/19R7Lq0DtsXEMLeWGMmwEFpnsyTs087sS/view?usp=sharing) and this is my [Cover Letter](https://drive.google.com/file/d/1G6SLrCtB5xqahc8VNHTpahAqwSOc19WD/view?usp=sharing)
-
+* 🤝 I’m currently open for an Internship or a new job opportunity, this is my 
 
 Thanks for stopping by!
 

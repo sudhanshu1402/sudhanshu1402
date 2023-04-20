@@ -10,7 +10,7 @@ I'm Sudhanshu Singh, a Python Developer and Data Analyst. Here are some things t
 * 📫 How to reach me:
   * Mail: sudhanshusingh1402@gmail.com
   * LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
-* 🤝 I’m currently open for an Intern or a new job opportunity, this is my [resume](https://drive.google.com/file/d/19R7Lq0DtsXEMLeWGMmwEFpnsyTs087sS/view?usp=sharing)
+* 🤝 I’m currently open for an Internship or a new job opportunity, this is my [Resume](https://drive.google.com/file/d/19R7Lq0DtsXEMLeWGMmwEFpnsyTs087sS/view?usp=sharing)
 * And, this is my [Cover Letter](https://drive.google.com/file/d/1G6SLrCtB5xqahc8VNHTpahAqwSOc19WD/view?usp=sharing)
 
 

@@ -1,23 +1,20 @@
 Sudhanshu Singh
 - Mail Id: sudhanshusingh1402@gmail.com
 - LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
-- [Resume](https://drive.google.com/file/d/19R7Lq0DtsXEMLeWGMmwEFpnsyTs087sS/view?usp=sharing) and this is my [Cover Letter](https://drive.google.com/file/d/1G6SLrCtB5xqahc8VNHTpahAqwSOc19WD/view?usp=sharing)
 
+I'm a data scientist and Python developer, passionate about exploring the endless possibilities of data science, business intelligence, and artificial intelligence.
 
-🚀 Data Scientist | Python Developer
-🤖 Data Science | Business Intelligence | Artificial Intelligence
-💻 Exploratory Data Analysis | Data Cleaning | Data Visualization
+Here are some quick facts about me:
 
+- 👨‍💼 Pronouns: He/Him
+- 📌 Location: Mumbai, India
+- 🎓 I'm currently pursuing an MBA in Business Intelligence & Analytics from NMIMS University
+- 🔭 I’m always pushing myself to learn and grow in new and exciting ways
+- 🌱 Currently, I'm learning the power of JavaScript and the versatility of Django
+- ❤️ My passions include space exploration, AI & ML, photography, exploring other cultures, gaming, and anime
+- 🤝 I’m currently open to new opportunities and would love to hear from you. Check out my [Resume](https://drive.google.com/file/d/19R7Lq0DtsXEMLeWGMmwEFpnsyTs087sS/view?usp=sharing) and [Cover Letter](https://drive.google.com/file/d/1G6SLrCtB5xqahc8VNHTpahAqwSOc19WD/view?usp=sharing) to learn more about me and my experience.
 
-* 👨‍💼 Pronouns: He/Him
-* 📌 Location: Mumbai, India
-* 🎓 I'm currently studying MBA in Business Intelligence & Analytics from NMIMS University
-* 🔭 I’m currently working on bettering myself and learning new skills
-* 🌱 I’m currently learning JavaScript and Django
-* ❤️ I love Space Exploration, AI & ML, Photography, Exploring other cultures, Gaming, and Anime
-* 🤝 I’m currently open for an Internship or a new job opportunity, this is my 
-
-Thanks for stopping by!
+Let's connect and see where our journey takes us!
 
 ## Skills
 | Technical Skills | Soft Skills |
@@ -197,35 +194,3 @@ Thanks for stopping by!
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 </details>
-
-# Inspirational Quote Generator
-
-> "The only way to do great work is to love what you do." - Steve Jobs
-
-> "Success is not final, failure is not fatal: it is the courage to continue that counts." - Winston Churchill
-
-> "The best way to predict the future is to invent it." - Alan Kay
-
-> "Don't watch the clock; do what it does. Keep going." - Sam Levenson
-
-> "Believe you can and you're halfway there." - Theodore Roosevelt
-
-> "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
-
-> "You miss 100% of the shots you don't take." - Wayne Gretzky
-
-> "Don't let yesterday take up too much of today." - Will Rogers
-
-> "It does not matter how slowly you go as long as you do not stop." - Confucius
-
-> "Success is not how high you have climbed, but how you make a positive difference to the world." - Roy T. Bennett
-
-> "If you want to achieve greatness, stop asking for permission." - Unknown
-
-> "I have not failed. I've just found 10,000 ways that won't work." - Thomas Edison
-
-> "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle." - Christian D. Larson
-
-> "Do what you can, with what you have, where you are." - Theodore Roosevelt
-
-

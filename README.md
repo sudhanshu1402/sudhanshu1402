@@ -2,7 +2,7 @@
 I'm a data scientist and Python developer, passionate about exploring the endless possibilities of data science, business intelligence, and artificial intelligence.
 
 - Mail Id: sudhanshusingh1402@gmail.com
-- LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
+- LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshusingh1402/)
 - Personal Portfolio: [sudhnashu1402](https://sudhanshu1402.github.io/Personal-Portfolio/)
 
 

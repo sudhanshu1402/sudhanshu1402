@@ -1,7 +1,7 @@
 # Sudhanshu Singh
 - Mail Id: sudhanshusingh1402@gmail.com
 - LinkedIn: [sudhanshu1402](https://www.linkedin.com/in/sudhanshu1402/)
-
+- Personal Portfolio: [sudhnashu1402](https://sudhanshu1402.github.io/Personal-Portfolio/)
 I'm a data scientist and Python developer, passionate about exploring the endless possibilities of data science, business intelligence, and artificial intelligence.
 
 Here are some quick facts about me:

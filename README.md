@@ -3,7 +3,6 @@ I'm a data scientist and Python developer, passionate about exploring the endles
 
 - Mail Id: sudhanshusingh1402@gmail.com
 - LinkedIn: [sudhanshusingh1402](https://www.linkedin.com/in/sudhanshusingh1402/)
-- Personal Portfolio: [sudhnashu1402](https://sudhanshu1402.github.io/Personal-Portfolio/)
 
 
 Here are some quick facts about me:

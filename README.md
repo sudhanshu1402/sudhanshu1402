@@ -13,7 +13,7 @@ Here are some quick facts about me:
 - 🔭 I’m always pushing myself to learn and grow in new and exciting ways
 - 🌱 Currently, I'm learning the power of JavaScript and the versatility of Django
 - ❤️ My passions include space exploration, AI & ML, photography, exploring other cultures, gaming, and anime
-- 🤝 I’m currently open to new opportunities and would love to hear from you. Check out my [Resume](https://drive.google.com/file/d/1StYvDsO8H-dm3R9OcqncNWR71ycJ78Yc/view?usp=sharing) and [Cover Letter](https://drive.google.com/file/d/1iomwG9hTi6jdMGH2fV-HmOhs7-GRjO-_/view?usp=sharing) to learn more about me and my experience.
+- 🤝 I’m currently open to new opportunities and would love to hear from you. Check out my [Resume](https://drive.google.com/file/d/151fyQ_Y7QqEzFSWTKMhAANU75JDsLonO/view?usp=sharing) and [Cover Letter](https://drive.google.com/file/d/1I121G3xRfaLbbxDJ9u2NkbvISC1JZVwv/view?usp=sharing) to learn more about me and my experience.
 
 Let's connect and see where our journey takes us!
 

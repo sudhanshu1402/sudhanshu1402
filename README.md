@@ -1,36 +1,57 @@
-# Sudhanshu Singh
-I'm a data scientist and Python developer, passionate about exploring the endless possibilities of data science, business intelligence, and artificial intelligence.
-
-- Mail Id: sudhanshusingh1402@gmail.com
-- LinkedIn: [sudhanshusingh1402](https://www.linkedin.com/in/sudhanshusingh1402/)
-
-
-Here are some quick facts about me:
-
-- 👨‍💼 Pronouns: He/Him
-- 📌 Location: Mumbai, India
-- 🎓 I'm currently pursuing an MBA in Business Intelligence & Analytics from NMIMS University
-- 🔭 I’m always pushing myself to learn and grow in new and exciting ways
-- 🌱 Currently, I'm learning the power of JavaScript and the versatility of Django
-- ❤️ My passions include space exploration, AI & ML, photography, exploring other cultures, gaming, and anime
-- 🤝 I’m currently open to new opportunities and would love to hear from you. Check out my [Resume](https://drive.google.com/file/d/151fyQ_Y7QqEzFSWTKMhAANU75JDsLonO/view?usp=sharing) and [Cover Letter](https://drive.google.com/file/d/1I121G3xRfaLbbxDJ9u2NkbvISC1JZVwv/view?usp=sharing) to learn more about me and my experience.
-
-Let's connect and see where our journey takes us!
-
-## Skills
-| Technical Skills | Soft Skills |
+### Profile
+| **Name** | Sudhanshu Singh |
 | --- | --- |
-| Python Programming | Logical Thinking |
-| Machine Learning | Communication |
-| Power BI | Flexibility |
-| Data Structures and Algorithms | Analytical Thinking |
-| Web Development | Time Management |
-| Mongo DB | Creativity |
-| Data Analysis | Learning Mindset |
-| Data Visualization | Attention to Detail |
-| Potential | Self-directed Efficiency |
-| HTML/CSS | Research & Presentation Skills |
-| SQL/NoSQL | Organizational & Negotiation Skills |
+| **Location** | Mumbai, India |
+| **Email** | sudhanshusingh1402@gmail.com |
+| **LinkedIn** | [sudhanshusingh1402](https://www.linkedin.com/in/sudhanshusingh1402) |
+| **Github** | [sudhanshu1402](https://github.com/sudhanshu1402) |
+
+### Education
+| **Degree** | **Institution** | **GPA** | **Graduation Date** |
+| --- | --- | --- | --- |
+| MBA in Business Intelligence & Analytics | NMIMS University, MPSTME Mumbai, India | 3.51/4 | May 2023 |
+| BTech in Information Technology | NMIMS University, MPSTME Mumbai, India | 3.90/4 | May 2021 |
+
+### Work Experience 
+| **Designation** | Company |
+| --- | --- |
+| Marketing Intern - Community Growth Manager | EventBeep Techno Services Pvt Ltd, Pune, India |
+| Data Analyst Intern | KPMG India, Remote, India |
+| Python Developer Intern - Web Scraper | HNR Tech Pvt Ltd, Mumbai, India |
+
+### Certifications
+- **LinkedIn**: Microsoft Excel, Python, Machine Learning, Power BI, Data Analyst, Business Intelligence
+- **Google**: Google Analytics for Beginners, Advanced Google Analytics, Google Analytics for Power Users, Fundamentals of Digital Marketing
+- **Coursera**: Exploratory Data Analysis, IT Project Management
+
+### Skills
+| Technical Expertise | Soft Skills |
+| --- | --- |
+| Python | Self Directed |
+| Machine Learning | Curiosity and Continuous Learning |
+| SQL | Attention to Detail |
+| MongoDB | Communication and Presentation |
+| Power Query | Time Management |
+| Power Pivot | Flexibility |
+| Power BI | Creativity |
+| Data Manipulation and Cleaning | Organizational and Negotiation Skills |
+| Data Analysis & Interpretation | |
+| Data Visualization | |
+| Data Warehousing and ETL | |
+| Problem Solving | |
+| Analytical & Logical Approach | |
+
+| **Interests** | |
+| --- | --- |
+| Artificial Intelligence | Robotics |
+| Space Exploration | Cultural Exploration |
+| PC Gaming | Anime |
+
+| **Languages** ||
+| --- | --- |
+| English | Hindi |
+| Marathi | French |
+| Spanish | Japanese |
 
 <details>
     <summary><b>📊 Stats</b></summary>

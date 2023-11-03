@@ -1,61 +1,76 @@
-### Profile
-| **Name** | Sudhanshu Singh |
-| --- | --- |
-| **Location** | Mumbai, India |
-| **Email** | sudhanshusingh1402@gmail.com |
-| **LinkedIn** | [sudhanshusingh1402](https://www.linkedin.com/in/sudhanshusingh1402) |
-| **Github** | [sudhanshu1402](https://github.com/sudhanshu1402) |
+<div align="center">
+    <h1 style="font-size: 2.5em;">🚀 Sudhanshu Singh</h1>
+    <p>Mumbai, India 🏙️ | sudhanshusingh1402@gmail.com ✉️</p>
+    <a href="https://www.linkedin.com/in/sudhanshusingh1402"><img src="https://img.shields.io/badge/LinkedIn-sudhanshusingh1402-blue?style=flat&logo=linkedin"></a>
+    <a href="https://github.com/sudhanshu1402"><img src="https://img.shields.io/badge/GitHub-sudhanshu1402-black?style=flat&logo=github"></a>
+</div>
 
-### Education
-| **Degree** | **Institution** | **GPA** | **Graduation Date** |
-| --- | --- | --- | --- |
-| MBA in Business Intelligence & Analytics | NMIMS University, MPSTME Mumbai, India | 3.51/4 | May 2023 |
-| BTech in Information Technology | NMIMS University, MPSTME Mumbai, India | 3.90/4 | May 2021 |
+## 🌠 About Me
+Hello there, I'm Sudhanshu, an AI enthusiast, coding wizard, and a seeker of knowledge. My journey revolves around lines of code, data mysteries, and the infinite possibilities of artificial intelligence. With a dash of creativity and a sprinkle of innovation, I'm shaping the future of tech.
 
-### Work Experience 
-| **Designation** | Company |
-| --- | --- |
-| Marketing Intern - Community Growth Manager | EventBeep Techno Services Pvt Ltd, Pune, India |
-| Data Analyst Intern | KPMG India, Remote, India |
-| Python Developer Intern - Web Scraper | HNR Tech Pvt Ltd, Mumbai, India |
+## 🎓 Education
+- 📚 **MBA in Business Intelligence & Analytics**
+  - NMIMS University, MPSTME Mumbai, India
+  - 🌟 GPA: 3.51/4
+  - 🎓 Graduation: May 2023
 
-### Certifications
+- 📚 **BTech in Information Technology**
+  - NMIMS University, MPSTME Mumbai, India
+  - 🌟 GPA: 3.90/4
+  - 🎓 Graduation: May 2021
+
+## 💼 Work Experience
+- 🌐 **Data Analyst & Associate Consultant - Liability**
+  - PolicyBazaar For Business, Mumbai, India
+
+- 🚀 **Marketing Intern - Community Growth Manager**
+  - EventBeep Techno Services Pvt Ltd, Pune, India
+
+- 🔍 **Data Analyst Intern**
+  - KPMG India, Remote, India
+
+- 🕸️ **Python Developer Intern - Web Scraper**
+  - HNR Tech Pvt Ltd, Mumbai, India
+
+## 🎖️ Certifications
 - **LinkedIn**: Microsoft Excel, Python, Machine Learning, Power BI, Data Analyst, Business Intelligence
 - **Google**: Google Analytics for Beginners, Advanced Google Analytics, Google Analytics for Power Users, Fundamentals of Digital Marketing
 - **Coursera**: Exploratory Data Analysis, IT Project Management
 
-### Skills
-| Technical Expertise | Soft Skills |
-| --- | --- |
-| Python | Self Directed |
-| Machine Learning | Curiosity and Continuous Learning |
-| SQL | Attention to Detail |
-| MongoDB | Communication and Presentation |
-| Power Query | Time Management |
-| Power Pivot | Flexibility |
-| Power BI | Creativity |
-| Data Manipulation and Cleaning | Organizational and Negotiation Skills |
-| Data Analysis & Interpretation | |
-| Data Visualization | |
-| Data Warehousing and ETL | |
-| Problem Solving | |
-| Analytical & Logical Approach | |
+## 🔧 Skills
+**Tech Wizardry**
+- Python 🐍
+- Machine Learning 🤖
+- SQL 📊
+- MongoDB 📂
+- Power Tools (Query, Pivot, BI) ⚙️
+- Data Magic 🎩
+- Problem Solver 🧩
 
-| **Interests** | |
-| --- | --- |
-| Artificial Intelligence | Robotics |
-| Space Exploration | Cultural Exploration |
-| PC Gaming | Anime |
+**Soft Skills**
+- Curiosity 🌌
+- Creativity 🎨
+- Communication 🗣️
+- Time Management ⏰
+- Flexibility 🧘
+- Continuous Learning 📚
 
-| **Languages** ||
-| --- | --- |
-| English | Hindi |
-| Marathi | French |
-| Spanish | Japanese |
+## 💫 Interests
+- Artificial Intelligence 🤯
+- Space Exploration 🌌
+- PC Gaming 🎮
+- Anime 🌸
+
+## 🌐 Languages
+- English 🇺🇸
+- Hindi 🇮🇳
+- Marathi 🇮🇳
+- French 🇫🇷
+- Spanish 🇪🇸
+- Japanese 🇯🇵
 
 <details>
-    <summary><b>📊 Stats</b></summary>
-    <br>
+    <summary><b>📊 GitHub Stats</b></summary>
     <div align="center">
         <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="sudhanshu1402's GitHub stats">
         <br>
@@ -65,154 +80,16 @@
     </div>
 </details> 
 
-
 <details>
-    <summary><b> 🛠️ Languages and tools </b></summary><br/>  
-<table width="320px">
-    <tbody>
-        <tr valign="top">          
-            <td width="80px" align="center">
-            <span><strong>Open CV</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Adobe XD</strong></span><br> 
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-line.svg" />                 
-            </td>
-            <td width="80px" align="center">
-            <span><strong>VS Code</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Visual Studio</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain-wordmark.svg" />  
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Ubuntu</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Tensorflow</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg" />         
-            </td>      
-            <td width="80px" align="center">
-            <span><strong>SQLite</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Slack</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Selenium</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>RStudio</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />             
-            </td>
-        </tr>
-        <tr valign="top">
-            <td width="80px" align="center">
-            <span><strong>R</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Python</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>PyCharm</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>PhotoShop</strong></span><br>
-            <img height="32px" Src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Pandas</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Numpy</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>My SQL</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Mongo DB</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Matlab</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Kaggle</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original-wordmark.svg" />            
-            </td>
-        </tr>
-        <tr valign="top">
-            <td width="80px" align="center">
-            <span><strong>Jupyter</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>HTML5</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>GitHub</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Git</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Figma</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Codepen</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>CMake</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Azure</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original-wordmark.svg" />            
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Atom</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original-wordmark.svg" />             
-            </td>
-            <td width="80px" align="center">
-            <span><strong>Arduino</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original-wordmark.svg" />             
-            </td>
-        </tr>
-        <tr valign="top">
-            <td width="80px" align="center">
-            <span><strong>Android Studio</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg" />                 </td>
-            <td width="80px" align="center">
-            <span><strong>Android</strong></span><br>
-            <img height="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" />             
-            </td>
-        </tr>
-    </tbody>
-</table>
+    <summary><b> 🛠️ Languages and Tools</b></summary>
+    <div align="center">
+        <!-- Add your favorite languages and tools with their icons here -->
+    </div>
 </details>
 
-
 <details>
-    <summary><b> 😄 Up for a joke? </b></summary><br/> 
-    
-![Jokes Card](https://readme-jokes.vercel.app/api)
-
+    <summary><b> 😄 Up for a Joke?</b></summary>
+    <div align="center">
+        <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card">
+    </div>
 </details>

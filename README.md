@@ -1,3 +1,6 @@
+
+
+```markdown
 <div align="center">
     <h1 style="font-size: 2.5em;">🚀 Sudhanshu Singh</h1>
     <p>Mumbai, India 🏙️ | sudhanshusingh1402@gmail.com ✉️</p>
@@ -20,6 +23,10 @@ Hello there, I'm Sudhanshu, an AI enthusiast, coding wizard, and a seeker of kno
   - 🎓 Graduation: May 2021
 
 ## 💼 Work Experience
+- 🌐 **Backend Developer**
+  - HNR Tech, Testlify, Mumbai, India
+  - 📅 November 20, 2023 - Present
+
 - 🌐 **Data Analyst & Associate Consultant - Liability**
   - PolicyBazaar For Business, Mumbai, India
 
@@ -93,3 +100,4 @@ Hello there, I'm Sudhanshu, an AI enthusiast, coding wizard, and a seeker of kno
         <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card">
     </div>
 </details>
+```

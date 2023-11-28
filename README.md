@@ -22,7 +22,6 @@ Hello there, I'm Sudhanshu, an AI enthusiast, coding wizard, and a seeker of kno
 ## 💼 Work Experience
 - 🌐 **Backend Developer**
   - HNR Tech, Testlify, Mumbai, India
-  - 📅 November 20, 2023 - Present
 
 - 🌐 **Data Analyst & Associate Consultant - Liability**
   - PolicyBazaar For Business, Mumbai, India

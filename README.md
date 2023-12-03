@@ -1,6 +1,5 @@
-------------------------------
 <div align="center">
-    <h1 style="font-size: 3em;">🚀 Sudhanshu Singh</h1>
+    <h1 style="font-size: 3em;">🚀 Sudhanshu Singh</h1>   
     <h3 align="center">Magician at Turning Coffee into Code ☕💻</h3>
     <p align="center">
         <a href="https://www.linkedin.com/in/sudhanshusingh1402"><img src="https://img.shields.io/badge/LinkedIn-sudhanshusingh1402-blue?style=for-the-badge&logo=linkedin"></a>

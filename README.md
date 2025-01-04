@@ -10,7 +10,7 @@
 
 ---
 
-## 🎓 Education
+## 🎓 Education 📚
 <table align="center">
   <tr>
     <th>Qualifications</th>
@@ -37,7 +37,7 @@
 
 ---
 
-## 💼 Work Experience
+## 💼 Work Experience 🧑‍💻
 <table align="center">
   <tr>
     <th>Company</th>
@@ -79,9 +79,9 @@
 
 ---
 
-## 🛠 Tech Stack & Tools
+## 🛠 Tech Stack & Tools ⚙️
 ### Backend Development:
-- **Programming Languages:** Python, Java, Node.js, Rust
+- **Languages:** Python, Java, Node.js, Rust
 - **Frameworks:** Express.js, Loopback 4, Django
 - **Databases:** SQL, SQLite, MongoDB, NoSQL, Redis, ElasticSearch
 - **APIs & Tools:** PM2, Sentry, Rundeck, New Relic, OAuth
@@ -105,7 +105,7 @@
 
 ---
 
-## 🌟 Unique Projects
+## 🌟 Unique Projects ✨
 ### SPAAC (Student Performance, Attention & Attendance Management System)
 - **Overview:** Developed an innovative real-time system that leverages facial recognition and deep learning to manage student attendance and assess classroom engagement.
 - **Technologies:** CNN, Image Classification, Face Recognition, Regression, SVM, Naive Bayes
@@ -113,7 +113,7 @@
 
 ---
 
-## 🎯 Certifications
+## 🎯 Certifications 🏆
 - Python Programming
 - Web Scraping with Python
 - Microsoft Excel & Business Intelligence
@@ -125,7 +125,7 @@
 
 ---
 
-## 🌍 Languages
+## 🌍 Languages 🌏
 - English
 - Hindi
 - Marathi
@@ -136,7 +136,7 @@
 
 ---
 
-## 🚀 Soft Skills
+## 🚀 Soft Skills 💡
 - Complex Problem Solving
 - Critical Thinking
 - Communication & Innovation
@@ -145,7 +145,7 @@
 
 ---
 
-## 🧑‍💻 Contact Me:
+## 🧑‍💻 Contact Me 📬:
 - **LinkedIn:** [Sudhanshu Singh](https://www.linkedin.com/in/sudhanshusingh1402/)
 - **GitHub:** [sudhanshu1402](https://github.com/sudhanshu1402)
 - **Email:** sudhanshusingh1402@gmail.com
@@ -153,7 +153,7 @@
 ---
 
 <div align="center">
-  <h2 align="center">Quote for the day!</h2>
+  <h2 align="center">Quote for the day! 🌟</h2>
   <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight&hide_border=false&border_radius=20&order=2" height="350" alt="Random Dev Quote"/><br>
 </div>
 

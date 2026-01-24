@@ -1,54 +1,214 @@
-# Hi there, I'm Sudhanshu Singh! 👋
-
-### 👨‍💻 Software Engineer | Full Stack Developer | Tech Enthusiast
-
-Welcome to my GitHub profile! I'm passionate about building scalable web applications, solving complex algorithmic problems, and exploring new technologies.
-
----
-
-## 🚀 About Me
-
-- 🔭 I’m currently working on **Full Stack Web Development** and **Deep Learning** projects.
-- 🌱 I’m currently learning **Advanced System Design** and **Cloud Architecture**.
-- 👯 I’m looking to collaborate on **Open Source projects** and **Hackathons**.
-- 💬 Ask me about **Java, Python, C++, and Web Technologies**.
-- 📫 How to reach me: **sudhanshu.singh@example.com** (Replace with real email if desired)
-
----
-
-## 🛠️ Languages and Tools
-
-<p align="left"> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-  <a href="https://isocpp.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-</p>
-
----
-
-## 📊 GitHub Stats
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=radical" alt="sudhanshu1402" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=radical" alt="sudhanshu1402" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&theme=radical" alt="sudhanshu1402" />
+  <h1 style="font-size: 3em;">🚀 Sudhanshu Singh</h1>
+  <h3 align="center">Magician at Turning Coffee into Code ☕💻</h3>
+  <p align="center">
+    <a href="https://www.linkedin.com/in/sudhanshusingh1402"><img src="https://img.shields.io/badge/LinkedIn-sudhanshusingh1402-blue?style=for-the-badge&logo=linkedin"></a>
+    <a href="https://github.com/sudhanshu1402"><img src="https://img.shields.io/badge/GitHub-sudhanshu1402-black?style=for-the-badge&logo=github"></a>
+    <a href="mailto:sudhanshusingh1402@gmail.com"><img src="https://img.shields.io/badge/Gmail-sudhanshusingh1402-red?style=for-the-badge&logo=Gmail"></a>
+  </p>
 </div>
 
 ---
 
-## 🔗 Connect with Me
+## 🎓 Education 📚
 
-<p align="left">
-<a href="https://linkedin.com/in/sudhanshu-singh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sudhanshu-singh" height="30" width="40" /></a>
-<a href="https://instagram.com/sudhanshu_singh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sudhanshu_singh" height="30" width="40" /></a>
+<table align="center">
+  <tr>
+    <th>Qualifications</th>
+    <th>Institute</th>
+    <th>Board/University</th>
+    <th>Percent/GPA</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>MBA Tech - BIA</td>
+    <td>SVKM’s NMIMS MPSTME</td>
+    <td>NMIMS</td>
+    <td>3.51/4.0</td>
+    <td>2023</td>
+  </tr>
+  <tr>
+    <td>B Tech - IT</td>
+    <td>SVKM’s NMIMS MPSTME</td>
+    <td>NMIMS</td>
+    <td>3.90/4.0</td>
+    <td>2021</td>
+  </tr>
+</table>
+
+---
+
+## 💼 Work Experience 🧑💻
+
+<table align="center">
+  <tr>
+    <th>Company</th>
+    <th>Location</th>
+    <th>Position</th>
+    <th>Duration</th>
+  </tr>
+  <tr>
+    <td>Testlify</td>
+    <td>Mumbai, India</td>
+    <td>Backend Developer</td>
+    <td>Nov '23 - Present</td>
+  </tr>
+  <tr>
+    <td>Policybazaar for Business</td>
+    <td>Mumbai, India</td>
+    <td>Data Analyst & Consultant</td>
+    <td>Jul '23 - Nov '23</td>
+  </tr>
+  <tr>
+    <td>EventBeep Techno Services</td>
+    <td>Pune, India</td>
+    <td>Marketing Intern</td>
+    <td>May '22 – Sep '22</td>
+  </tr>
+  <tr>
+    <td>KPMG India</td>
+    <td>Remote, India</td>
+    <td>Data Analyst Intern</td>
+    <td>Feb '22 – Mar '22</td>
+  </tr>
+  <tr>
+    <td>HNR Tech PVT LTD</td>
+    <td>Mumbai, India</td>
+    <td>Python Developer Intern</td>
+    <td>May '21 – Jul '21</td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats 📈
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=tokyonight" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&theme=tokyonight" height="150" alt="Top Languages" />
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=tokyonight" height="150" alt="Streak Stats" />
+</div>
+
+---
+
+## 🛠 Tech Stack & Tools ⚙️
+
+### 💻 Backend Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,java,nodejs,rust,express,django" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,redis,elasticsearch,postgres" />
+</p>
+
+### 🎨 Frontend Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,nuxtjs,figma" />
+</p>
+
+### ☁️ DevOps & Cloud
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,azure,vercel,heroku,jenkins,githubactions" />
+</p>
+
+### 📊 Data Analytics & ML
+
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy" />
+</p>
+
+### 🚀 Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=jira,figma,postman,linux,git,github" />
 </p>
 
 ---
-⭐️ From [Sudhanshu Singh](https://github.com/sudhanshu1402)
+
+## 🌟 Featured Projects 🚀
+
+### 🛋️ [Furnicto](https://github.com/sudhanshu1402/Furnicto)
+
+> A modern, aesthetic furniture e-commerce website design.
+
+- **Tech**: HTML, CSS, JavaScript
+- **Highlights**: Responsive design, beautiful UI showcases.
+
+### 📚 [Library Management System](https://github.com/sudhanshu1402/Frappe-Dev_Hiring_Test)
+
+> A full-fledged Library Management system built with Flask.
+
+- **Tech**: Flask, Jinja2, MySQL.
+- **Features**: Book tracking, member management, transaction logging.
+
+### 🎵 [Decibell](https://github.com/sudhanshu1402/Decibell)
+
+> A music-themed web project.
+
+- **Tech**: Web Technologies.
+
+### 📱 Android Apps
+
+- **[Photo Manager](https://github.com/sudhanshu1402/Photo-Manager)**: A gallery and photo management app.
+- **[Scientific Calculator](https://github.com/sudhanshu1402/Scientific-Calculator)**: Advanced calculator for Android.
+
+### 🧠 SPAAC (Student Performance, Attention & Attendance Management System)
+
+- **Overview:** Developed an innovative real-time system that leverages facial recognition and deep learning to manage student attendance and assess classroom engagement.
+- **Technologies:** CNN, Image Classification, Face Recognition, Regression, SVM, Naive Bayes
+- **Real-World Applications:** E-commerce, AI-driven analytics, and performance management.
+
+---
+
+## 🎯 Certifications 🏆
+
+- Python Programming
+- Web Scraping with Python
+- Microsoft Excel & Business Intelligence
+- Power Pivot, Query, & BI
+- IT Project Management
+- Machine Learning & Exploratory Data Analysis
+- Data Analysis & Interpretation
+- Applied ML
+
+---
+
+## 🌍 Languages 🌏
+
+- English
+- Hindi
+- Marathi
+- Gujarati
+- French
+- Spanish
+- Japanese
+
+---
+
+## 🚀 Soft Skills 💡
+
+- Complex Problem Solving
+- Critical Thinking
+- Communication & Innovation
+- Curiosity & Creativity
+- Continuous Learning & Integrity
+
+---
+
+## 🧑💻 Contact Me 📬:
+
+- **LinkedIn:** [Sudhanshu Singh](https://www.linkedin.com/in/sudhanshusingh1402/)
+- **GitHub:** [sudhanshu1402](https://github.com/sudhanshu1402)
+- **Email:** sudhanshusingh1402@gmail.com
+
+---
+
+<div align="center">
+  <h2 align="center">Quote for the day! 🌟</h2>
+  <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight&hide_border=false&border_radius=20&order=2" height="350" alt="Random Dev Quote"/><br>
+</div>
+
+---

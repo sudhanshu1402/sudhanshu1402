@@ -52,10 +52,11 @@ const sudhanshu = {
 > I am a **Backend Architect** at **Testlify** building high-scale systems (10k+ RPM). Previously, I automated data pipelines as a **Data Analyst** at **Policybazaar**. My mission is to bridge the gap between complex engineering (**Node.js, AWS**) and business strategy (**MBA Tech**) on my road to becoming a **CTO**.
 
 ### ⚡ `System.statusCheck()`: 
-> 🧠 **Process:** `Manifesting a bug-free deploy... (Delusional).`  
-> 🔭 **Task:** `Trying to center a <div>... send help.`  
-> 🌱 **Installing:** `Mental Stability Patch v4.0.4 (Not Found).`  
-> ❌ **Error:** `Touch_Grass.exe has crashed. Please reboot.`
+> 🎯 **Goal:** `To be the CTO who says "It works on my machine".`  
+> 🧠 **Thinking about:** `How to center a <div>... again.`  
+> 🔭 **Working on:** `Something cool... (NSA/CIA/FBI/RAW is watching).`  
+> 🌱 **Learning:** `How to exit Vim without pulling the plug.`  
+> 💤 **Sleeping:** `Never (I have bugs to fix).`
 
 ---
 

@@ -72,9 +72,9 @@ const sudhanshu = {
 ---
 
 <div align="center">
-  <h2><code>📂 >_ cat /etc/comic_of_the_day</code></h2>
-  <a href="https://xkcd.com/">
-    <img src="https://xkcd.now.sh/?comic=latest" alt="XKCD Comic" />
+  <h2><code>📜 >_ cat /var/lib/wisdom.txt</code></h2>
+  <a href="https://github.com/AnuragHazra/quotes-github-readme">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
   </a>
 </div>
 
@@ -134,12 +134,9 @@ const sudhanshu = {
   <tr>
     <td colspan="2" align="center" style="border: none;">
        <br>
-       <a href="https://github.com/sudhanshu1402">
-        <picture>
-           <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000">
-           <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=sudhanshu1402&theme=buefy&hide_border=true&background=00000000">
-           <img src="https://streak-stats.demolab.com?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000" alt="Sudhanshu Singh GitHub Commit Streak" />
-        </picture>
+       <h2><code>🗓️ >_ git log --graph</code></h2>
+       <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhanshu1402&theme=tokyonight" alt="Sudhanshu Singh Activity Graph" />
       </a>
     </td>
   </tr>
@@ -170,13 +167,6 @@ const sudhanshu = {
 ---
 
 <div align="center">
-  
-  <h3><code>🏆 >_ ./display_trophies</code></h3>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=sudhanshu1402&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="Sudhanshu Singh Github Trophies" />
-  </a>
-
-  <br><br>
   
   <p align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Sudhanshu Singh Footer Animation"/>

@@ -48,6 +48,9 @@ const sudhanshu = {
 };
 ```
 
+### 📄 `>_ cat description.txt`
+> I am a **Backend Architect** at **Testlify** building high-scale systems (10k+ RPM). Previously, I automated data pipelines as a **Data Analyst** at **Policybazaar**. My mission is to bridge the gap between complex engineering (**Node.js, AWS**) and business strategy (**MBA Tech**) on my road to becoming a **CTO**.
+
 ### ⚡ `System.statusCheck()`: 
 > 🧠 **Process:** `Manifesting a bug-free deploy... (Delusional).`  
 > 🔭 **Task:** `Trying to center a <div>... send help.`  
@@ -74,7 +77,7 @@ const sudhanshu = {
 <div align="center">
   <h2><code>📜 >_ cat /var/lib/wisdom.txt</code></h2>
   <a href="https://github.com/AnuragHazra/quotes-github-readme">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Programming Wisdom for Sudhanshu Singh" />
   </a>
 </div>
 
@@ -136,7 +139,7 @@ const sudhanshu = {
        <br>
        <h2><code>🗓️ >_ git log --graph</code></h2>
        <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhanshu1402&theme=tokyonight" alt="Sudhanshu Singh Activity Graph" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhanshu1402&theme=tokyonight" alt="Sudhanshu Singh GitHub Contribution Activity Graph for Backend Development" />
       </a>
     </td>
   </tr>

@@ -44,10 +44,10 @@
 </div>
 
 ### ⚡ CURRENT STATUS: 
-> 🔭 **In The Lab:** Scaling high-traffic REST APIs (10K+ RPM) using **Node.js** & **Express.js**.  
-> 🌱 ** leveling Up:** Mastering **Cloud Native Architecture**, **AWS** (EC2, S3), and **Microservices**.  
-> 💼 **Impact:** Reduced latency by **50ms** & cut security breaches by **40%** at **Testlify**.  
-> 🎯 **North Star:** Designing systems that survive the "Reddit Hug of Death".
+> 🧠 **Thinking about:** Rewriting my entire life in Rust... for safety.  
+> 🔭 **In The Lab:** Scaling APIs to 10K+ RPM (and praying the server doesn't catch fire).  
+> 🌱 **Learning:** How to exit Vim without pulling the plug.  
+> 🎯 **Goal:** To be the CTO who says "It works on my machine".
 
 ---
 
@@ -66,13 +66,38 @@
 
 ---
 
-## 🛠️ Tech Stack & Weapons
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,ts,js,python,java,php,rust&perline=8" alt="Sudhanshu Singh Core Skills: Node.js, Express, TypeScript, Python, Rust" />
+  <h2>🕵️ Random XKCD Comic</h2>
+  <a href="https://xkcd.com/">
+    <img src="https://xkcd.now.sh/?comic=latest" alt="XKCD Comic" />
+  </a>
+</div>
+
+<div align="center">
   <br>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,aws,docker,kubernetes,jenkins&perline=8" alt="Databases and DevOps: MongoDB, Postgres, Redis, AWS, Docker, Kubernetes" />
+  <details>
+    <summary><b>🚫 DO NOT CLICK (SERIOUSLY)</b></summary>
+    <br>
+    <p>You rebel. I like you.</p>
+    <img src="https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif" alt="Rick Roll" width="300" />
+    <p><i>Never gonna give you up... never gonna let you down... 🎵</i></p>
+  </details>
+</div>
+
+---
+
+<div align="center">
+  <h2>👨‍💻 The Backend Arsenal</h2>
+  <!-- Backend & Core: Node, Express, TS, Python, Go, Rust -->
+  <img src="https://skillicons.dev/icons?i=nodejs,express,ts,js,python,java,php,rust&perline=8" alt="Backend Stack: Node.js, Express, TypeScript, Python, Java, PHP, Rust" />
   <br>
-  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,figma,postman,linux,git,githubactions&perline=8" alt="Tools and Frameworks: React, Next.js, Figma, Postman, Linux, GitHub Actions" />
+  
+  <!-- Databases & Infra: Mongo, Postgres, Redis, AWS, Docker, K8s -->
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,aws,docker,kubernetes,jenkins&perline=8" alt="Databases & DevOps: MongoDB, PostgreSQL, MySQL, Redis, AWS, Docker, Kubernetes, Jenkins" />
+  <br>
+
+  <!-- Tools & Monitoring: Linux, Git, Postman, Figma, Vercel -->
+  <img src="https://skillicons.dev/icons?i=linux,git,githubactions,postman,sentry,grafana,prometheus,nginx&perline=8" alt="Tools & Monitoring: Linux, Git, GitHub Actions, Postman, Sentry, Grafana, Prometheus, Nginx" />
 </div>
 
 ---
@@ -105,9 +130,9 @@
        <br>
        <a href="https://github.com/sudhanshu1402">
         <picture>
-           <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000">
-           <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=buefy&hide_border=true&background=00000000">
-           <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000" alt="Sudhanshu Singh GitHub Commit Streak" />
+           <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000">
+           <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=sudhanshu1402&theme=buefy&hide_border=true&background=00000000">
+           <img src="https://streak-stats.demolab.com?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000" alt="Sudhanshu Singh GitHub Commit Streak" />
         </picture>
       </a>
     </td>
@@ -142,7 +167,7 @@
   
   <h3>🏆 Trophy Case</h3>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=sudhanshu1402&theme=radical&no-frame=true&margin-w=10&margin-h=10&column=7" alt="Sudhanshu Singh Github Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=sudhanshu1402&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="Sudhanshu Singh Github Trophies" />
   </a>
 
   <br><br>

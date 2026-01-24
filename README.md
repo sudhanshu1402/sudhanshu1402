@@ -2,7 +2,7 @@
  
   <!-- Animated Typing Header -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Hi+I'm+Sudhanshu;Magician+Turning+Coffee+into+Code;Full+Stack+Wizard" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Hi+I'm+Sudhanshu;Future+CTO+in+the+Making;Backend+Architect+@+Testlify;Scaling+Systems+to+10K%2B+RPM" alt="Typing SVG" />
   </a>
   
   <br>
@@ -33,11 +33,18 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Pacman" />
 </div>
 
+<div align="center">
+  <h2>🚀 Mission: The Road to CTO</h2>
+  <p align="center" width="600">
+    I am a <b>Backend Developer</b> at <a href="https://testlify.com"><b>Testlify</b></a> ensuring scalability, security, and performance. My ultimate goal is to lead engineering teams as a <b>Chief Technology Officer (CTO)</b>. I bridge the gap between complex engineering (Node.js, AWS, System Design) and business strategy (MBA Tech).
+  </p>
+</div>
+
 ### ⚡ CURRENT STATUS: 
-> 🧠 **Thinking about:** How to center a div... again.  
-> 🔭 **Working on:** Something cool that I can't talk about yet (NSA is watching).  
-> 🌱 **Learning:** How to exit Vim without restarting the computer.  
-> 💤 **Sleeping:** Never (I have bugs to fix).
+> 🔭 **Working on:** Scaling high-traffic APIs (10K+ RPM) & optimizing DB queries.  
+> 🌱 **Learning:** Advanced Full-Stack Architecture & Cloud-Native patterns.  
+> 💼 **Experience:** Reducing latency by 50ms & cutting security breaches by 40%.  
+> 🎯 **Goal:** Building world-class engineering teams & resilient systems.
 
 ---
 
@@ -58,13 +65,11 @@
 
 ## 🛠️ Tech Stack & Weapons
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,redux&perline=8" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,ts,js,python,java,php,rust&perline=8" />
   <br>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,rust,mysql,postgres,mongodb&perline=8" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,aws,docker,kubernetes,jenkins&perline=8" />
   <br>
-  <img src="https://skillicons.dev/icons?i=docker,aws,kubernetes,jenkins,githubactions,vercel,linux,git&perline=8" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,pandas,numpy,sklearn,figma,postman,vscode&perline=8" />
+  <img src="https://skillicons.dev/icons?i=react,vue,nextjs,figma,postman,linux,git,githubactions&perline=8" />
 </div>
 
 ---

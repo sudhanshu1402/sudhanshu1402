@@ -49,7 +49,7 @@ const sudhanshu = {
 ```
 
 ### 📄 `>_ cat description.txt`
-> I am a **Backend Architect** at **Testlify** building high-scale systems (10k+ RPM). Previously, I automated data pipelines as a **Data Analyst** at **Policybazaar**. My mission is to bridge the gap between complex engineering (**Node.js, AWS**) and business strategy (**MBA Tech**) on my road to becoming a **CTO**.
+> I am a **Backend Architect** at [**Testlify**](https://testlify.com) building high-scale systems (10k+ RPM). Previously, I automated data pipelines as a **Data Analyst** at [**Policybazaar**](https://www.policybazaar.com/). My mission is to bridge the gap between complex engineering (**Node.js, AWS**) and business strategy (**MBA Tech**) on my road to becoming a **CTO**.
 
 ### ⚡ `System.statusCheck()`: 
 > 🎯 **Goal:** `To be the CTO who says "It works on my machine".`  

@@ -40,19 +40,19 @@
 ```javascript
 const sudhanshu = {
     role: "Backend Architect @ Testlify",
-    mission: "Scaling Systems to 10K+ RPM",
+    mission: "Scaling Systems to 10K+ RPM (No Cap)",
     experience: "Ex-Data Analyst @ Policybazaar",
-    goal: "Aspiring CTO & Tech Leader",
-    superpower: "Converting Coffee into production-ready code",
-    current_mood: "Debugging in production (just kidding... unless?)"
+    goal: "Aspiring CTO (Main Character Energy)",
+    superpower: "Turning Iced Coffee into Anxiety & Code ☕",
+    current_mood: "Lowkey panic but we ball 📉"
 };
 ```
 
 ### ⚡ `System.statusCheck()`: 
-> 🧠 **Process:** `Thinking about rewriting my life in Rust... for safety.`  
-> 🔭 **Task:** `Scaling APIs (and praying the AWS bill is low).`  
-> 🌱 **Installing:** `Cloud Native Architecture v2.0`  
-> ❌ **Error:** `Sleep not found. Please reboot.`
+> 🧠 **Process:** `Manifesting a bug-free deploy... (Delusional).`  
+> 🔭 **Task:** `Trying to center a <div>... send help.`  
+> 🌱 **Installing:** `Mental Stability Patch v4.0.4 (Not Found).`  
+> ❌ **Error:** `Touch_Grass.exe has crashed. Please reboot.`
 
 ---
 

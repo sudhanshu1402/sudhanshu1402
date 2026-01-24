@@ -1,214 +1,113 @@
 <div align="center">
-  <h1 style="font-size: 3em;">🚀 Sudhanshu Singh</h1>
-  <h3 align="center">Magician at Turning Coffee into Code ☕💻</h3>
-  <p align="center">
-    <a href="https://www.linkedin.com/in/sudhanshusingh1402"><img src="https://img.shields.io/badge/LinkedIn-sudhanshusingh1402-blue?style=for-the-badge&logo=linkedin"></a>
-    <a href="https://github.com/sudhanshu1402"><img src="https://img.shields.io/badge/GitHub-sudhanshu1402-black?style=for-the-badge&logo=github"></a>
-    <a href="mailto:sudhanshusingh1402@gmail.com"><img src="https://img.shields.io/badge/Gmail-sudhanshusingh1402-red?style=for-the-badge&logo=Gmail"></a>
-  </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Hi+I'm+Sudhanshu+Singh;Magician+Turning+Coffee+into+Code;Full+Stack+Developer" alt="Typing SVG" />
+  
+  <br>
+
+  <a href="https://www.linkedin.com/in/sudhanshusingh1402">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:sudhanshusingh1402@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/sudhanshu1402">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+  <br><br>
+</div>
+
+<br>
+
+## ⚡ About Me
+
+I am a passionate **Software Engineer** with a knack for building scalable web applications and intuitive user interfaces. My journey involves everything from tweaking pixels to optimizing backend queries. I thrive on solving complex problems and learning new technologies.
+
+- 🔭 I’m currently working on **High-Scale Web Applications**
+- 🌱 I’m currently learning **Advanced System Design & Cloud Native Architecture**
+- 👯 I’m looking to collaborate on **Open Source Projects**
+- 💬 Ask me about **React, Node.js, Python, and AWS**
+
+---
+
+## 🛠️ Tech Stack & Arsenal
+
+<div align="center">
+
+| **Frontend** | **Backend** | **DevOps & Cloud** | **Data & ML** |
+| :---: | :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,redux" width="200" /> | <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,rust,mysql,postgres,mongodb,redis" width="230" /> | <img src="https://skillicons.dev/icons?i=docker,aws,kubernetes,jenkins,githubactions,vercel,linux" width="180" /> | <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,pandas,numpy,sklearn" width="130" /> |
+
 </div>
 
 ---
 
-## 🎓 Education 📚
+## 🚀 Featured Projects
 
 <table align="center">
   <tr>
-    <th>Qualifications</th>
-    <th>Institute</th>
-    <th>Board/University</th>
-    <th>Percent/GPA</th>
-    <th>Year</th>
-  </tr>
-  <tr>
-    <td>MBA Tech - BIA</td>
-    <td>SVKM’s NMIMS MPSTME</td>
-    <td>NMIMS</td>
-    <td>3.51/4.0</td>
-    <td>2023</td>
-  </tr>
-  <tr>
-    <td>B Tech - IT</td>
-    <td>SVKM’s NMIMS MPSTME</td>
-    <td>NMIMS</td>
-    <td>3.90/4.0</td>
-    <td>2021</td>
+    <td align="center" width="33%">
+      <h3>🛋️ Furnicto</h3>
+      <p>Modern furniture e-commerce platform with a focus on aesthetic UI/UX.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      </p>
+      <a href="https://github.com/sudhanshu1402/Furnicto"><strong>View Code »</strong></a>
+    </td>
+    <td align="center" width="33%">
+      <h3>🎵 Decibell</h3>
+      <p>A dynamic music-themed web application for audio enthusiasts.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Web-Stack-blue?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Music-App-purple?style=flat-square"/>
+      </p>
+      <a href="https://github.com/sudhanshu1402/Decibell"><strong>View Code »</strong></a>
+    </td>
+        <td align="center" width="33%">
+      <h3>📚 Library System</h3>
+      <p>Full-fledged Library Management System built with Flask & MySQL.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+      </p>
+      <a href="https://github.com/sudhanshu1402/Frappe-Dev_Hiring_Test"><strong>View Code »</strong></a>
+    </td>
   </tr>
 </table>
 
 ---
 
-## 💼 Work Experience 🧑💻
-
-<table align="center">
-  <tr>
-    <th>Company</th>
-    <th>Location</th>
-    <th>Position</th>
-    <th>Duration</th>
-  </tr>
-  <tr>
-    <td>Testlify</td>
-    <td>Mumbai, India</td>
-    <td>Backend Developer</td>
-    <td>Nov '23 - Present</td>
-  </tr>
-  <tr>
-    <td>Policybazaar for Business</td>
-    <td>Mumbai, India</td>
-    <td>Data Analyst & Consultant</td>
-    <td>Jul '23 - Nov '23</td>
-  </tr>
-  <tr>
-    <td>EventBeep Techno Services</td>
-    <td>Pune, India</td>
-    <td>Marketing Intern</td>
-    <td>May '22 – Sep '22</td>
-  </tr>
-  <tr>
-    <td>KPMG India</td>
-    <td>Remote, India</td>
-    <td>Data Analyst Intern</td>
-    <td>Feb '22 – Mar '22</td>
-  </tr>
-  <tr>
-    <td>HNR Tech PVT LTD</td>
-    <td>Mumbai, India</td>
-    <td>Python Developer Intern</td>
-    <td>May '21 – Jul '21</td>
-  </tr>
-</table>
-
----
-
-## 📊 GitHub Stats 📈
+## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=tokyonight" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&theme=tokyonight" height="150" alt="Top Languages" />
+
+  <img src="https://github-profile-trophy.vercel.app/?username=sudhanshu1402&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="trophy" />
+  <br><br>
+
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=00000000" height="150" alt="stats" />
+  </a>
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sudhanshu1402&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="150" alt="languages" />
+  </a>
+
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=tokyonight" height="150" alt="Streak Stats" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhanshu1402&theme=tokyonight&hide_border=true&background=00000000" height="150" />
+
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/sudhanshu1402/sudhanshu1402/raw/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 ---
 
-## 🛠 Tech Stack & Tools ⚙️
-
-### 💻 Backend Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,nodejs,rust,express,django" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb,redis,elasticsearch,postgres" />
-</p>
-
-### 🎨 Frontend Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,nuxtjs,figma" />
-</p>
-
-### ☁️ DevOps & Cloud
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,azure,vercel,heroku,jenkins,githubactions" />
-</p>
-
-### 📊 Data Analytics & ML
-
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy" />
-</p>
-
-### 🚀 Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=jira,figma,postman,linux,git,github" />
-</p>
-
----
-
-## 🌟 Featured Projects 🚀
-
-### 🛋️ [Furnicto](https://github.com/sudhanshu1402/Furnicto)
-
-> A modern, aesthetic furniture e-commerce website design.
-
-- **Tech**: HTML, CSS, JavaScript
-- **Highlights**: Responsive design, beautiful UI showcases.
-
-### 📚 [Library Management System](https://github.com/sudhanshu1402/Frappe-Dev_Hiring_Test)
-
-> A full-fledged Library Management system built with Flask.
-
-- **Tech**: Flask, Jinja2, MySQL.
-- **Features**: Book tracking, member management, transaction logging.
-
-### 🎵 [Decibell](https://github.com/sudhanshu1402/Decibell)
-
-> A music-themed web project.
-
-- **Tech**: Web Technologies.
-
-### 📱 Android Apps
-
-- **[Photo Manager](https://github.com/sudhanshu1402/Photo-Manager)**: A gallery and photo management app.
-- **[Scientific Calculator](https://github.com/sudhanshu1402/Scientific-Calculator)**: Advanced calculator for Android.
-
-### 🧠 SPAAC (Student Performance, Attention & Attendance Management System)
-
-- **Overview:** Developed an innovative real-time system that leverages facial recognition and deep learning to manage student attendance and assess classroom engagement.
-- **Technologies:** CNN, Image Classification, Face Recognition, Regression, SVM, Naive Bayes
-- **Real-World Applications:** E-commerce, AI-driven analytics, and performance management.
-
----
-
-## 🎯 Certifications 🏆
-
-- Python Programming
-- Web Scraping with Python
-- Microsoft Excel & Business Intelligence
-- Power Pivot, Query, & BI
-- IT Project Management
-- Machine Learning & Exploratory Data Analysis
-- Data Analysis & Interpretation
-- Applied ML
-
----
-
-## 🌍 Languages 🌏
-
-- English
-- Hindi
-- Marathi
-- Gujarati
-- French
-- Spanish
-- Japanese
-
----
-
-## 🚀 Soft Skills 💡
-
-- Complex Problem Solving
-- Critical Thinking
-- Communication & Innovation
-- Curiosity & Creativity
-- Continuous Learning & Integrity
-
----
-
-## 🧑💻 Contact Me 📬:
-
-- **LinkedIn:** [Sudhanshu Singh](https://www.linkedin.com/in/sudhanshusingh1402/)
-- **GitHub:** [sudhanshu1402](https://github.com/sudhanshu1402)
-- **Email:** sudhanshusingh1402@gmail.com
-
----
-
 <div align="center">
-  <h2 align="center">Quote for the day! 🌟</h2>
-  <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight&hide_border=false&border_radius=20&order=2" height="350" alt="Random Dev Quote"/><br>
+  <h3>Let's Connect! 🤝</h3>
+  <p>Always open to interesting conversations and collaborations.</p>
+  <a href="mailto:sudhanshusingh1402@gmail.com"><img src="https://img.shields.io/badge/Say_Hello-👋-blue?style=for-the-badge" /></a>
 </div>
-
----

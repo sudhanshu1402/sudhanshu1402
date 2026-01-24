@@ -39,7 +39,7 @@
 
 ```javascript
 const sudhanshu = {
-    role: "Backend Architect @ Testlify",
+    role: "Backend Dev @ Testlify",
     mission: "Scaling Systems to 10K+ RPM (No Cap)",
     experience: "Ex-Data Analyst @ Policybazaar",
     goal: "Aspiring CTO (Main Character Energy)",

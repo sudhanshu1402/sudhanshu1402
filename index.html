@@ -2252,16 +2252,449 @@
       border-radius: 3px
     }
 
-    #ios-home {
+    /* === DEFAULT: HIDE iOS/OVERLAY ELEMENTS ON DESKTOP === */
+    #ios-home,
+    #ios-status-bar,
+    #dynamic-island,
+    #ios-lock-screen,
+    #ios-control-center,
+    .ios-ctx-menu,
+    #ios-page-dots,
+    #siri-overlay {
       display: none;
     }
 
-    #ios-status-bar {
+    /* Lock Screen */
+    #ios-lock-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 10003;
+      color: #fff;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+      background: linear-gradient(135deg, #0c0c2e 0%, #1a1a4e 40%, #2d1b69 100%);
+    }
+
+    #ios-lock-screen .lock-time {
+      font-size: 72px;
+      font-weight: 200;
+      letter-spacing: -3px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #ios-lock-screen .lock-date {
+      font-size: 18px;
+      font-weight: 400;
+      margin-top: 4px;
+      opacity: 0.8;
+    }
+
+    #ios-lock-screen .lock-owner {
+      font-size: 14px;
+      margin-top: 30px;
+      opacity: 0.5;
+    }
+
+    #ios-lock-screen .lock-swipe {
+      position: absolute;
+      bottom: 40px;
+      font-size: 13px;
+      opacity: 0.5;
+      animation: lockPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes lockPulse {
+
+      0%,
+      100% {
+        opacity: 0.3;
+        transform: translateY(0);
+      }
+
+      50% {
+        opacity: 0.7;
+        transform: translateY(-6px);
+      }
+    }
+
+    .face-id-ring {
+      width: 50px;
+      height: 50px;
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      border-radius: 12px;
+      margin: 20px auto 0;
+      position: relative;
+    }
+
+    .face-id-ring::before {
+      content: '';
+      position: absolute;
+      inset: 6px;
+      border: 1.5px solid rgba(255, 255, 255, 0.6);
+      border-radius: 8px;
+      animation: faceIdScan 2s ease infinite;
+    }
+
+    @keyframes faceIdScan {
+
+      0%,
+      100% {
+        opacity: 0.3;
+      }
+
+      50% {
+        opacity: 1;
+        border-color: #34c759;
+      }
+    }
+
+    /* Control Center */
+    #ios-control-center {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: auto;
+      max-height: 70vh;
+      z-index: 10005;
+      background: rgba(20, 20, 20, 0.92);
+      backdrop-filter: blur(40px);
+      -webkit-backdrop-filter: blur(40px);
+      border-radius: 0 0 24px 24px;
+      padding: 60px 16px 24px;
+      transform: translateY(-100%);
+      transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      display: none;
+      color: #fff;
+    }
+
+    #ios-control-center.open {
+      transform: translateY(0);
+    }
+
+    .cc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .cc-btn {
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 13px;
+      border: none;
+      color: #fff;
+    }
+
+    .cc-btn.active {
+      background: rgba(0, 122, 255, 0.6);
+    }
+
+    .cc-btn .cc-icon {
+      font-size: 20px;
+    }
+
+    .cc-slider-wrap {
+      padding: 0 4px;
+    }
+
+    .cc-slider {
+      width: 100%;
+      height: 6px;
+      -webkit-appearance: none;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 3px;
+      outline: none;
+    }
+
+    .cc-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .cc-label {
+      font-size: 11px;
+      opacity: 0.6;
+      margin-bottom: 6px;
+    }
+
+    /* Context Menu */
+    .ios-ctx-menu {
+      position: fixed;
+      z-index: 10006;
+      min-width: 200px;
+      background: rgba(30, 30, 30, 0.95);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .ios-ctx-item {
+      padding: 12px 16px;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .ios-ctx-item:last-child {
+      border-bottom: none;
+    }
+
+    .ios-ctx-item:active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Page Dots */
+    #ios-page-dots {
+      display: none;
+      text-align: center;
+      padding: 8px 0;
+    }
+
+    .page-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+      margin: 0 4px;
+      transition: all 0.3s;
+    }
+
+    .page-dot.active {
+      background: #fff;
+      transform: scale(1.2);
+    }
+
+    /* Notification Center */
+    #notif-center {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9500;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      display: none;
+      flex-direction: column;
+      padding: 40px 16px;
+      overflow-y: auto;
+      transform: translateY(-100%);
+      transition: transform 0.35s ease;
+    }
+
+    #notif-center.open {
+      display: flex;
+      transform: translateY(0);
+    }
+
+    .notif-card {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 16px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      color: #000;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .notif-card .notif-app {
+      font-size: 11px;
+      font-weight: 600;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .notif-card .notif-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .notif-card .notif-body {
+      font-size: 13px;
+      color: #555;
+      margin-top: 2px;
+    }
+
+    /* Siri Overlay */
+    #siri-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 10010;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .siri-orb {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #af52de, #007aff, #5ac8fa);
+      animation: siriPulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes siriPulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 30px rgba(0, 122, 255, 0.4);
+      }
+
+      50% {
+        transform: scale(1.15);
+        box-shadow: 0 0 60px rgba(0, 122, 255, 0.7);
+      }
+    }
+
+    .siri-text {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .siri-result {
+      margin-top: 12px;
+      font-size: 14px;
+      max-width: 300px;
+      text-align: center;
+      opacity: 0.7;
+    }
+
+    /* Achievement Toast */
+    .achievement-toast {
+      position: fixed;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%) translateY(-100px);
+      background: rgba(30, 30, 30, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 16px;
+      padding: 12px 20px;
+      color: #fff;
+      z-index: 99990;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .achievement-toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .achievement-toast .ach-icon {
+      font-size: 28px;
+    }
+
+    .achievement-toast .ach-text {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .achievement-toast .ach-sub {
+      font-size: 11px;
+      opacity: 0.6;
+    }
+
+    /* Music Player */
+    #music-player {
+      position: fixed;
+      bottom: 90px;
+      right: 16px;
+      z-index: 9800;
+      background: rgba(30, 30, 30, 0.92);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      border-radius: 16px;
+      padding: 14px 18px;
+      color: #fff;
+      min-width: 220px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
       display: none;
     }
 
-    #dynamic-island {
-      display: none;
+    #music-player.visible {
+      display: block;
+    }
+
+    .mp-title {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .mp-artist {
+      font-size: 11px;
+      opacity: 0.5;
+      margin-top: 2px;
+    }
+
+    .mp-controls {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 10px;
+    }
+
+    .mp-btn {
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .mp-progress {
+      flex: 1;
+      height: 3px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .mp-bar {
+      height: 100%;
+      background: #007aff;
+      width: 0%;
+      transition: width 0.3s;
     }
 
     /* ============================================================ RESPONSIVE (iOS / MOBILE) */
@@ -2663,9 +3096,83 @@
 
 <body>
 
+  <!-- iOS LOCK SCREEN -->
+  <div id="ios-lock-screen" onclick="unlockScreen()">
+    <div class="face-id-ring"></div>
+    <div class="lock-time" id="lock-time">--:--</div>
+    <div class="lock-date" id="lock-date">---</div>
+    <div class="lock-owner">Sudhanshu's iPhone</div>
+    <div class="lock-swipe">Swipe Up to Open</div>
+  </div>
+
+  <!-- iOS CONTROL CENTER -->
+  <div id="ios-control-center">
+    <div class="cc-grid">
+      <button class="cc-btn" id="cc-wifi" onclick="toggleCC(this)"><span class="cc-icon">📶</span> Wi-Fi</button>
+      <button class="cc-btn" id="cc-bt" onclick="toggleCC(this)"><span class="cc-icon">🔵</span> Bluetooth</button>
+      <button class="cc-btn" id="cc-airplane" onclick="toggleCC(this)"><span class="cc-icon">✈️</span> Airplane</button>
+      <button class="cc-btn active" id="cc-dark" onclick="toggleDarkMode();toggleCC(this)"><span
+          class="cc-icon">🌙</span> Dark Mode</button>
+    </div>
+    <div class="cc-slider-wrap">
+      <div class="cc-label">☀️ Brightness</div>
+      <input type="range" class="cc-slider" min="30" max="100" value="100"
+        oninput="document.body.style.filter='brightness('+this.value/100+')'">
+    </div>
+    <div style="text-align:center;margin-top:16px;opacity:0.4;font-size:12px" onclick="closeCC()">Tap to Close</div>
+  </div>
+
+  <!-- NOTIFICATION CENTER -->
+  <div id="notif-center" onclick="closeNotifCenter()">
+    <div class="notif-card" onclick="event.stopPropagation()">
+      <div class="notif-app">Portfolio</div>
+      <div class="notif-title">Welcome! 👋</div>
+      <div class="notif-body">Try long-pressing icons, voice commands, or dark mode!</div>
+    </div>
+    <div class="notif-card" onclick="event.stopPropagation()">
+      <div class="notif-app">Settings</div>
+      <div class="notif-title">Dark Mode Available</div>
+      <div class="notif-body">Toggle dark mode from the menubar or Control Center.</div>
+    </div>
+    <div class="notif-card" onclick="event.stopPropagation()">
+      <div class="notif-app">Games</div>
+      <div class="notif-title">New Games Added! 🎮</div>
+      <div class="notif-body">Snake, 2048, Minesweeper, and Tic Tac Toe await.</div>
+    </div>
+    <div class="notif-card" onclick="event.stopPropagation()">
+      <div class="notif-app">Easter Eggs</div>
+      <div class="notif-title">Secrets Hidden 🐰</div>
+      <div class="notif-body">Type "do a barrel roll" in Terminal for a surprise!</div>
+    </div>
+  </div>
+
+  <!-- SIRI OVERLAY -->
+  <div id="siri-overlay" onclick="closeSiri()">
+    <div class="siri-orb"></div>
+    <div class="siri-text" id="siri-text">Listening...</div>
+    <div class="siri-result" id="siri-result"></div>
+  </div>
+
+  <!-- MUSIC PLAYER -->
+  <div id="music-player">
+    <div class="mp-title">Lo-Fi Beats</div>
+    <div class="mp-artist">Portfolio Radio</div>
+    <div class="mp-controls">
+      <button class="mp-btn" onclick="mpPrev()">⏮</button>
+      <button class="mp-btn" id="mp-play" onclick="mpToggle()">▶</button>
+      <button class="mp-btn" onclick="mpNext()">⏭</button>
+      <div class="mp-progress">
+        <div class="mp-bar" id="mp-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTEXT MENU (dynamic, empty by default) -->
+  <div class="ios-ctx-menu" id="ios-ctx-menu" style="display:none"></div>
+
   <!-- BOOT SCREEN -->
   <div id="boot-screen">
-    <div class="apple-logo"></div>
+    <div class="apple-logo">&#63743;</div>
     <div class="boot-bar-wrap">
       <div class="boot-bar"></div>
     </div>
@@ -4475,6 +4982,411 @@
     // Patch notify for sound
     const _origNotify = notify;
     notify = function (t, m, i) { playSound('notify'); _origNotify(t, m, i); };
+
+    /* ============================================================
+       R4: iOS LOCK SCREEN
+       ============================================================ */
+    function showLockScreen() {
+      if (window.innerWidth > 768) return;
+      const ls = document.getElementById('ios-lock-screen');
+      if (!ls) return;
+      ls.style.display = 'flex';
+      updateLockClock();
+    }
+    function updateLockClock() {
+      const lt = document.getElementById('lock-time');
+      const ld = document.getElementById('lock-date');
+      if (!lt) return;
+      const now = new Date();
+      lt.textContent = now.toLocaleString('en-US', { hour: 'numeric', minute: '2-digit', hour12: false });
+      ld.textContent = now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    }
+    setInterval(updateLockClock, 1000);
+    function unlockScreen() {
+      const ls = document.getElementById('ios-lock-screen');
+      if (!ls) return;
+      ls.style.transition = 'transform 0.4s ease, opacity 0.4s ease';
+      ls.style.transform = 'translateY(-100vh)';
+      ls.style.opacity = '0';
+      setTimeout(() => { ls.style.display = 'none'; ls.style.transform = ''; ls.style.opacity = ''; }, 400);
+      trackAchievement('unlock');
+    }
+    // Show lock screen after boot on mobile
+    setTimeout(() => { if (window.innerWidth <= 768) showLockScreen(); }, 2500);
+
+    /* ============================================================
+       R4: CONTROL CENTER
+       ============================================================ */
+    function openCC() {
+      const cc = document.getElementById('ios-control-center');
+      if (!cc) return;
+      cc.style.display = 'block';
+      setTimeout(() => cc.classList.add('open'), 10);
+    }
+    function closeCC() {
+      const cc = document.getElementById('ios-control-center');
+      if (!cc) return;
+      cc.classList.remove('open');
+      setTimeout(() => cc.style.display = 'none', 350);
+    }
+    function toggleCC(btn) { btn.classList.toggle('active'); }
+    // Add CC toggle to status bar
+    const iosStatusBar = document.getElementById('ios-status-bar');
+    if (iosStatusBar) {
+      const ccBtn = document.createElement('span');
+      ccBtn.textContent = '≡';
+      ccBtn.style.cssText = 'cursor:pointer;font-size:18px;font-weight:800;margin-left:8px';
+      ccBtn.onclick = openCC;
+      iosStatusBar.querySelector('.ios-sb-icons')?.appendChild(ccBtn);
+    }
+
+    /* ============================================================
+       R4: LONG PRESS CONTEXT MENUS
+       ============================================================ */
+    const CTX_MENUS = {
+      finder: [
+        { icon: '💼', label: 'Experience', action: () => { OW('finder'); } },
+        { icon: '🎓', label: 'Education', action: () => { OW('finder'); } },
+        { icon: '🚀', label: 'Projects', action: () => { OW('finder'); } },
+      ],
+      games: [
+        { icon: '🐍', label: 'Snake', action: () => OW('games') },
+        { icon: '🔢', label: '2048', action: () => OW('games') },
+        { icon: '💣', label: 'Minesweeper', action: () => OW('games') },
+      ],
+      profile: [
+        { icon: '📧', label: 'Email Me', action: () => window.open('mailto:sudhanshusingh1402@gmail.com') },
+        { icon: '🔗', label: 'LinkedIn', action: () => window.open('https://linkedin.com/in/sudhanshusingh1402', '_blank') },
+      ],
+    };
+    let longPressTimer = null;
+    document.querySelectorAll('.ios-grid .ios-app').forEach(app => {
+      const onclick = app.getAttribute('onclick');
+      if (!onclick) return;
+      const match = onclick.match(/OW\('(\w+)'\)/);
+      if (!match) return;
+      const appId = match[1];
+      if (!CTX_MENUS[appId]) return;
+      app.addEventListener('touchstart', e => {
+        longPressTimer = setTimeout(() => {
+          e.preventDefault();
+          showCtxMenu(appId, e.touches[0].clientX, e.touches[0].clientY);
+        }, 500);
+      }, { passive: false });
+      app.addEventListener('touchend', () => clearTimeout(longPressTimer));
+      app.addEventListener('touchmove', () => clearTimeout(longPressTimer));
+    });
+
+    function showCtxMenu(appId, x, y) {
+      const menu = document.getElementById('ios-ctx-menu');
+      if (!menu || !CTX_MENUS[appId]) return;
+      menu.innerHTML = CTX_MENUS[appId].map(item =>
+        `<div class="ios-ctx-item" onclick="this.parentElement.style.display='none'">${item.icon} ${item.label}</div>`
+      ).join('');
+      // Bind actions
+      const items = menu.querySelectorAll('.ios-ctx-item');
+      CTX_MENUS[appId].forEach((item, i) => {
+        items[i].addEventListener('click', () => { item.action(); menu.style.display = 'none'; });
+      });
+      menu.style.left = Math.min(x, window.innerWidth - 220) + 'px';
+      menu.style.top = Math.min(y, window.innerHeight - 200) + 'px';
+      menu.style.display = 'block';
+      navigator.vibrate && navigator.vibrate(10);
+    }
+    document.addEventListener('click', () => {
+      const m = document.getElementById('ios-ctx-menu');
+      if (m) m.style.display = 'none';
+    });
+
+    /* ============================================================
+       R4: MULTI-PAGE SPRINGBOARD
+       ============================================================ */
+    // (Handled by CSS overflow-x scroll on .ios-grid - simplified to avoid complexity)
+    // Page dots added visually
+    const iosHome = document.getElementById('ios-home');
+    if (iosHome && window.innerWidth <= 768) {
+      const dots = document.createElement('div');
+      dots.id = 'ios-page-dots';
+      dots.innerHTML = '<span class="page-dot active"></span><span class="page-dot"></span>';
+      dots.style.display = 'block';
+      const dock = iosHome.querySelector('.ios-dock');
+      if (dock) iosHome.insertBefore(dots, dock);
+    }
+
+    /* ============================================================
+       R4: SIRI / VOICE COMMANDS
+       ============================================================ */
+    function openSiri() {
+      const overlay = document.getElementById('siri-overlay');
+      if (!overlay) return;
+      overlay.style.display = 'flex';
+      document.getElementById('siri-text').textContent = 'Listening...';
+      document.getElementById('siri-result').textContent = '';
+      if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+        const recognition = new SR();
+        recognition.lang = 'en-US';
+        recognition.interimResults = false;
+        recognition.onresult = (e) => {
+          const text = e.results[0][0].transcript;
+          document.getElementById('siri-text').textContent = `"${text}"`;
+          // Process through terminal commands / AI
+          const cmd = text.toLowerCase();
+          let reply = '';
+          if (CMDS[cmd]) {
+            const r = CMDS[cmd]();
+            reply = Array.isArray(r) ? r.join(' ') : 'Done!';
+          } else {
+            reply = getAIResponse(text)[0];
+          }
+          document.getElementById('siri-result').textContent = reply.replace(/<[^>]*>/g, '');
+          setTimeout(closeSiri, 3000);
+          trackAchievement('siri');
+        };
+        recognition.onerror = () => {
+          document.getElementById('siri-text').textContent = 'Could not hear you';
+          setTimeout(closeSiri, 2000);
+        };
+        recognition.start();
+      } else {
+        document.getElementById('siri-text').textContent = 'Voice not supported';
+        setTimeout(closeSiri, 2000);
+      }
+    }
+    function closeSiri() {
+      const overlay = document.getElementById('siri-overlay');
+      if (overlay) overlay.style.display = 'none';
+    }
+    // Add Siri button to Control Center
+    const ccGrid = document.querySelector('.cc-grid');
+    if (ccGrid) {
+      const siriBtn = document.createElement('button');
+      siriBtn.className = 'cc-btn';
+      siriBtn.innerHTML = '<span class="cc-icon">🎤</span> Siri';
+      siriBtn.onclick = () => { closeCC(); setTimeout(openSiri, 400); };
+      ccGrid.appendChild(siriBtn);
+    }
+
+    /* ============================================================
+       R4: SCREEN TIME WIDGET
+       ============================================================ */
+    const siteLoadTime = Date.now();
+    function updateScreenTime() {
+      const el = document.getElementById('screen-time-val');
+      if (!el) return;
+      const secs = Math.floor((Date.now() - siteLoadTime) / 1000);
+      const m = Math.floor(secs / 60), s = secs % 60;
+      el.textContent = `${m}m ${s}s`;
+    }
+    // Add screen time card to stats
+    (function () {
+      const grid = document.querySelector('.stat-grid');
+      if (!grid) return;
+      const card = document.createElement('div');
+      card.className = 'stat-card';
+      card.innerHTML = '<div class="stat-v bl" id="screen-time-val">0m 0s</div><div class="stat-l">Screen Time</div>';
+      grid.appendChild(card);
+      setInterval(updateScreenTime, 1000);
+    })();
+
+    /* ============================================================
+       R4: BATTERY DRAIN EFFECT
+       ============================================================ */
+    const batteryLevels = ['🔋', '🪫', '🪫', '🔌'];
+    (function () {
+      setInterval(() => {
+        const mins = (Date.now() - siteLoadTime) / 60000;
+        const iosBat = document.querySelector('.ios-sb-icons span:last-of-type');
+        const mbBat = document.querySelector('.mb-status');
+        if (mins > 10) { if (iosBat) iosBat.textContent = '🔌'; }
+        else if (mins > 5) { if (iosBat) iosBat.textContent = '🪫'; }
+        else if (mins > 2) { if (iosBat) iosBat.textContent = '🪫'; }
+      }, 30000);
+    })();
+
+    /* ============================================================
+       R4: WALLPAPER PICKER
+       ============================================================ */
+    const WALLPAPERS = [
+      { name: 'Aurora', bg: 'radial-gradient(circle at 20% 20%,#667eea 0%,transparent 50%),radial-gradient(circle at 80% 80%,#f093fb 0%,transparent 50%),radial-gradient(circle at 50% 50%,#4facfe 0%,transparent 60%),linear-gradient(135deg,#0c0c2e 0%,#1a1a4e 30%,#2d1b69 60%,#0c0c2e 100%)' },
+      { name: 'Sunset', bg: 'linear-gradient(135deg,#f5af19 0%,#f12711 50%,#200122 100%)' },
+      { name: 'Ocean', bg: 'linear-gradient(135deg,#667db6 0%,#0082c8 30%,#0082c8 60%,#667db6 100%)' },
+      { name: 'Forest', bg: 'linear-gradient(135deg,#134e5e 0%,#71b280 100%)' },
+      { name: 'Midnight', bg: 'linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%)' },
+    ];
+    function setWallpaper(idx) {
+      localStorage.setItem('wallpaper', idx);
+      document.getElementById('desktop').style.background = WALLPAPERS[idx].bg;
+    }
+    // Restore saved wallpaper
+    const savedWP = localStorage.getItem('wallpaper');
+    if (savedWP !== null) setWallpaper(parseInt(savedWP));
+    // Add wallpaper picker to control center
+    if (ccGrid) {
+      const wpBtn = document.createElement('button');
+      wpBtn.className = 'cc-btn';
+      wpBtn.innerHTML = '<span class="cc-icon">🖼️</span> Wallpaper';
+      wpBtn.onclick = () => {
+        const idx = (parseInt(localStorage.getItem('wallpaper') || '0') + 1) % WALLPAPERS.length;
+        setWallpaper(idx);
+        notify('Wallpaper', `Changed to "${WALLPAPERS[idx].name}"`, '🖼️');
+      };
+      ccGrid.appendChild(wpBtn);
+    }
+
+    /* ============================================================
+       R4: NOTIFICATION CENTER
+       ============================================================ */
+    function openNotifCenter() {
+      const nc = document.getElementById('notif-center');
+      if (!nc) return;
+      nc.style.display = 'flex';
+      setTimeout(() => nc.classList.add('open'), 10);
+    }
+    function closeNotifCenter() {
+      const nc = document.getElementById('notif-center');
+      if (!nc) return;
+      nc.classList.remove('open');
+      setTimeout(() => nc.style.display = 'none', 350);
+    }
+    // Click clock in menubar to open notifications (desktop)
+    const clockIst = document.getElementById('clock-ist');
+    if (clockIst) clockIst.style.cursor = 'pointer';
+    if (clockIst) clockIst.addEventListener('click', openNotifCenter);
+
+    /* ============================================================
+       R4: MUSIC PLAYER (Lo-Fi Web Audio)
+       ============================================================ */
+    let mpPlaying = false, mpCtx, mpOsc, mpGain, mpLfo, mpInterval;
+    const lofiChords = [
+      [261.6, 329.6, 392.0],
+      [293.7, 349.2, 440.0],
+      [329.6, 392.0, 493.9],
+      [349.2, 440.0, 523.3],
+    ];
+    let mpChordIdx = 0;
+    function mpToggle() {
+      if (mpPlaying) { mpStop(); return; }
+      if (!mpCtx) mpCtx = new (window.AudioContext || window.webkitAudioContext)();
+      mpPlaying = true;
+      document.getElementById('mp-play').textContent = '⏸';
+      mpPlayChord();
+      mpInterval = setInterval(mpPlayChord, 2000);
+      trackAchievement('music');
+    }
+    function mpPlayChord() {
+      const chord = lofiChords[mpChordIdx % lofiChords.length];
+      mpChordIdx++;
+      chord.forEach(freq => {
+        const osc = mpCtx.createOscillator();
+        const gain = mpCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.value = freq;
+        gain.gain.setValueAtTime(0.02, mpCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, mpCtx.currentTime + 1.8);
+        osc.connect(gain);
+        gain.connect(mpCtx.destination);
+        osc.start();
+        osc.stop(mpCtx.currentTime + 2);
+      });
+      const bar = document.getElementById('mp-bar');
+      if (bar) { bar.style.width = '0%'; setTimeout(() => bar.style.width = '100%', 50); }
+    }
+    function mpStop() {
+      mpPlaying = false;
+      clearInterval(mpInterval);
+      document.getElementById('mp-play').textContent = '▶';
+    }
+    function mpNext() { if (mpPlaying) { mpChordIdx++; mpPlayChord(); } }
+    function mpPrev() { if (mpPlaying) { mpChordIdx = Math.max(0, mpChordIdx - 2); mpPlayChord(); } }
+    // Add music toggle to Control Center
+    if (ccGrid) {
+      const musicBtn = document.createElement('button');
+      musicBtn.className = 'cc-btn';
+      musicBtn.innerHTML = '<span class="cc-icon">🎵</span> Music';
+      musicBtn.onclick = () => {
+        const mp = document.getElementById('music-player');
+        mp?.classList.toggle('visible');
+      };
+      ccGrid.appendChild(musicBtn);
+    }
+
+    /* ============================================================
+       R4: ACHIEVEMENT SYSTEM
+       ============================================================ */
+    const ACHIEVEMENTS = {
+      unlock: { icon: '🔓', title: 'Welcome!', desc: 'Unlocked the iPhone' },
+      open5: { icon: '📱', title: 'Power User', desc: 'Opened 5 apps' },
+      cmd3: { icon: '⌨️', title: 'Hacker', desc: 'Ran 3 terminal commands' },
+      easter: { icon: '🐰', title: 'Easter Hunter', desc: 'Found an Easter egg' },
+      time2: { icon: '⏱️', title: 'Dedicated', desc: 'Spent 2 minutes exploring' },
+      siri: { icon: '🎤', title: 'Hey Siri!', desc: 'Used voice commands' },
+      music: { icon: '🎵', title: 'DJ Mode', desc: 'Played the music player' },
+      dark: { icon: '🌙', title: 'Night Owl', desc: 'Activated dark mode' },
+    };
+    const achievements = JSON.parse(localStorage.getItem('achievements') || '{}');
+    let appOpenCount = 0, cmdCount = 0;
+
+    function trackAchievement(key) {
+      if (achievements[key]) return;
+      if (!ACHIEVEMENTS[key]) return;
+      achievements[key] = true;
+      localStorage.setItem('achievements', JSON.stringify(achievements));
+      const a = ACHIEVEMENTS[key];
+      const toast = document.createElement('div');
+      toast.className = 'achievement-toast';
+      toast.innerHTML = `<div class="ach-icon">${a.icon}</div><div><div class="ach-text">Achievement: ${a.title}</div><div class="ach-sub">${a.desc}</div></div>`;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.classList.add('show'), 50);
+      setTimeout(() => { toast.classList.remove('show'); setTimeout(() => toast.remove(), 500); }, 3000);
+    }
+
+    // Track app opens
+    const _ow2 = OW;
+    OW = function (id) { appOpenCount++; if (appOpenCount >= 5) trackAchievement('open5'); _ow2(id); };
+    // Track commands
+    const origTInit = tInit;
+    // Track time spent
+    setTimeout(() => trackAchievement('time2'), 120000);
+    // Track dark mode
+    const _tdm = toggleDarkMode;
+    toggleDarkMode = function () { _tdm(); trackAchievement('dark'); };
+
+    /* ============================================================
+       R4: SPOTLIGHT ENHANCEMENT (Fuzzy Search)
+       ============================================================ */
+    const allSearchableItems = [];
+    if (typeof DATA !== 'undefined') {
+      ['experience', 'education', 'projects', 'certs', 'interests'].forEach(cat => {
+        if (DATA[cat]) DATA[cat].forEach(item => {
+          allSearchableItems.push({ name: item.name, role: item.role || '', cat: cat, link: item.link || '' });
+        });
+      });
+    }
+    // Override spotlight input handler to fuzzy search
+    const slInput = document.querySelector('.sl-input');
+    if (slInput) {
+      slInput.addEventListener('input', () => {
+        const q = slInput.value.toLowerCase();
+        if (q.length < 2) return;
+        const matches = allSearchableItems.filter(i =>
+          i.name.toLowerCase().includes(q) || i.role.toLowerCase().includes(q) || i.cat.includes(q)
+        ).slice(0, 5);
+        let results = document.getElementById('sl-results');
+        if (!results) {
+          results = document.createElement('div');
+          results.id = 'sl-results';
+          results.style.cssText = 'margin-top:12px;max-height:300px;overflow-y:auto;';
+          slInput.parentElement.appendChild(results);
+        }
+        results.innerHTML = matches.map(m =>
+          `<div style="padding:10px 14px;cursor:pointer;border-bottom:1px solid rgba(0,0,0,0.05);font-size:14px" onclick="${m.link ? "window.open('" + m.link + "','_blank')" : "OW('finder')"};closeSL(event)">
+            <strong>${m.name}</strong> <span style="opacity:0.5;font-size:12px">${m.cat}</span><br>
+            <span style="font-size:12px;opacity:0.6">${m.role}</span>
+          </div>`
+        ).join('') || '<div style="padding:10px 14px;opacity:0.5;font-size:13px">No results found</div>';
+      });
+    }
 
   </script>
 </body>

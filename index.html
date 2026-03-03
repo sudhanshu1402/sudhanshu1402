@@ -32,6 +32,30 @@
       --muted: rgba(0, 0, 0, .45);
       --div: rgba(0, 0, 0, .07);
       --wbar: rgba(248, 248, 248, .85);
+      --win-bg: rgba(255, 255, 255, 0.92);
+      --mac-bg: rgba(220, 220, 220, .75);
+      --desk-bg: radial-gradient(ellipse at 8% 15%, #d6e8f5 0%, transparent 45%),
+        radial-gradient(ellipse at 85% 8%, #cce0f0 0%, transparent 38%),
+        radial-gradient(ellipse at 15% 85%, #f0e3d3 0%, transparent 48%),
+        radial-gradient(ellipse at 90% 88%, #e4d6ec 0%, transparent 48%),
+        linear-gradient(135deg, #9fc3d9 0%, #b6cdb2 28%, #dfd0b4 58%, #c9b5b5 80%, #b0a8d2 100%);
+    }
+
+    html.dark {
+      --glass: rgba(30, 30, 30, .82);
+      --glass-b: rgba(30, 30, 30, .85);
+      --shadow: 0 20px 60px rgba(0, 0, 0, .5);
+      --text: #e0e0e0;
+      --muted: rgba(255, 255, 255, .45);
+      --div: rgba(255, 255, 255, .1);
+      --wbar: rgba(40, 40, 40, .9);
+      --win-bg: rgba(30, 30, 30, 0.95);
+      --mac-bg: rgba(30, 30, 30, .85);
+      --desk-bg: radial-gradient(ellipse at 8% 15%, #1a1a2e 0%, transparent 45%),
+        radial-gradient(ellipse at 85% 8%, #16213e 0%, transparent 38%),
+        radial-gradient(ellipse at 15% 85%, #2a1a3e 0%, transparent 48%),
+        radial-gradient(ellipse at 90% 88%, #1e1e3e 0%, transparent 48%),
+        linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
     }
 
     html,
@@ -47,15 +71,86 @@
     #desktop {
       width: 100vw;
       height: 100vh;
-      background:
-        radial-gradient(ellipse at 8% 15%, #d6e8f5 0%, transparent 45%),
-        radial-gradient(ellipse at 85% 8%, #cce0f0 0%, transparent 38%),
-        radial-gradient(ellipse at 15% 85%, #f0e3d3 0%, transparent 48%),
-        radial-gradient(ellipse at 90% 88%, #e4d6ec 0%, transparent 48%),
-        linear-gradient(135deg, #9fc3d9 0%, #b6cdb2 28%, #dfd0b4 58%, #c9b5b5 80%, #b0a8d2 100%);
+      background: var(--desk-bg);
       position: relative;
       overflow: hidden;
       user-select: none;
+    }
+
+    /* Boot Screen */
+    #boot-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.6s ease;
+    }
+
+    #boot-screen .apple-logo {
+      font-size: 64px;
+      margin-bottom: 30px;
+      filter: brightness(2);
+    }
+
+    #boot-screen .boot-bar-wrap {
+      width: 200px;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    #boot-screen .boot-bar {
+      height: 100%;
+      width: 0;
+      background: #fff;
+      border-radius: 3px;
+      animation: bootLoad 2s ease-in-out forwards;
+    }
+
+    @keyframes bootLoad {
+      to {
+        width: 100%;
+      }
+    }
+
+    /* Custom Cursor */
+    .cursor-glow {
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      background: radial-gradient(circle, rgba(0, 122, 255, 0.6), transparent);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 99998;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.3s;
+    }
+
+    .cursor-trail {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      background: rgba(0, 122, 255, 0.3);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 99997;
+      transform: translate(-50%, -50%);
+    }
+
+    @media (max-width: 768px) {
+
+      .cursor-glow,
+      .cursor-trail {
+        display: none !important;
+      }
     }
 
     /* ============================================================ MENU BAR */
@@ -66,7 +161,7 @@
       right: 0;
       height: 28px;
       z-index: 9000;
-      background: rgba(220, 220, 220, .75);
+      background: var(--mac-bg);
       backdrop-filter: var(--blur);
       -webkit-backdrop-filter: var(--blur);
       border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -75,7 +170,7 @@
       padding: 0 14px;
       font-size: 13px;
       font-weight: 500;
-      color: rgba(0, 0, 0, .85);
+      color: var(--text);
       gap: 0;
     }
 
@@ -2264,6 +2359,82 @@
         }
       }
 
+      /* Dynamic Island */
+      #dynamic-island {
+        position: fixed;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 120px;
+        height: 32px;
+        background: #000;
+        border-radius: 24px;
+        z-index: 10002;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0 16px;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      #dynamic-island.active {
+        opacity: 1;
+        min-width: 200px;
+      }
+
+      /* Launchpad animation */
+      @keyframes iosAppPop {
+        from {
+          transform: scale(0.5);
+          opacity: 0;
+        }
+
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .ios-app {
+        animation: iosAppPop 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+      }
+
+      .ios-grid .ios-app:nth-child(1) {
+        animation-delay: 0.05s;
+      }
+
+      .ios-grid .ios-app:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+
+      .ios-grid .ios-app:nth-child(3) {
+        animation-delay: 0.15s;
+      }
+
+      .ios-grid .ios-app:nth-child(4) {
+        animation-delay: 0.2s;
+      }
+
+      .ios-grid .ios-app:nth-child(5) {
+        animation-delay: 0.25s;
+      }
+
+      .ios-grid .ios-app:nth-child(6) {
+        animation-delay: 0.3s;
+      }
+
+      .ios-grid .ios-app:nth-child(7) {
+        animation-delay: 0.35s;
+      }
+
+      .ios-grid .ios-app:nth-child(8) {
+        animation-delay: 0.4s;
+      }
 
       #desktop {
         padding: 40px 20px;
@@ -2474,7 +2645,15 @@
 
 <body>
 
-  <!-- ================= MENU BAR ================= -->
+  <!-- BOOT SCREEN -->
+  <div id="boot-screen">
+    <div class="apple-logo"></div>
+    <div class="boot-bar-wrap">
+      <div class="boot-bar"></div>
+    </div>
+  </div>
+
+  <!-- ===== MENU BAR ===== -->
   <div id="menubar">
     <span class="mb-apple">&#63743;</span>
     <span class="mb-appname" id="active-app">Finder</span>
@@ -2530,6 +2709,9 @@
     <div class="mb-right">
       <span class="mb-status">🛡️ Active &nbsp;📶&nbsp;🔋100%</span>
       <div class="mb-tz-sep"></div>
+      <div id="dark-mode-toggle" onclick="toggleDarkMode()" style="cursor:pointer;font-size:16px;padding:0 6px"
+        title="Toggle Dark Mode">☀️</div>
+      <div class="mb-tz-sep"></div>
       <div class="mb-tz"><span class="mb-tz-label">UTC</span><span class="mb-tz-time" id="clock-utc">--:--</span></div>
       <div class="mb-tz-sep"></div>
       <div class="mb-tz"><span class="mb-tz-label">NYC</span><span class="mb-tz-time" id="clock-nyc">--:--</span></div>
@@ -2553,6 +2735,11 @@
         <span style="font-size:10px;font-weight:800">5G</span>
         <span>🔋</span>
       </div>
+    </div>
+
+    <!-- Dynamic Island -->
+    <div id="dynamic-island">
+      <span id="di-text"></span>
     </div>
 
     <!-- iOS Springboard (Mobile Only) -->
@@ -3098,6 +3285,11 @@
         <div class="dk-lbl">LinkedIn</div>
         <div class="dk-dot"></div>
       </div>
+      <div class="dk" onclick="downloadResume()" title="Resume">
+        <div class="dkico" style="background:linear-gradient(135deg,#34c759,#30d158);font-size:22px">📎</div>
+        <div class="dk-lbl">Resume</div>
+        <div class="dk-dot"></div>
+      </div>
     </div>
   </div>
 
@@ -3552,7 +3744,7 @@
         if (cmd.includes('dessert') || cmd.includes('desert')) { tPrint(['<span class="th">Cheesecake 🍰</span>', '']); return; }
         if (CMDS[cmd]) { const r = CMDS[cmd](); if (Array.isArray(r)) tPrint(r); else if (r === '__clear__') { tb.innerHTML = ''; tInit(); } else { tInit(); } }
         else if (!cmd) tInit();
-        else tPrint([`<span class="te">zsh: command not found: ${raw}</span>`, 'Type <span class="tp">help</span> for commands.']);
+        else tPrint(getAIResponse(raw));
       });
       row.appendChild(termInp); tb.appendChild(row); tb.scrollTop = tb.scrollHeight;
     }
@@ -4022,18 +4214,238 @@
         conf.style.zIndex = 99999;
         conf.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
         conf.style.pointerEvents = 'none';
-
-        // Dynamic animation creation
         const animName = 'fall' + Math.floor(Math.random() * 1000);
         const style = document.createElement('style');
         style.innerHTML = `@keyframes ${animName} { to { transform: translateY(110vh) rotate(${Math.random() * 720}deg); opacity: 0; } }`;
         document.head.appendChild(style);
-
         conf.style.animation = `${animName} ${Math.random() * 2 + 2}s linear forwards`;
         document.body.appendChild(conf);
         setTimeout(() => { conf.remove(); style.remove(); }, 4000);
       }
     }
+
+    /* ============================================================
+       BOOT SCREEN
+       ============================================================ */
+    setTimeout(() => {
+      const bs = document.getElementById('boot-screen');
+      if (bs) { bs.style.opacity = '0'; setTimeout(() => bs.remove(), 600); }
+    }, 2400);
+
+    /* ============================================================
+       DARK MODE
+       ============================================================ */
+    function toggleDarkMode() {
+      const html = document.documentElement;
+      html.classList.toggle('dark');
+      const isDark = html.classList.contains('dark');
+      localStorage.setItem('darkMode', isDark ? '1' : '0');
+      const tog = document.getElementById('dark-mode-toggle');
+      if (tog) tog.textContent = isDark ? '🌙' : '☀️';
+      playSound('click');
+    }
+    // Restore on load
+    if (localStorage.getItem('darkMode') === '1') {
+      document.documentElement.classList.add('dark');
+      const tog = document.getElementById('dark-mode-toggle');
+      if (tog) tog.textContent = '🌙';
+    }
+
+    /* ============================================================
+       CUSTOM CURSOR
+       ============================================================ */
+    if (window.innerWidth > 768) {
+      const glow = document.createElement('div');
+      glow.className = 'cursor-glow';
+      document.body.appendChild(glow);
+      const trails = [];
+      for (let i = 0; i < 5; i++) {
+        const t = document.createElement('div');
+        t.className = 'cursor-trail';
+        t.style.opacity = (1 - i * 0.18);
+        t.style.width = (8 - i) + 'px';
+        t.style.height = (8 - i) + 'px';
+        document.body.appendChild(t);
+        trails.push(t);
+      }
+      let mouseX = 0, mouseY = 0;
+      document.addEventListener('mousemove', e => {
+        mouseX = e.clientX; mouseY = e.clientY;
+        glow.style.left = mouseX + 'px';
+        glow.style.top = mouseY + 'px';
+      });
+      function animTrails() {
+        let x = mouseX, y = mouseY;
+        trails.forEach((t, i) => {
+          setTimeout(() => {
+            t.style.left = x + 'px';
+            t.style.top = y + 'px';
+          }, (i + 1) * 40);
+        });
+        requestAnimationFrame(animTrails);
+      }
+      animTrails();
+    }
+
+    /* ============================================================
+       DOCK MAGNIFICATION
+       ============================================================ */
+    if (window.innerWidth > 768) {
+      const dockBar = document.querySelector('.dock-bar');
+      if (dockBar) {
+        dockBar.addEventListener('mousemove', e => {
+          const dkItems = dockBar.querySelectorAll('.dk');
+          dkItems.forEach(item => {
+            const rect = item.getBoundingClientRect();
+            const cx = rect.left + rect.width / 2;
+            const dist = Math.abs(e.clientX - cx);
+            const scale = Math.max(1, 1.5 - dist / 120);
+            item.style.transform = `scale(${scale})`;
+            item.style.transition = 'transform 0.15s ease';
+          });
+        });
+        dockBar.addEventListener('mouseleave', () => {
+          dockBar.querySelectorAll('.dk').forEach(item => {
+            item.style.transform = 'scale(1)';
+          });
+        });
+      }
+    }
+
+    /* ============================================================
+       DYNAMIC ISLAND
+       ============================================================ */
+    function showDynamicIsland(text) {
+      if (window.innerWidth > 768) return;
+      const di = document.getElementById('dynamic-island');
+      const diText = document.getElementById('di-text');
+      if (!di || !diText) return;
+      diText.textContent = text;
+      di.classList.add('active');
+      setTimeout(() => di.classList.remove('active'), 2000);
+    }
+
+    /* ============================================================
+       RESUME DOWNLOAD
+       ============================================================ */
+    function downloadResume() {
+      notify('Resume', 'Downloading Sudhanshu\'s Resume...', '📎');
+      const link = document.createElement('a');
+      link.href = 'https://sudhanshu1402.github.io/resume.pdf';
+      link.download = 'Sudhanshu_Singh_Resume.pdf';
+      link.target = '_blank';
+      link.click();
+    }
+
+    /* ============================================================
+       VISITOR COUNTER
+       ============================================================ */
+    (function () {
+      let count = parseInt(localStorage.getItem('visitCount') || '0') + 1;
+      localStorage.setItem('visitCount', count);
+      const statCards = document.querySelector('.stat-grid');
+      if (statCards) {
+        const card = document.createElement('div');
+        card.className = 'stat-card';
+        card.innerHTML = `<div class="stat-v bl">${count}</div><div class="stat-l">Page Views</div>`;
+        statCards.appendChild(card);
+      }
+    })();
+
+    /* ============================================================
+       AI CHATBOT (SMART TERMINAL FALLBACK)
+       ============================================================ */
+    const AI_RESPONSES = {
+      patterns: [
+        { match: /hello|hi|hey/i, reply: "Hey there! 👋 I'm Sudhanshu's terminal AI. Try commands like 'whoami', 'skills', or 'help'!" },
+        { match: /how are you/i, reply: "I'm running at full capacity! 🚀 How can I help you learn about Sudhanshu?" },
+        { match: /what.*(do|work|job)/i, reply: "Sudhanshu is a Backend Developer at Testlify, building distributed SaaS systems with Node.js, MongoDB, and Redis. He handles 10K+ RPM!" },
+        { match: /where.*(from|live|located)/i, reply: "Sudhanshu is based in Mumbai, India 🇮🇳" },
+        { match: /college|university|education|study/i, reply: "MBA Tech (BI & Analytics) + B.Tech IT from NMIMS MPSTME. GPA: 3.51 + 3.90! 📚" },
+        { match: /hobby|hobbies|fun|free time/i, reply: "Gaming 🎮, Anime, Space Exploration 🚀, and building AI frameworks for robots 🤖!" },
+        { match: /age|old/i, reply: "Old enough to ship production code, young enough to still be excited about it! 😄" },
+        { match: /stack|tech|language/i, reply: "Node.js · TypeScript · MongoDB · Redis · AWS · GCP · Azure · OpenAI · LangChain · Docker · Kubernetes" },
+        { match: /hire|available|freelance/i, reply: "Sudhanshu is always open to interesting opportunities! Reach out at sudhanshusingh1402@gmail.com 📧" },
+        { match: /github/i, reply: "Check out github.com/sudhanshu1402 for my projects! 🐙" },
+        { match: /thank|thanks/i, reply: "You're welcome! Let me know if you need anything else. 😊" },
+        { match: /bye|exit|quit/i, reply: "Goodbye! Thanks for visiting Sudhanshu's portfolio! 👋" },
+      ],
+      fallback: "I'm not sure about that. Try 'help' to see available commands, or ask me about Sudhanshu's work, skills, or background! 🤔"
+    };
+
+    function getAIResponse(input) {
+      for (const p of AI_RESPONSES.patterns) {
+        if (p.match.test(input)) return [p.reply];
+      }
+      return [AI_RESPONSES.fallback];
+    }
+
+    /* ============================================================
+       GITHUB CONTRIBUTION GRAPH
+       ============================================================ */
+    (function () {
+      const statWin = document.querySelector('#win-stats .stat-grid');
+      if (!statWin) return;
+      const wrap = document.createElement('div');
+      wrap.style.cssText = 'grid-column: 1/-1; padding: 16px; background: rgba(0,0,0,.04); border-radius: 12px; margin-top: 8px;';
+      wrap.innerHTML = '<div style="font-size:13px;font-weight:700;margin-bottom:10px;color:var(--text)">📊 GitHub Contributions (Simulated)</div>';
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('width', '100%'); svg.setAttribute('height', '90');
+      svg.setAttribute('viewBox', '0 0 728 90');
+      const colors = ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
+      for (let w = 0; w < 52; w++) {
+        for (let d = 0; d < 7; d++) {
+          const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+          rect.setAttribute('x', w * 14); rect.setAttribute('y', d * 13);
+          rect.setAttribute('width', '11'); rect.setAttribute('height', '11');
+          rect.setAttribute('rx', '2');
+          rect.setAttribute('fill', colors[Math.floor(Math.random() * 5)]);
+          svg.appendChild(rect);
+        }
+      }
+      wrap.appendChild(svg);
+      statWin.parentNode.insertBefore(wrap, statWin.nextSibling);
+    })();
+
+    /* ============================================================
+       SOUND EFFECTS (Web Audio API)
+       ============================================================ */
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    let audioCtx;
+    function playSound(type) {
+      if (!audioCtx) audioCtx = new AudioCtx();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      gain.gain.value = 0.05;
+      if (type === 'open') { osc.frequency.value = 800; gain.gain.value = 0.03; }
+      else if (type === 'close') { osc.frequency.value = 400; gain.gain.value = 0.03; }
+      else if (type === 'hover') { osc.frequency.value = 1200; gain.gain.value = 0.01; }
+      else if (type === 'notify') { osc.frequency.value = 900; gain.gain.value = 0.04; }
+      else if (type === 'click') { osc.frequency.value = 600; gain.gain.value = 0.02; }
+      osc.type = 'sine';
+      osc.start(); osc.stop(audioCtx.currentTime + 0.08);
+    }
+    // Patch OW/CW for sounds + dynamic island
+    const _origOW = OW;
+    OW = function (id) {
+      playSound('open');
+      const names = { finder: 'Finder', vscode: 'VS Code', terminal: 'Terminal', profile: 'About Me', skills: 'Skills', stats: 'Stats', weather: 'Weather', worldclock: 'Clock', coverletter: 'Cover Letter', games: 'Games' };
+      showDynamicIsland(names[id] || id);
+      _origOW(id);
+    };
+    const _origCW = CW;
+    CW = function (id) { playSound('close'); _origCW(id); };
+
+    // Dock hover sounds
+    document.querySelectorAll('.dk').forEach(dk => {
+      dk.addEventListener('mouseenter', () => playSound('hover'));
+    });
+
+    // Patch notify for sound
+    const _origNotify = notify;
+    notify = function (t, m, i) { playSound('notify'); _origNotify(t, m, i); };
+
   </script>
 </body>
 

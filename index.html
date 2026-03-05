@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <title>Sudhanshu Singh — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <style>
     /* ============================================================ RESET */
@@ -58,12 +59,223 @@
         linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
     }
 
+    html.dark .mb-item {
+      color: rgba(255, 255, 255, .75);
+    }
+
+    html.dark .mb-right {
+      color: rgba(255, 255, 255, .65);
+    }
+
+    html.dark .mb-tz-time {
+      color: rgba(255, 255, 255, .82);
+    }
+
+    html.dark .menubar-item:hover {
+      background: rgba(255, 255, 255, .12);
+    }
+
+    html.dark .dd-item {
+      color: rgba(255, 255, 255, .8);
+    }
+
+    html.dark .mb-dropdown {
+      background: rgba(40, 40, 40, .96);
+      border-color: rgba(255, 255, 255, .12);
+    }
+
+    html.dark .dd-sep {
+      background: rgba(255, 255, 255, .1);
+    }
+
+    html.dark .wtitle {
+      color: rgba(255, 255, 255, .45);
+    }
+
+    html.dark .fpath b {
+      color: rgba(255, 255, 255, .68);
+    }
+
+    html.dark .fsearch {
+      background: rgba(255, 255, 255, .08);
+      color: rgba(255, 255, 255, .7);
+    }
+
+    html.dark .sb-i {
+      color: rgba(255, 255, 255, .68);
+    }
+
+    html.dark .sb-i:hover {
+      background: rgba(255, 255, 255, .06);
+    }
+
+    html.dark .sb-lbl {
+      color: rgba(255, 255, 255, .3);
+    }
+
+    html.dark .finder-sb {
+      background: rgba(255, 255, 255, .03);
+    }
+
+    html.dark .finder-tb {
+      background: rgba(255, 255, 255, .05);
+    }
+
+    html.dark .frow:hover {
+      background: rgba(255, 255, 255, .05);
+    }
+
+    html.dark .frow-meta {
+      color: rgba(255, 255, 255, .55);
+    }
+
+    html.dark .frow-meta b {
+      color: rgba(255, 255, 255, .75);
+    }
+
+    html.dark .blist li {
+      color: rgba(255, 255, 255, .6);
+    }
+
+    html.dark .blist b {
+      color: rgba(255, 255, 255, .78);
+    }
+
+    html.dark .pf-bio {
+      color: rgba(255, 255, 255, .6);
+    }
+
+    html.dark .pf-link {
+      background: rgba(0, 122, 255, .12);
+      color: #5ac8fa;
+    }
+
+    html.dark .sk-tag {
+      background: rgba(255, 255, 255, .07);
+      color: rgba(255, 255, 255, .65);
+    }
+
+    html.dark .bar-lbl {
+      color: rgba(255, 255, 255, .65);
+    }
+
+    html.dark .bar-track {
+      background: rgba(255, 255, 255, .1);
+    }
+
+    html.dark .stat-card {
+      background: rgba(255, 255, 255, .05);
+      border-color: rgba(255, 255, 255, .06);
+    }
+
+    html.dark .wx-detail {
+      background: rgba(255, 255, 255, .06);
+    }
+
+    html.dark .wc-item {
+      background: rgba(255, 255, 255, .05);
+      border-color: rgba(255, 255, 255, .06);
+    }
+
+    html.dark .cl-body {
+      background: #1e1e1e;
+    }
+
+    html.dark .cl-p {
+      color: rgba(255, 255, 255, .72);
+    }
+
+    html.dark .cl-sig {
+      color: rgba(255, 255, 255, .72);
+    }
+
+    html.dark .cl-links {
+      border-bottom-color: rgba(255, 255, 255, .07);
+    }
+
+    html.dark .cl-lnk {
+      color: rgba(255, 255, 255, .55);
+    }
+
+    html.dark .ctx {
+      background: rgba(40, 40, 40, .96);
+      border-color: rgba(255, 255, 255, .12);
+    }
+
+    html.dark .ctx-i {
+      color: rgba(255, 255, 255, .8);
+    }
+
+    html.dark .ctx-s {
+      background: rgba(255, 255, 255, .1);
+    }
+
+    html.dark .notif {
+      background: rgba(40, 40, 40, .96);
+      border-color: rgba(255, 255, 255, .1);
+    }
+
+    html.dark .notif-body {
+      color: rgba(255, 255, 255, .55);
+    }
+
+    html.dark .dock-bar {
+      background: rgba(30, 30, 30, .55);
+      border-color: rgba(255, 255, 255, .15);
+    }
+
+    html.dark .dock-sep {
+      background: rgba(255, 255, 255, .15);
+    }
+
+    html.dark .dk-dot {
+      background: rgba(255, 255, 255, .45);
+    }
+
+    html.dark .deskico-nm {
+      color: #fff;
+    }
+
+    html.dark .sl-box {
+      background: rgba(40, 40, 40, .93);
+    }
+
+    html.dark .sl-input {
+      color: rgba(255, 255, 255, .85);
+    }
+
+    html.dark .sl-input::placeholder {
+      color: rgba(255, 255, 255, .3);
+    }
+
+    html.dark .sl-results {
+      border-top-color: rgba(255, 255, 255, .1);
+    }
+
+    html.dark .sl-r:hover,
+    html.dark .sl-r.focus {
+      background: var(--blue);
+    }
+
+    html.dark .games-tabs {
+      background: rgba(255, 255, 255, .04);
+      border-bottom-color: rgba(255, 255, 255, .1);
+    }
+
+    html.dark .game-tab {
+      color: rgba(255, 255, 255, .55);
+    }
+
+    html.dark .game-tab:hover {
+      background: rgba(255, 255, 255, .06);
+    }
+
     html,
     body {
       width: 100%;
       height: 100%;
       overflow: hidden;
-      font-family: -apple-system, 'Inter', sans-serif;
+      font-family: 'DM Sans', -apple-system, sans-serif;
       background: #000
     }
 
@@ -941,7 +1153,8 @@
       font-size: 20px;
       font-weight: 800;
       color: var(--text);
-      letter-spacing: -.4px
+      letter-spacing: -.4px;
+      font-family: 'Outfit', sans-serif
     }
 
     .pf-role {
@@ -1082,7 +1295,8 @@
       color: var(--text);
       letter-spacing: -1px;
       line-height: 1;
-      margin-bottom: 4px
+      margin-bottom: 4px;
+      font-family: 'Outfit', sans-serif
     }
 
     .stat-v.bl {
@@ -1121,7 +1335,8 @@
       font-size: 28px;
       font-weight: 700;
       letter-spacing: -.5px;
-      margin-bottom: 2px
+      margin-bottom: 2px;
+      font-family: 'Outfit', sans-serif
     }
 
     .wx-cond {
@@ -1140,7 +1355,8 @@
       font-size: 72px;
       font-weight: 200;
       line-height: 1;
-      letter-spacing: -4px
+      letter-spacing: -4px;
+      font-family: 'Outfit', sans-serif
     }
 
     .wx-temp-unit {
@@ -1275,7 +1491,7 @@
       font-weight: 200;
       color: var(--text);
       letter-spacing: -1px;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Outfit', sans-serif;
       font-variant-numeric: tabular-nums;
     }
 
@@ -1322,7 +1538,8 @@
       font-weight: 800;
       color: var(--text);
       letter-spacing: -.5px;
-      margin-bottom: 4px
+      margin-bottom: 4px;
+      font-family: 'Outfit', sans-serif
     }
 
     .cl-role-title {
@@ -1448,7 +1665,9 @@
       border-radius: 8px;
       border: 2px solid rgba(0, 255, 136, .2);
       box-shadow: 0 0 30px rgba(0, 255, 136, .08);
-      display: block
+      display: block;
+      max-width: 100%;
+      height: auto;
     }
 
     .snake-ui {
@@ -2287,6 +2506,7 @@
       font-weight: 200;
       letter-spacing: -3px;
       font-variant-numeric: tabular-nums;
+      font-family: 'Outfit', sans-serif;
     }
 
     #ios-lock-screen .lock-date {
@@ -2944,6 +3164,10 @@
         background: #f2f2f7 !important;
       }
 
+      html.dark .window {
+        background: #1c1c1e !important;
+      }
+
       .wbar {
         height: 96px !important;
         min-height: 96px !important;
@@ -2954,6 +3178,11 @@
         backdrop-filter: blur(20px) !important;
         -webkit-backdrop-filter: blur(20px) !important;
         border-bottom: 0.5px solid rgba(0, 0, 0, 0.12) !important;
+      }
+
+      html.dark .wbar {
+        background: rgba(28, 28, 30, 0.94) !important;
+        border-bottom-color: rgba(255, 255, 255, 0.1) !important;
       }
 
       .wbar .dots {
@@ -2978,6 +3207,10 @@
         color: #000 !important;
       }
 
+      html.dark .wtitle {
+        color: #fff !important;
+      }
+
       .resize-h {
         display: none !important;
       }
@@ -2985,6 +3218,10 @@
       .finder-body {
         flex-direction: column;
         background: #fff;
+      }
+
+      html.dark .finder-body {
+        background: #1c1c1e;
       }
 
       .finder-sb {
@@ -2996,6 +3233,11 @@
         overflow-x: auto;
         padding: 8px;
         background: #f2f2f7;
+      }
+
+      html.dark .finder-sb {
+        background: #2c2c2e;
+        border-bottom-color: rgba(255, 255, 255, 0.1);
       }
 
       .sb-i {
@@ -3090,7 +3332,1089 @@
         height: 24px;
         font-size: 11px;
       }
+
+      /* === EXTRA-SMALL SCREENS (iPhone SE, Galaxy S8 etc. <= 375px) === */
+      @media (max-width: 375px) {
+        .ios-grid {
+          grid-template-columns: repeat(4, 1fr);
+          gap: 20px 0;
+          padding: 12px 16px;
+        }
+
+        .ios-ic {
+          width: 52px;
+          height: 52px;
+          font-size: 24px;
+          border-radius: 13px;
+        }
+
+        .ios-app span {
+          font-size: 10px;
+        }
+
+        .ios-dock {
+          margin: 6px 8px 28px;
+          padding: 10px 16px;
+        }
+
+        .ios-dock .ios-ic {
+          width: 48px;
+          height: 48px;
+          font-size: 22px;
+        }
+
+        .wbar {
+          height: 82px !important;
+          min-height: 82px !important;
+          padding: 44px 12px 8px !important;
+        }
+
+        .wtitle {
+          font-size: 15px !important;
+        }
+
+        .pf-body,
+        .sk-body,
+        .stats-body,
+        .wc-body,
+        .games-body {
+          padding: 10px;
+        }
+
+        .pf-name {
+          font-size: 17px;
+        }
+
+        .pf-bio {
+          font-size: 12px;
+        }
+
+        .pf-link {
+          font-size: 11.5px;
+          padding: 7px 10px;
+        }
+
+        .sk-tag {
+          font-size: 11px;
+          padding: 4px 9px;
+        }
+
+        .stat-card {
+          padding: 10px;
+        }
+
+        .stat-v {
+          font-size: 20px;
+        }
+
+        .stats-grid {
+          gap: 8px;
+        }
+
+        .cl-body {
+          padding: 18px 12px;
+        }
+
+        .cl-name {
+          font-size: 20px;
+        }
+
+        .cl-p {
+          font-size: 13px;
+        }
+
+        .cl-links {
+          gap: 8px;
+        }
+
+        .cl-lnk {
+          font-size: 11px;
+        }
+
+        .wx-hero {
+          padding: 18px 16px 14px;
+        }
+
+        .wx-city {
+          font-size: 22px;
+        }
+
+        .wx-temp-main {
+          font-size: 56px;
+          letter-spacing: -3px;
+        }
+
+        .wx-icon {
+          font-size: 48px;
+        }
+
+        .wx-details {
+          padding: 10px 12px;
+          gap: 8px;
+        }
+
+        .wx-dval {
+          font-size: 15px;
+        }
+
+        .wx-forecast {
+          padding: 0 10px 10px;
+          gap: 6px;
+        }
+
+        .wx-fc-day {
+          min-width: 50px;
+          padding: 8px 6px;
+        }
+
+        .wc-item {
+          padding: 10px 12px;
+        }
+
+        .wc-city {
+          font-size: 14px;
+        }
+
+        .wc-time {
+          font-size: 22px;
+        }
+
+        .g2048-grid {
+          grid-template-columns: repeat(4, 48px);
+          grid-template-rows: repeat(4, 48px);
+          gap: 6px;
+          padding: 8px;
+        }
+
+        .g2048-cell {
+          width: 48px;
+          height: 48px;
+          font-size: 14px;
+        }
+
+        .g2048-title {
+          font-size: 28px;
+        }
+
+        .ttt-grid {
+          grid-template-columns: repeat(3, 56px);
+          gap: 6px;
+        }
+
+        .ttt-cell {
+          width: 56px;
+          height: 56px;
+          font-size: 24px;
+        }
+
+        .ms-grid {
+          grid-template-columns: repeat(9, 22px) !important;
+        }
+
+        .ms-cell {
+          width: 22px;
+          height: 22px;
+          font-size: 10px;
+        }
+
+        .sl-box {
+          width: 96%;
+        }
+
+        .sl-input {
+          font-size: 18px;
+        }
+
+        .sl-inp-wrap {
+          padding: 10px 14px;
+        }
+
+        .notif-card {
+          border-radius: 12px;
+          padding: 12px 14px;
+        }
+
+        .game-tab {
+          padding: 6px 8px;
+          font-size: 10px;
+        }
+
+        .finder-pane {
+          padding: 8px 10px;
+        }
+
+        .frow-ico {
+          font-size: 28px;
+        }
+
+        .frow-nm {
+          font-size: 13px;
+        }
+
+        .frow-meta {
+          font-size: 11.5px;
+        }
+
+        .blist li {
+          font-size: 11.5px;
+        }
+
+        #snakeCanvas {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      /* === LANDSCAPE MOBILE (short height, wide) === */
+      @media (max-width: 768px) and (orientation: landscape) {
+        .ios-grid {
+          grid-template-columns: repeat(6, 1fr);
+          gap: 16px 0;
+          padding: 10px 28px;
+        }
+
+        .ios-dock {
+          margin: 4px 10px 16px;
+          padding: 8px 20px;
+        }
+
+        .ios-dock .ios-ic {
+          width: 42px;
+          height: 42px;
+          font-size: 20px;
+        }
+
+        #ios-status-bar {
+          height: 36px !important;
+          padding: 4px 28px 0 !important;
+        }
+
+        #ios-home {
+          padding-top: 40px;
+        }
+
+        .ios-ic {
+          width: 48px;
+          height: 48px;
+          font-size: 22px;
+        }
+
+        .ios-app span {
+          font-size: 10px;
+        }
+
+        .wbar {
+          height: 56px !important;
+          min-height: 56px !important;
+          padding: 20px 16px 8px !important;
+        }
+      }
+
+      /* === NOTCH/SAFE-AREA HANDLING === */
+      @supports (padding-top: env(safe-area-inset-top)) {
+        #ios-status-bar {
+          padding-top: calc(env(safe-area-inset-top) + 4px) !important;
+          height: calc(env(safe-area-inset-top) + 40px) !important;
+        }
+
+        #ios-home {
+          padding-top: calc(env(safe-area-inset-top) + 40px);
+        }
+
+        .ios-dock {
+          margin-bottom: calc(env(safe-area-inset-bottom) + 16px);
+        }
+
+        .window .wbar {
+          padding-top: calc(env(safe-area-inset-top) + 8px) !important;
+        }
+
+        #ios-lock-screen .lock-swipe {
+          bottom: calc(env(safe-area-inset-bottom) + 20px);
+        }
+      }
+
+      /* === MUSIC PLAYER MOBILE === */
+      #music-player {
+        bottom: 100px !important;
+        right: 10px !important;
+        left: 10px !important;
+        min-width: unset !important;
+        border-radius: 12px;
+      }
+
+      /* === SIRI OVERLAY MOBILE === */
+      .siri-orb {
+        width: 64px;
+        height: 64px;
+      }
+
+      .siri-text {
+        font-size: 17px;
+      }
+
+      /* === NOTIFICATION CENTER MOBILE === */
+      #notif-center {
+        padding: 60px 12px 20px;
+      }
+
+      /* === ACHIEVEMENT TOAST MOBILE === */
+      .achievement-toast {
+        width: 90% !important;
+        max-width: 340px;
+      }
     }
+
+    /* ============================================================
+       TABLET BREAKPOINT (769px - 1024px)
+       ============================================================ */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      #menubar {
+        font-size: 12px;
+        padding: 0 10px;
+      }
+
+      .mb-right {
+        gap: 6px;
+      }
+
+      .mb-tz {
+        display: none;
+      }
+
+      .mb-tz:last-child {
+        display: flex;
+      }
+
+      .mb-tz-sep {
+        display: none;
+      }
+
+      .mb-tz-sep:last-of-type {
+        display: block;
+      }
+
+      #dock .dock-bar {
+        gap: 4px;
+        padding: 6px 10px;
+      }
+
+      .dkico {
+        width: 44px;
+        height: 44px;
+        font-size: 24px;
+      }
+
+      .dock-sep {
+        height: 36px;
+      }
+
+      .window {
+        min-width: 240px;
+        min-height: 160px;
+      }
+
+      .finder-sb {
+        width: 130px;
+      }
+
+      .sb-i {
+        font-size: 12px;
+        padding: 5px 12px;
+      }
+
+      .deskico {
+        width: 70px;
+      }
+
+      .deskico-img {
+        font-size: 34px;
+      }
+
+      .deskico-nm {
+        font-size: 10.5px;
+      }
+
+      .sl-box {
+        width: 520px;
+      }
+
+      .notif {
+        max-width: 300px;
+        min-width: 240px;
+      }
+
+      .wx-temp-main {
+        font-size: 60px;
+      }
+
+      .wx-icon {
+        font-size: 52px;
+      }
+
+      .cl-body {
+        padding: 24px 28px;
+      }
+    }
+
+    /* ============================================================
+       SMALL DESKTOP (1025px - 1280px)
+       ============================================================ */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      .mb-tz:nth-child(2) {
+        display: none;
+      }
+
+      .dkico {
+        width: 46px;
+        height: 46px;
+        font-size: 26px;
+      }
+
+      .dock-bar {
+        gap: 5px;
+      }
+    }
+
+    /* ============================================================
+       LARGE DESKTOP (1440px+)
+       ============================================================ */
+    @media (min-width: 1440px) {
+      .dkico {
+        width: 56px;
+        height: 56px;
+        font-size: 30px;
+      }
+
+      .dock-bar {
+        gap: 8px;
+        padding: 10px 18px;
+      }
+
+      .window {
+        min-width: 320px;
+        min-height: 220px;
+      }
+
+      .sl-box {
+        width: 700px;
+      }
+
+      .sl-input {
+        font-size: 24px;
+      }
+    }
+
+    /* ============================================================
+       HIGH-DPI / RETINA POLISHING
+       ============================================================ */
+    @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+      .dot {
+        border-width: 0.5px;
+      }
+    }
+
+    /* ============================================================
+       REDUCED MOTION ACCESSIBILITY
+       ============================================================ */
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+    /* ============================================================
+       AMBIENT PARTICLES
+       ============================================================ */
+    .particle {
+      position: fixed;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0;
+      animation: particleFloat linear infinite;
+    }
+
+    @keyframes particleFloat {
+      0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateY(-10vh) rotate(720deg); opacity: 0; }
+    }
+
+    /* ============================================================
+       DOCK BOUNCE
+       ============================================================ */
+    @keyframes dockBounce {
+      0% { transform: translateY(0); }
+      25% { transform: translateY(-18px); }
+      50% { transform: translateY(0); }
+      65% { transform: translateY(-9px); }
+      80% { transform: translateY(0); }
+      90% { transform: translateY(-3px); }
+      100% { transform: translateY(0); }
+    }
+
+    .dk.bouncing .dkico {
+      animation: dockBounce 0.6s cubic-bezier(0.28, 0.84, 0.42, 1);
+    }
+
+    /* ============================================================
+       WINDOW SNAP INDICATORS
+       ============================================================ */
+    .snap-zone {
+      position: fixed;
+      z-index: 8500;
+      background: rgba(0, 122, 255, 0.15);
+      border: 2px solid rgba(0, 122, 255, 0.4);
+      border-radius: 12px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .snap-zone.show { opacity: 1; }
+    .snap-left { top: 28px; left: 0; width: 50vw; height: calc(100vh - 28px - 76px); }
+    .snap-right { top: 28px; right: 0; width: 50vw; height: calc(100vh - 28px - 76px); }
+    .snap-top { top: 28px; left: 0; width: 100vw; height: calc(100vh - 28px - 76px); }
+
+    /* ============================================================
+       3D TILT CARDS
+       ============================================================ */
+    .stat-card, .wc-item, .wx-detail, .frow {
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.1s;
+    }
+
+    /* ============================================================
+       RIPPLE EFFECT
+       ============================================================ */
+    .ripple-host { position: relative; overflow: hidden; }
+
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(0, 122, 255, 0.25);
+      transform: scale(0);
+      animation: rippleExpand 0.5s ease-out forwards;
+      pointer-events: none;
+    }
+
+    @keyframes rippleExpand {
+      to { transform: scale(4); opacity: 0; }
+    }
+
+    /* ============================================================
+       TYPEWRITER CURSOR
+       ============================================================ */
+    .tw-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 1em;
+      background: var(--blue);
+      margin-left: 2px;
+      vertical-align: text-bottom;
+      animation: twBlink 0.7s step-end infinite;
+    }
+
+    @keyframes twBlink {
+      50% { opacity: 0; }
+    }
+
+    /* ============================================================
+       FINDER ROW GLOW
+       ============================================================ */
+    .frow:hover {
+      background: rgba(0, 122, 255, 0.05);
+      box-shadow: inset 0 0 0 1px rgba(0, 122, 255, 0.1);
+    }
+
+    html.dark .frow:hover {
+      background: rgba(0, 122, 255, 0.08);
+      box-shadow: inset 0 0 0 1px rgba(0, 122, 255, 0.15);
+    }
+
+    /* ============================================================
+       STICKY NOTES
+       ============================================================ */
+    .sticky-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-content: flex-start;
+    }
+
+    .sticky-note {
+      width: 160px;
+      min-height: 140px;
+      border-radius: 4px;
+      padding: 12px;
+      font-size: 13px;
+      line-height: 1.5;
+      box-shadow: 2px 3px 12px rgba(0,0,0,0.12);
+      position: relative;
+      cursor: default;
+    }
+
+    .sticky-note .sticky-del {
+      position: absolute;
+      top: 6px;
+      right: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+
+    .sticky-note:hover .sticky-del { opacity: 0.6; }
+    .sticky-note:hover .sticky-del:hover { opacity: 1; }
+
+    .sticky-note textarea {
+      width: 100%;
+      height: 100%;
+      min-height: 80px;
+      background: transparent;
+      border: none;
+      outline: none;
+      font-family: inherit;
+      font-size: 13px;
+      color: #333;
+      resize: none;
+      line-height: 1.5;
+    }
+
+    .sticky-add {
+      width: 160px;
+      min-height: 140px;
+      border: 2px dashed rgba(0,0,0,0.15);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      color: rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .sticky-add:hover {
+      border-color: var(--blue);
+      color: var(--blue);
+      background: rgba(0,122,255,0.04);
+    }
+
+    .sticky-toolbar {
+      display: flex;
+      gap: 6px;
+      padding: 8px 12px;
+      border-top: 1px solid var(--div);
+      flex-shrink: 0;
+    }
+
+    .sticky-color {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform 0.1s;
+    }
+
+    .sticky-color:hover { transform: scale(1.2); }
+    .sticky-color.on { border-color: rgba(0,0,0,0.3); }
+
+    /* ============================================================
+       CALCULATOR
+       ============================================================ */
+    .calc-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: #1c1c1e;
+      overflow: hidden;
+    }
+
+    .calc-display {
+      padding: 20px 24px 10px;
+      text-align: right;
+      font-size: 48px;
+      font-weight: 200;
+      color: #fff;
+      font-family: 'Outfit', sans-serif;
+      min-height: 80px;
+      overflow: hidden;
+      letter-spacing: -1px;
+    }
+
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      padding: 10px 16px 16px;
+      flex: 1;
+    }
+
+    .calc-btn {
+      border-radius: 50%;
+      border: none;
+      font-size: 22px;
+      font-weight: 400;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 1;
+      transition: filter 0.1s;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .calc-btn:active { filter: brightness(0.75); }
+    .calc-btn.num { background: #333; color: #fff; }
+    .calc-btn.op { background: #ff9f0a; color: #fff; font-size: 26px; }
+    .calc-btn.op.active { background: #fff; color: #ff9f0a; }
+    .calc-btn.fn { background: #a5a5a5; color: #000; }
+    .calc-btn.zero { border-radius: 36px; aspect-ratio: auto; grid-column: span 2; justify-content: flex-start; padding-left: 28px; }
+
+    /* ============================================================
+       POMODORO TIMER
+       ============================================================ */
+    .pom-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background: linear-gradient(160deg, #ff6b6b, #ee5a24);
+      padding: 24px;
+    }
+
+    .pom-ring {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .pom-ring svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(-90deg);
+    }
+
+    .pom-ring circle {
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+    }
+
+    .pom-ring .pom-bg { stroke: rgba(255,255,255,0.15); }
+    .pom-ring .pom-fg { stroke: #fff; transition: stroke-dashoffset 1s linear; }
+
+    .pom-time {
+      font-size: 42px;
+      font-weight: 200;
+      color: #fff;
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: -1px;
+      z-index: 1;
+    }
+
+    .pom-label {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .pom-controls {
+      display: flex;
+      gap: 14px;
+    }
+
+    .pom-btn {
+      padding: 10px 28px;
+      border-radius: 30px;
+      border: none;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-family: inherit;
+    }
+
+    .pom-btn.primary { background: #fff; color: #ee5a24; }
+    .pom-btn.secondary { background: rgba(255,255,255,0.2); color: #fff; }
+    .pom-btn:hover { transform: translateY(-2px); }
+
+    .pom-sessions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .pom-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.25);
+    }
+
+    .pom-dot.done { background: #fff; }
+
+    /* ============================================================
+       PIANO KEYBOARD
+       ============================================================ */
+    .piano-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: #1a1a2e;
+      overflow: hidden;
+    }
+
+    .piano-info {
+      padding: 12px 16px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.4);
+      text-align: center;
+      flex-shrink: 0;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .piano-keys {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 0 10px 20px;
+      position: relative;
+      gap: 2px;
+    }
+
+    .piano-white {
+      width: 44px;
+      height: 180px;
+      background: linear-gradient(180deg, #eee, #fff);
+      border-radius: 0 0 6px 6px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      transition: background 0.05s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .piano-white:active, .piano-white.pressed {
+      background: linear-gradient(180deg, #ddd, #e8e8e8);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+      height: 176px;
+    }
+
+    .piano-black {
+      width: 28px;
+      height: 110px;
+      background: linear-gradient(180deg, #333, #111);
+      border-radius: 0 0 4px 4px;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+      margin: 0 -14px;
+      transition: background 0.05s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+
+    .piano-black:active, .piano-black.pressed {
+      background: linear-gradient(180deg, #444, #222);
+      height: 106px;
+    }
+
+    .piano-key-label {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 10px;
+      font-weight: 600;
+      color: rgba(0,0,0,0.3);
+      pointer-events: none;
+    }
+
+    .piano-black .piano-key-label { color: rgba(255,255,255,0.3); }
+
+    /* ============================================================
+       WORDLE GAME
+       ============================================================ */
+    .wordle-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: #121213;
+      padding: 16px;
+    }
+
+    .wordle-title {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #fff;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .wordle-grid {
+      display: grid;
+      grid-template-rows: repeat(6, 1fr);
+      gap: 5px;
+    }
+
+    .wordle-row {
+      display: flex;
+      gap: 5px;
+    }
+
+    .wordle-cell {
+      width: 52px;
+      height: 52px;
+      border: 2px solid #3a3a3c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 800;
+      color: #fff;
+      text-transform: uppercase;
+      transition: transform 0.1s;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .wordle-cell.filled { border-color: #565758; animation: wordlePop 0.1s; }
+    .wordle-cell.correct { background: #538d4e; border-color: #538d4e; }
+    .wordle-cell.present { background: #b59f3b; border-color: #b59f3b; }
+    .wordle-cell.absent { background: #3a3a3c; border-color: #3a3a3c; }
+
+    @keyframes wordlePop { 50% { transform: scale(1.1); } }
+
+    @keyframes wordleFlip {
+      0% { transform: rotateX(0); }
+      50% { transform: rotateX(90deg); }
+      100% { transform: rotateX(0); }
+    }
+
+    .wordle-cell.flip { animation: wordleFlip 0.5s ease; }
+
+    .wordle-kb {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .wordle-kb-row {
+      display: flex;
+      gap: 4px;
+    }
+
+    .wordle-key {
+      min-width: 30px;
+      height: 42px;
+      border-radius: 4px;
+      background: #818384;
+      color: #fff;
+      border: none;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      transition: background 0.1s;
+      font-family: inherit;
+      padding: 0 8px;
+    }
+
+    .wordle-key.big { min-width: 52px; font-size: 11px; }
+    .wordle-key.correct { background: #538d4e; }
+    .wordle-key.present { background: #b59f3b; }
+    .wordle-key.absent { background: #3a3a3c; }
+
+    /* ============================================================
+       ABOUT THIS MAC
+       ============================================================ */
+    .atm-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 24px;
+      overflow-y: auto;
+      gap: 6px;
+    }
+
+    .atm-icon {
+      font-size: 80px;
+      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+    }
+
+    .atm-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .atm-ver {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .atm-specs {
+      width: 100%;
+      margin-top: 14px;
+    }
+
+    .atm-row {
+      display: flex;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--div);
+      font-size: 13px;
+    }
+
+    .atm-row-label {
+      width: 100px;
+      font-weight: 600;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    .atm-row-val {
+      flex: 1;
+      color: var(--text);
+    }
+
+    /* ============================================================
+       DOCK APP ICONS FOR NEW APPS
+       ============================================================ */
+    .ic-notes { background: linear-gradient(135deg, #ffcc00, #ff9500); }
+    .ic-calc { background: linear-gradient(135deg, #1c1c1e, #3a3a3c); }
+    .ic-pomo { background: linear-gradient(135deg, #ff6b6b, #ee5a24); }
+    .ic-piano { background: linear-gradient(135deg, #1a1a2e, #2d1b69); }
+
   </style>
 </head>
 
@@ -3180,7 +4504,7 @@
 
   <!-- ===== MENU BAR ===== -->
   <div id="menubar">
-    <span class="mb-apple">&#63743;</span>
+    <span class="mb-apple" onclick="OW('aboutmac')">&#63743;</span>
     <span class="mb-appname" id="active-app">Finder</span>
     <div class="mb-items">
       <div class="mb-item" data-m="file">File
@@ -3198,6 +4522,11 @@
           <div class="dd-item" onclick="OW('worldclock')">🕐 World Clock</div>
           <div class="dd-item" onclick="OW('weather')">🌤️ Weather</div>
           <div class="dd-item" onclick="OW('games')">🎮 Games</div>
+          <div class="dd-sep"></div>
+          <div class="dd-item" onclick="OW('notes')">📝 Sticky Notes</div>
+          <div class="dd-item" onclick="OW('calculator')">🔢 Calculator</div>
+          <div class="dd-item" onclick="OW('pomodoro')">⏱️ Pomodoro</div>
+          <div class="dd-item" onclick="OW('piano')">🎹 Piano</div>
           <div class="dd-sep"></div>
           <div class="dd-item" onclick="arrangeWins()">Arrange Windows</div>
         </div>
@@ -3305,6 +4634,18 @@
         </div>
         <div class="ios-app" onclick="OW('terminal')">
           <div class="ios-ic" style="background:linear-gradient(135deg,#1c1c1e,#000)">_</div><span>Terminal</span>
+        </div>
+        <div class="ios-app" onclick="OW('notes')">
+          <div class="ios-ic" style="background:linear-gradient(135deg,#ffcc00,#ff9500)">📝</div><span>Notes</span>
+        </div>
+        <div class="ios-app" onclick="OW('calculator')">
+          <div class="ios-ic" style="background:linear-gradient(135deg,#1c1c1e,#3a3a3c)">🔢</div><span>Calc</span>
+        </div>
+        <div class="ios-app" onclick="OW('pomodoro')">
+          <div class="ios-ic" style="background:linear-gradient(135deg,#ff6b6b,#ee5a24)">⏱️</div><span>Focus</span>
+        </div>
+        <div class="ios-app" onclick="OW('piano')">
+          <div class="ios-ic" style="background:linear-gradient(135deg,#1a1a2e,#2d1b69)">🎹</div><span>Piano</span>
         </div>
       </div>
       <div class="ios-dock">
@@ -3693,6 +5034,7 @@
           <button class="game-tab" onclick="gTab(this,'g2048')">🔢 2048</button>
           <button class="game-tab" onclick="gTab(this,'minesweeper')">💣 Minesweeper</button>
           <button class="game-tab" onclick="gTab(this,'tictactoe')">⭕❌ Tic Tac Toe</button>
+          <button class="game-tab" onclick="gTab(this,'wordle')">📖 Wordle</button>
         </div>
         <!-- SNAKE -->
         <div class="game-panel on" id="gp-snake">
@@ -3746,8 +5088,146 @@
             <button class="ttt-btn" onclick="initTTT()">Restart Game</button>
           </div>
         </div>
+        <!-- WORDLE -->
+        <div class="game-panel" id="gp-wordle">
+          <div class="wordle-wrap">
+            <div class="wordle-title">WORDLE</div>
+            <div class="wordle-grid" id="wordle-grid"></div>
+            <div class="wordle-kb" id="wordle-kb"></div>
+          </div>
+        </div>
       </div>
       <div class="resize-h" data-win="games"></div>
+    </div>
+
+    <!-- ===== STICKY NOTES ===== -->
+    <div class="window" id="win-notes" style="left:100px;top:300px;width:500px;height:400px;display:none">
+      <div class="wbar" data-win="notes">
+        <div class="dots">
+          <div class="dot dot-r" onclick="CW('notes')">✕</div>
+          <div class="dot dot-y" onclick="CW('notes')">−</div>
+          <div class="dot dot-g" onclick="maxW('notes')">+</div>
+        </div>
+        <div class="wtitle">Sticky Notes</div>
+      </div>
+      <div class="sticky-body" id="sticky-body">
+        <div class="sticky-add" onclick="addStickyNote()">+</div>
+      </div>
+      <div class="sticky-toolbar" id="sticky-toolbar">
+        <div class="sticky-color on" style="background:#fff9c4" data-color="#fff9c4" onclick="setStickyColor(this)"></div>
+        <div class="sticky-color" style="background:#f8bbd0" data-color="#f8bbd0" onclick="setStickyColor(this)"></div>
+        <div class="sticky-color" style="background:#c8e6c9" data-color="#c8e6c9" onclick="setStickyColor(this)"></div>
+        <div class="sticky-color" style="background:#bbdefb" data-color="#bbdefb" onclick="setStickyColor(this)"></div>
+        <div class="sticky-color" style="background:#e1bee7" data-color="#e1bee7" onclick="setStickyColor(this)"></div>
+        <div class="sticky-color" style="background:#ffe0b2" data-color="#ffe0b2" onclick="setStickyColor(this)"></div>
+      </div>
+      <div class="resize-h" data-win="notes"></div>
+    </div>
+
+    <!-- ===== CALCULATOR ===== -->
+    <div class="window" id="win-calculator" style="left:200px;top:200px;width:280px;height:440px;display:none">
+      <div class="wbar" data-win="calculator">
+        <div class="dots">
+          <div class="dot dot-r" onclick="CW('calculator')">✕</div>
+          <div class="dot dot-y" onclick="CW('calculator')">−</div>
+          <div class="dot dot-g" onclick="maxW('calculator')">+</div>
+        </div>
+        <div class="wtitle">Calculator</div>
+      </div>
+      <div class="calc-body">
+        <div class="calc-display" id="calc-display">0</div>
+        <div class="calc-grid">
+          <button class="calc-btn fn" onclick="calcFn('AC')">AC</button>
+          <button class="calc-btn fn" onclick="calcFn('±')">±</button>
+          <button class="calc-btn fn" onclick="calcFn('%')">%</button>
+          <button class="calc-btn op" onclick="calcOp('÷')">÷</button>
+          <button class="calc-btn num" onclick="calcNum('7')">7</button>
+          <button class="calc-btn num" onclick="calcNum('8')">8</button>
+          <button class="calc-btn num" onclick="calcNum('9')">9</button>
+          <button class="calc-btn op" onclick="calcOp('×')">×</button>
+          <button class="calc-btn num" onclick="calcNum('4')">4</button>
+          <button class="calc-btn num" onclick="calcNum('5')">5</button>
+          <button class="calc-btn num" onclick="calcNum('6')">6</button>
+          <button class="calc-btn op" onclick="calcOp('-')">−</button>
+          <button class="calc-btn num" onclick="calcNum('1')">1</button>
+          <button class="calc-btn num" onclick="calcNum('2')">2</button>
+          <button class="calc-btn num" onclick="calcNum('3')">3</button>
+          <button class="calc-btn op" onclick="calcOp('+')">+</button>
+          <button class="calc-btn num zero" onclick="calcNum('0')">0</button>
+          <button class="calc-btn num" onclick="calcNum('.')">.</button>
+          <button class="calc-btn op" onclick="calcEq()">=</button>
+        </div>
+      </div>
+      <div class="resize-h" data-win="calculator"></div>
+    </div>
+
+    <!-- ===== POMODORO TIMER ===== -->
+    <div class="window" id="win-pomodoro" style="left:300px;top:200px;width:320px;height:420px;display:none">
+      <div class="wbar" data-win="pomodoro">
+        <div class="dots">
+          <div class="dot dot-r" onclick="CW('pomodoro')">✕</div>
+          <div class="dot dot-y" onclick="CW('pomodoro')">−</div>
+          <div class="dot dot-g" onclick="maxW('pomodoro')">+</div>
+        </div>
+        <div class="wtitle">Pomodoro Timer</div>
+      </div>
+      <div class="pom-body">
+        <div class="pom-label" id="pom-label">FOCUS TIME</div>
+        <div class="pom-ring">
+          <svg width="180" height="180"><circle class="pom-bg" cx="90" cy="90" r="82"/><circle class="pom-fg" id="pom-arc" cx="90" cy="90" r="82" stroke-dasharray="515" stroke-dashoffset="0"/></svg>
+          <div class="pom-time" id="pom-time">25:00</div>
+        </div>
+        <div class="pom-controls">
+          <button class="pom-btn primary" id="pom-start" onclick="pomToggle()">Start</button>
+          <button class="pom-btn secondary" onclick="pomReset()">Reset</button>
+        </div>
+        <div class="pom-sessions" id="pom-sessions"></div>
+      </div>
+      <div class="resize-h" data-win="pomodoro"></div>
+    </div>
+
+    <!-- ===== PIANO ===== -->
+    <div class="window" id="win-piano" style="left:120px;top:350px;width:560px;height:320px;display:none">
+      <div class="wbar" data-win="piano">
+        <div class="dots">
+          <div class="dot dot-r" onclick="CW('piano')">✕</div>
+          <div class="dot dot-y" onclick="CW('piano')">−</div>
+          <div class="dot dot-g" onclick="maxW('piano')">+</div>
+        </div>
+        <div class="wtitle">Piano</div>
+      </div>
+      <div class="piano-body">
+        <div class="piano-info">Press keys A-L for white keys, W-U for black keys</div>
+        <div class="piano-keys" id="piano-keys"></div>
+      </div>
+      <div class="resize-h" data-win="piano"></div>
+    </div>
+
+    <!-- ===== ABOUT THIS MAC ===== -->
+    <div class="window" id="win-aboutmac" style="left:300px;top:200px;width:340px;height:380px;display:none">
+      <div class="wbar" data-win="aboutmac">
+        <div class="dots">
+          <div class="dot dot-r" onclick="CW('aboutmac')">✕</div>
+          <div class="dot dot-y" onclick="CW('aboutmac')">−</div>
+          <div class="dot dot-g" onclick="maxW('aboutmac')">+</div>
+        </div>
+        <div class="wtitle">About This Mac</div>
+      </div>
+      <div class="atm-body">
+        <div class="atm-icon">💻</div>
+        <div class="atm-name">SudhanshuOS Sequoia</div>
+        <div class="atm-ver">Version 2.0.26</div>
+        <div class="atm-specs">
+          <div class="atm-row"><div class="atm-row-label">Chip</div><div class="atm-row-val">Sudhanshu S1 Pro</div></div>
+          <div class="atm-row"><div class="atm-row-label">Memory</div><div class="atm-row-val">∞ GB Unified Memory</div></div>
+          <div class="atm-row"><div class="atm-row-label">Startup Disk</div><div class="atm-row-val">portfolio.html</div></div>
+          <div class="atm-row"><div class="atm-row-label">Serial No.</div><div class="atm-row-val">SUDHANSHU-1402</div></div>
+          <div class="atm-row"><div class="atm-row-label">Stack</div><div class="atm-row-val">Node.js · TypeScript · AWS · MongoDB · Redis</div></div>
+          <div class="atm-row"><div class="atm-row-label">Uptime</div><div class="atm-row-val" id="atm-uptime">0m 0s</div></div>
+          <div class="atm-row"><div class="atm-row-label">Coffee</div><div class="atm-row-val">☕ 2,847 cups consumed</div></div>
+        </div>
+      </div>
+      <div class="resize-h" data-win="aboutmac"></div>
     </div>
 
   </div><!-- /desktop -->
@@ -3825,6 +5305,27 @@
       <div class="dk" onclick="downloadResume()" title="Resume">
         <div class="dkico" style="background:linear-gradient(135deg,#34c759,#30d158);font-size:22px">📎</div>
         <div class="dk-lbl">Resume</div>
+        <div class="dk-dot"></div>
+      </div>
+      <div class="dock-sep"></div>
+      <div class="dk" onclick="OW('notes')" title="Notes">
+        <div class="dkico ic-notes" style="font-size:22px">📝</div>
+        <div class="dk-lbl">Notes</div>
+        <div class="dk-dot"></div>
+      </div>
+      <div class="dk" onclick="OW('calculator')" title="Calculator">
+        <div class="dkico ic-calc" style="font-size:22px;color:#fff">🔢</div>
+        <div class="dk-lbl">Calculator</div>
+        <div class="dk-dot"></div>
+      </div>
+      <div class="dk" onclick="OW('pomodoro')" title="Pomodoro">
+        <div class="dkico ic-pomo" style="font-size:22px">⏱️</div>
+        <div class="dk-lbl">Pomodoro</div>
+        <div class="dk-dot"></div>
+      </div>
+      <div class="dk" onclick="OW('piano')" title="Piano">
+        <div class="dkico ic-piano" style="font-size:22px">🎹</div>
+        <div class="dk-lbl">Piano</div>
         <div class="dk-dot"></div>
       </div>
     </div>
@@ -4125,7 +5626,7 @@
       document.querySelectorAll('.window').forEach(w => w.classList.remove('focused'));
       const w = document.getElementById('win-' + id);
       if (w) { w.classList.add('focused'); w.style.zIndex = ++zTop; }
-      const names = { finder: 'Finder', vscode: 'VS Code', terminal: 'Terminal', profile: 'About Me', skills: 'Skills', stats: 'Stats', weather: 'Weather', worldclock: 'Clock', coverletter: 'Cover Letter', games: 'Games' };
+      const names = { finder: 'Finder', vscode: 'VS Code', terminal: 'Terminal', profile: 'About Me', skills: 'Skills', stats: 'Stats', weather: 'Weather', worldclock: 'Clock', coverletter: 'Cover Letter', games: 'Games', notes: 'Sticky Notes', calculator: 'Calculator', pomodoro: 'Pomodoro', piano: 'Piano', aboutmac: 'About This Mac' };
       document.getElementById('active-app').textContent = names[id] || 'Finder';
     }
     function OW(id) {
@@ -4166,7 +5667,7 @@
       }
       focusW(id);
     }
-    function closeAllWin() { ['finder', 'vscode', 'terminal', 'profile', 'skills', 'stats', 'weather', 'worldclock', 'coverletter', 'games'].forEach(CW); }
+    function closeAllWin() { ['finder', 'vscode', 'terminal', 'profile', 'skills', 'stats', 'weather', 'worldclock', 'coverletter', 'games', 'notes', 'calculator', 'pomodoro', 'piano', 'aboutmac'].forEach(CW); }
     function arrangeWins() {
       const layout = [
         { id: 'finder', l: '30px', t: '44px', w: '780px', h: '500px' },
@@ -4967,7 +6468,7 @@
     const _origOW = OW;
     OW = function (id) {
       playSound('open');
-      const names = { finder: 'Finder', vscode: 'VS Code', terminal: 'Terminal', profile: 'About Me', skills: 'Skills', stats: 'Stats', weather: 'Weather', worldclock: 'Clock', coverletter: 'Cover Letter', games: 'Games' };
+      const names = { finder: 'Finder', vscode: 'VS Code', terminal: 'Terminal', profile: 'About Me', skills: 'Skills', stats: 'Stats', weather: 'Weather', worldclock: 'Clock', coverletter: 'Cover Letter', games: 'Games', notes: 'Sticky Notes', calculator: 'Calculator', pomodoro: 'Pomodoro', piano: 'Piano', aboutmac: 'About This Mac' };
       showDynamicIsland(names[id] || id);
       _origOW(id);
     };
@@ -5387,6 +6888,804 @@
         ).join('') || '<div style="padding:10px 14px;opacity:0.5;font-size:13px">No results found</div>';
       });
     }
+
+    /* ============================================================
+       RESPONSIVE ENHANCEMENTS
+       ============================================================ */
+
+    // Responsive snake canvas
+    function resizeSnakeCanvas() {
+      const canvas = document.getElementById('snakeCanvas');
+      if (!canvas) return;
+      const wrap = canvas.closest('.snake-wrap');
+      if (!wrap) return;
+      const maxW = Math.min(420, wrap.clientWidth - 32);
+      const ratio = 320 / 420;
+      canvas.width = maxW;
+      canvas.height = Math.floor(maxW * ratio);
+      if (typeof drawSnakePause === 'function') drawSnakePause();
+    }
+
+    // Fix arrangeWins for tablet/smaller viewports
+    const _origArrangeWins = arrangeWins;
+    arrangeWins = function () {
+      const vw = window.innerWidth;
+      if (vw <= 768) return;
+      if (vw <= 1024) {
+        const tabletLayout = [
+          { id: 'finder', l: '20px', t: '44px', w: (vw - 60) + 'px', h: '400px' },
+          { id: 'vscode', l: '20px', t: '460px', w: Math.floor((vw - 50) / 2) + 'px', h: '300px' },
+          { id: 'terminal', l: Math.floor((vw - 50) / 2 + 40) + 'px', t: '460px', w: Math.floor((vw - 50) / 2) + 'px', h: '300px' },
+          { id: 'weather', l: '20px', t: '44px', w: '300px', h: '380px' },
+          { id: 'worldclock', l: '340px', t: '44px', w: '300px', h: '340px' },
+          { id: 'games', l: '20px', t: '460px', w: (vw - 60) + 'px', h: '380px' },
+        ];
+        tabletLayout.forEach(p => {
+          const w = document.getElementById('win-' + p.id);
+          if (w && w.style.display !== 'none') {
+            Object.assign(w.style, { left: p.l, top: p.t, width: p.w, height: p.h, borderRadius: '12px' });
+            delete w.dataset.max;
+          }
+        });
+        notify('Windows', 'Arranged for tablet!', '🪟');
+        return;
+      }
+      _origArrangeWins();
+    };
+
+    // Fix maxW for mobile/tablet
+    const _origMaxW = maxW;
+    maxW = function (id) {
+      const w = document.getElementById('win-' + id);
+      if (!w) return;
+      if (window.innerWidth <= 768) return;
+      const menuH = window.innerWidth <= 1024 ? 28 : 28;
+      const dockH = window.innerWidth <= 1024 ? 70 : 76;
+      if (w.dataset.max) {
+        const s = JSON.parse(w.dataset.prev);
+        Object.assign(w.style, s); w.style.borderRadius = '12px'; delete w.dataset.max;
+      } else {
+        w.dataset.prev = JSON.stringify({ left: w.style.left, top: w.style.top, width: w.style.width, height: w.style.height });
+        w.style.left = '0'; w.style.top = menuH + 'px'; w.style.width = '100vw'; w.style.height = 'calc(100vh - ' + menuH + 'px - ' + dockH + 'px)'; w.style.borderRadius = '0';
+        w.dataset.max = '1';
+      }
+      focusW(id);
+    };
+
+    // Orientation change / resize handler
+    let resizeTimer;
+    function handleResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        resizeSnakeCanvas();
+        // Recalculate any maximized windows
+        document.querySelectorAll('.window[data-max]').forEach(w => {
+          const id = w.id.replace('win-', '');
+          if (window.innerWidth <= 768) {
+            w.style.width = '100vw';
+            w.style.height = '100vh';
+            w.style.left = '0';
+            w.style.top = '0';
+          } else {
+            w.style.width = '100vw';
+            w.style.height = 'calc(100vh - 28px - 76px)';
+            w.style.left = '0';
+            w.style.top = '28px';
+          }
+        });
+      }, 150);
+    }
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('orientationchange', () => setTimeout(handleResize, 200));
+
+    // Touch support for game controls on mobile
+    (function () {
+      if (window.innerWidth > 768) return;
+      // Touch-friendly swipe for snake game
+      let stx, sty;
+      document.addEventListener('touchstart', function (e) {
+        if (!e.target.closest('.snake-wrap')) return;
+        stx = e.touches[0].clientX;
+        sty = e.touches[0].clientY;
+      }, { passive: true });
+      document.addEventListener('touchend', function (e) {
+        if (!stx || !e.target.closest('.snake-wrap')) return;
+        const dx = e.changedTouches[0].clientX - stx;
+        const dy = e.changedTouches[0].clientY - sty;
+        stx = null;
+        if (Math.abs(dx) > Math.abs(dy)) {
+          if (dx > 30 && typeof snakeDir !== 'undefined') snakeDir = { x: 1, y: 0 };
+          else if (dx < -30 && typeof snakeDir !== 'undefined') snakeDir = { x: -1, y: 0 };
+        } else {
+          if (dy > 30 && typeof snakeDir !== 'undefined') snakeDir = { x: 0, y: 1 };
+          else if (dy < -30 && typeof snakeDir !== 'undefined') snakeDir = { x: 0, y: -1 };
+        }
+      }, { passive: true });
+    })();
+
+    // Resize snake canvas on first load
+    setTimeout(resizeSnakeCanvas, 100);
+
+    /* ============================================================
+       AMBIENT PARTICLES (Desktop only)
+       ============================================================ */
+    (function spawnParticles() {
+      if (window.innerWidth <= 768) return;
+      const colors = ['rgba(0,122,255,0.2)', 'rgba(88,86,214,0.15)', 'rgba(175,82,222,0.12)', 'rgba(90,200,250,0.18)'];
+      function spawn() {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        const size = Math.random() * 4 + 2;
+        const dur = Math.random() * 18 + 12;
+        p.style.cssText = `width:${size}px;height:${size}px;left:${Math.random()*100}vw;background:${colors[Math.floor(Math.random()*colors.length)]};animation-duration:${dur}s;animation-delay:${Math.random()*5}s;`;
+        document.getElementById('desktop').appendChild(p);
+        setTimeout(() => p.remove(), (dur + 5) * 1000);
+      }
+      for (let i = 0; i < 15; i++) setTimeout(() => spawn(), i * 800);
+      setInterval(spawn, 4000);
+    })();
+
+    /* ============================================================
+       DOCK BOUNCE on app open
+       ============================================================ */
+    const _owBounce = OW;
+    OW = function (id) {
+      const dockItems = document.querySelectorAll('.dk');
+      const nameMap = { finder: 'Finder', vscode: 'VS Code', terminal: 'Terminal', profile: 'About Me', skills: 'Skills', stats: 'Stats', weather: 'Weather', worldclock: 'World Clock', coverletter: 'Cover Letter', games: 'Games', notes: 'Notes', calculator: 'Calculator', pomodoro: 'Pomodoro', piano: 'Piano' };
+      dockItems.forEach(d => {
+        if (d.title === nameMap[id]) {
+          d.classList.add('bouncing');
+          setTimeout(() => d.classList.remove('bouncing'), 700);
+        }
+      });
+      _owBounce(id);
+    };
+
+    /* ============================================================
+       WINDOW SNAP ZONES (Desktop only)
+       ============================================================ */
+    (function () {
+      if (window.innerWidth <= 768) return;
+      const zones = ['snap-left', 'snap-right', 'snap-top'];
+      zones.forEach(z => {
+        const el = document.createElement('div');
+        el.className = 'snap-zone ' + z;
+        el.id = z;
+        document.body.appendChild(el);
+      });
+      let snapActive = null;
+      const origMM = document.onmousemove;
+      document.addEventListener('mousemove', function (e) {
+        if (!document.querySelector('.window:active')) {
+          zones.forEach(z => document.getElementById(z).classList.remove('show'));
+          return;
+        }
+        const x = e.clientX, y = e.clientY;
+        zones.forEach(z => document.getElementById(z).classList.remove('show'));
+        if (x < 8) { document.getElementById('snap-left').classList.add('show'); snapActive = 'left'; }
+        else if (x > window.innerWidth - 8) { document.getElementById('snap-right').classList.add('show'); snapActive = 'right'; }
+        else if (y < 36) { document.getElementById('snap-top').classList.add('show'); snapActive = 'top'; }
+        else { snapActive = null; }
+      });
+    })();
+
+    /* ============================================================
+       PARALLAX WALLPAPER (Desktop only)
+       ============================================================ */
+    (function () {
+      if (window.innerWidth <= 768) return;
+      const desk = document.getElementById('desktop');
+      document.addEventListener('mousemove', function (e) {
+        const mx = (e.clientX / window.innerWidth - 0.5) * 8;
+        const my = (e.clientY / window.innerHeight - 0.5) * 8;
+        desk.style.backgroundPosition = `calc(50% + ${mx}px) calc(50% + ${my}px)`;
+      });
+    })();
+
+    /* ============================================================
+       3D TILT on hover for cards
+       ============================================================ */
+    document.addEventListener('mousemove', function (e) {
+      const card = e.target.closest('.stat-card, .wc-item, .wx-detail');
+      if (!card) return;
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - 0.5;
+      const y = (e.clientY - r.top) / r.height - 0.5;
+      card.style.transform = `perspective(600px) rotateY(${x * 8}deg) rotateX(${-y * 8}deg) scale(1.02)`;
+      card.style.boxShadow = `${-x * 6}px ${y * 6}px 18px rgba(0,0,0,0.1)`;
+    });
+    document.addEventListener('mouseleave', function (e) {
+      const card = e.target.closest('.stat-card, .wc-item, .wx-detail');
+      if (card) { card.style.transform = ''; card.style.boxShadow = ''; }
+    }, true);
+
+    /* ============================================================
+       RIPPLE CLICK EFFECT
+       ============================================================ */
+    document.addEventListener('click', function (e) {
+      const target = e.target.closest('.dk, .dd-item, .sb-i, .ios-app, .game-tab, .pf-link, .calc-btn, .wordle-key');
+      if (!target) return;
+      const ripple = document.createElement('span');
+      ripple.className = 'ripple';
+      const r = target.getBoundingClientRect();
+      const size = Math.max(r.width, r.height) * 2;
+      ripple.style.cssText = `width:${size}px;height:${size}px;left:${e.clientX - r.left - size/2}px;top:${e.clientY - r.top - size/2}px;`;
+      target.style.position = target.style.position || 'relative';
+      target.style.overflow = 'hidden';
+      target.appendChild(ripple);
+      setTimeout(() => ripple.remove(), 600);
+    });
+
+    /* ============================================================
+       TYPEWRITER BIO EFFECT
+       ============================================================ */
+    (function () {
+      const bio = document.querySelector('.pf-bio');
+      if (!bio) return;
+      const fullText = bio.textContent;
+      bio.dataset.fullText = fullText;
+      let twDone = false;
+      const obs = new MutationObserver(function () {
+        const win = document.getElementById('win-profile');
+        if (win && win.style.display === 'flex' && !twDone) {
+          twDone = true;
+          bio.textContent = '';
+          const cursor = document.createElement('span');
+          cursor.className = 'tw-cursor';
+          bio.appendChild(cursor);
+          let i = 0;
+          function type() {
+            if (i < fullText.length) {
+              bio.insertBefore(document.createTextNode(fullText[i]), cursor);
+              i++;
+              setTimeout(type, 22 + Math.random() * 18);
+            } else {
+              setTimeout(() => cursor.remove(), 1500);
+            }
+          }
+          setTimeout(type, 300);
+        }
+      });
+      obs.observe(document.getElementById('win-profile'), { attributes: true, attributeFilter: ['style'] });
+    })();
+
+    /* ============================================================
+       AUTO-TYPE TERMINAL INTRO
+       ============================================================ */
+    (function () {
+      const introCommands = [
+        { cmd: 'whoami', delay: 800 },
+        { cmd: 'echo "Welcome to my portfolio! Type help for commands."', delay: 2200 }
+      ];
+      let ci = 0;
+      function autoType() {
+        if (ci >= introCommands.length) return;
+        const inp = document.querySelector('.term-inp');
+        if (!inp) { setTimeout(autoType, 500); return; }
+        const text = introCommands[ci].cmd;
+        let ti = 0;
+        function typeChar() {
+          if (ti < text.length) {
+            inp.value += text[ti];
+            ti++;
+            setTimeout(typeChar, 35 + Math.random() * 25);
+          } else {
+            setTimeout(() => {
+              inp.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', keyCode: 13, bubbles: true }));
+              ci++;
+              setTimeout(autoType, introCommands[ci - 1].delay);
+            }, 200);
+          }
+        }
+        setTimeout(typeChar, 400);
+      }
+      setTimeout(autoType, 3200);
+    })();
+
+    /* ============================================================
+       STICKY NOTES APP
+       ============================================================ */
+    let stickyColor = '#fff9c4';
+    let stickyNotes = JSON.parse(localStorage.getItem('stickyNotes') || '[]');
+
+    function setStickyColor(el) {
+      document.querySelectorAll('.sticky-color').forEach(c => c.classList.remove('on'));
+      el.classList.add('on');
+      stickyColor = el.dataset.color;
+    }
+
+    function addStickyNote() {
+      const note = { id: Date.now(), color: stickyColor, text: '' };
+      stickyNotes.push(note);
+      renderStickyNotes();
+      saveStickyNotes();
+    }
+
+    function deleteStickyNote(id) {
+      stickyNotes = stickyNotes.filter(n => n.id !== id);
+      renderStickyNotes();
+      saveStickyNotes();
+    }
+
+    function saveStickyNotes() {
+      localStorage.setItem('stickyNotes', JSON.stringify(stickyNotes));
+    }
+
+    function renderStickyNotes() {
+      const body = document.getElementById('sticky-body');
+      body.innerHTML = '';
+      stickyNotes.forEach(n => {
+        const div = document.createElement('div');
+        div.className = 'sticky-note';
+        div.style.background = n.color;
+        div.innerHTML = `<span class="sticky-del" onclick="deleteStickyNote(${n.id})">✕</span><textarea placeholder="Write something..." oninput="updateStickyText(${n.id}, this.value)">${n.text}</textarea>`;
+        body.appendChild(div);
+      });
+      const addBtn = document.createElement('div');
+      addBtn.className = 'sticky-add';
+      addBtn.textContent = '+';
+      addBtn.onclick = addStickyNote;
+      body.appendChild(addBtn);
+    }
+
+    function updateStickyText(id, text) {
+      const note = stickyNotes.find(n => n.id === id);
+      if (note) { note.text = text; saveStickyNotes(); }
+    }
+
+    // Restore saved notes on load
+    if (stickyNotes.length > 0) renderStickyNotes();
+
+    /* ============================================================
+       CALCULATOR APP
+       ============================================================ */
+    let calcCurrent = '0', calcPrev = '', calcOperator = '', calcReset = false;
+
+    function calcUpdateDisplay() {
+      document.getElementById('calc-display').textContent = calcCurrent.length > 10 ? parseFloat(calcCurrent).toExponential(5) : calcCurrent;
+    }
+
+    function calcNum(n) {
+      if (calcReset) { calcCurrent = ''; calcReset = false; }
+      if (n === '.' && calcCurrent.includes('.')) return;
+      if (calcCurrent === '0' && n !== '.') calcCurrent = n;
+      else calcCurrent += n;
+      calcUpdateDisplay();
+    }
+
+    function calcOp(op) {
+      if (calcPrev && calcOperator && !calcReset) calcEq();
+      calcPrev = calcCurrent;
+      calcOperator = op;
+      calcReset = true;
+      document.querySelectorAll('.calc-btn.op').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+
+    function calcEq() {
+      if (!calcPrev || !calcOperator) return;
+      const a = parseFloat(calcPrev), b = parseFloat(calcCurrent);
+      let result;
+      switch (calcOperator) {
+        case '+': result = a + b; break;
+        case '-': case '−': result = a - b; break;
+        case '×': result = a * b; break;
+        case '÷': result = b === 0 ? 'Error' : a / b; break;
+      }
+      calcCurrent = result === 'Error' ? 'Error' : String(parseFloat(result.toFixed(8)));
+      calcPrev = ''; calcOperator = ''; calcReset = true;
+      document.querySelectorAll('.calc-btn.op').forEach(b => b.classList.remove('active'));
+      calcUpdateDisplay();
+    }
+
+    function calcFn(fn) {
+      if (fn === 'AC') { calcCurrent = '0'; calcPrev = ''; calcOperator = ''; calcReset = false; }
+      else if (fn === '±') calcCurrent = String(-parseFloat(calcCurrent));
+      else if (fn === '%') calcCurrent = String(parseFloat(calcCurrent) / 100);
+      document.querySelectorAll('.calc-btn.op').forEach(b => b.classList.remove('active'));
+      calcUpdateDisplay();
+    }
+
+    /* ============================================================
+       POMODORO TIMER APP
+       ============================================================ */
+    let pomSeconds = 25 * 60, pomTotal = 25 * 60, pomRunning = false, pomInterval = null, pomMode = 'focus', pomSessions = 0;
+    const POM_CIRC = 2 * Math.PI * 82;
+
+    function pomUpdateDisplay() {
+      const m = Math.floor(pomSeconds / 60), s = pomSeconds % 60;
+      document.getElementById('pom-time').textContent = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      const progress = 1 - (pomSeconds / pomTotal);
+      document.getElementById('pom-arc').style.strokeDashoffset = POM_CIRC * (1 - progress);
+      document.getElementById('pom-label').textContent = pomMode === 'focus' ? 'FOCUS TIME' : 'BREAK TIME';
+    }
+
+    function pomToggle() {
+      if (pomRunning) {
+        clearInterval(pomInterval);
+        pomRunning = false;
+        document.getElementById('pom-start').textContent = 'Resume';
+      } else {
+        pomRunning = true;
+        document.getElementById('pom-start').textContent = 'Pause';
+        pomInterval = setInterval(() => {
+          pomSeconds--;
+          if (pomSeconds <= 0) {
+            clearInterval(pomInterval);
+            pomRunning = false;
+            if (pomMode === 'focus') {
+              pomSessions++;
+              renderPomSessions();
+              notify('Pomodoro', 'Focus session done! Take a break.', '⏱️');
+              pomMode = 'break';
+              pomSeconds = 5 * 60; pomTotal = 5 * 60;
+            } else {
+              notify('Pomodoro', 'Break over! Time to focus.', '🔥');
+              pomMode = 'focus';
+              pomSeconds = 25 * 60; pomTotal = 25 * 60;
+            }
+            document.getElementById('pom-start').textContent = 'Start';
+            document.querySelector('.pom-body').style.background = pomMode === 'focus' ? 'linear-gradient(160deg, #ff6b6b, #ee5a24)' : 'linear-gradient(160deg, #38b2ac, #2b6cb0)';
+          }
+          pomUpdateDisplay();
+        }, 1000);
+      }
+    }
+
+    function pomReset() {
+      clearInterval(pomInterval);
+      pomRunning = false;
+      pomMode = 'focus';
+      pomSeconds = 25 * 60; pomTotal = 25 * 60;
+      document.getElementById('pom-start').textContent = 'Start';
+      document.querySelector('.pom-body').style.background = 'linear-gradient(160deg, #ff6b6b, #ee5a24)';
+      pomUpdateDisplay();
+    }
+
+    function renderPomSessions() {
+      const cont = document.getElementById('pom-sessions');
+      cont.innerHTML = '';
+      for (let i = 0; i < 4; i++) {
+        const d = document.createElement('div');
+        d.className = 'pom-dot' + (i < pomSessions ? ' done' : '');
+        cont.appendChild(d);
+      }
+    }
+
+    renderPomSessions();
+    pomUpdateDisplay();
+
+    // Update About This Mac uptime
+    setInterval(() => {
+      const el = document.getElementById('atm-uptime');
+      if (!el) return;
+      const sec = Math.floor((Date.now() - performance.timeOrigin) / 1000);
+      const m = Math.floor(sec / 60), s = sec % 60;
+      el.textContent = m + 'm ' + s + 's';
+    }, 1000);
+
+    /* ============================================================
+       PIANO APP
+       ============================================================ */
+    (function () {
+      const pianoKeys = [
+        { note: 'C4', freq: 261.63, type: 'white', key: 'a' },
+        { note: 'C#4', freq: 277.18, type: 'black', key: 'w' },
+        { note: 'D4', freq: 293.66, type: 'white', key: 's' },
+        { note: 'D#4', freq: 311.13, type: 'black', key: 'e' },
+        { note: 'E4', freq: 329.63, type: 'white', key: 'd' },
+        { note: 'F4', freq: 349.23, type: 'white', key: 'f' },
+        { note: 'F#4', freq: 369.99, type: 'black', key: 't' },
+        { note: 'G4', freq: 392.00, type: 'white', key: 'g' },
+        { note: 'G#4', freq: 415.30, type: 'black', key: 'y' },
+        { note: 'A4', freq: 440.00, type: 'white', key: 'h' },
+        { note: 'A#4', freq: 466.16, type: 'black', key: 'u' },
+        { note: 'B4', freq: 493.88, type: 'white', key: 'j' },
+        { note: 'C5', freq: 523.25, type: 'white', key: 'k' },
+      ];
+      const container = document.getElementById('piano-keys');
+      if (!container) return;
+      const pianoCtx = new (window.AudioContext || window.webkitAudioContext)();
+      const activeOsc = {};
+
+      function playNote(freq, key) {
+        if (activeOsc[key]) return;
+        const osc = pianoCtx.createOscillator();
+        const gain = pianoCtx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.value = freq;
+        gain.gain.setValueAtTime(0.3, pianoCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, pianoCtx.currentTime + 2);
+        osc.connect(gain).connect(pianoCtx.destination);
+        osc.start();
+        activeOsc[key] = { osc, gain };
+      }
+
+      function stopNote(key) {
+        if (!activeOsc[key]) return;
+        activeOsc[key].gain.gain.cancelScheduledValues(pianoCtx.currentTime);
+        activeOsc[key].gain.gain.setValueAtTime(activeOsc[key].gain.gain.value, pianoCtx.currentTime);
+        activeOsc[key].gain.gain.exponentialRampToValueAtTime(0.001, pianoCtx.currentTime + 0.1);
+        const ref = activeOsc[key];
+        setTimeout(() => ref.osc.stop(), 120);
+        delete activeOsc[key];
+      }
+
+      pianoKeys.forEach(pk => {
+        const el = document.createElement('div');
+        el.className = pk.type === 'white' ? 'piano-white' : 'piano-black';
+        el.innerHTML = `<span class="piano-key-label">${pk.key.toUpperCase()}</span>`;
+        el.addEventListener('mousedown', () => { pianoCtx.resume(); playNote(pk.freq, pk.key); el.classList.add('pressed'); });
+        el.addEventListener('mouseup', () => { stopNote(pk.key); el.classList.remove('pressed'); });
+        el.addEventListener('mouseleave', () => { stopNote(pk.key); el.classList.remove('pressed'); });
+        el.addEventListener('touchstart', (e) => { e.preventDefault(); pianoCtx.resume(); playNote(pk.freq, pk.key); el.classList.add('pressed'); });
+        el.addEventListener('touchend', () => { stopNote(pk.key); el.classList.remove('pressed'); });
+        container.appendChild(el);
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.repeat) return;
+        const win = document.getElementById('win-piano');
+        if (!win || win.style.display === 'none') return;
+        const pk = pianoKeys.find(p => p.key === e.key.toLowerCase());
+        if (pk) {
+          pianoCtx.resume();
+          playNote(pk.freq, pk.key);
+          const els = container.children;
+          const idx = pianoKeys.indexOf(pk);
+          if (els[idx]) els[idx].classList.add('pressed');
+        }
+      });
+      document.addEventListener('keyup', (e) => {
+        const pk = pianoKeys.find(p => p.key === e.key.toLowerCase());
+        if (pk) {
+          stopNote(pk.key);
+          const idx = pianoKeys.indexOf(pk);
+          const els = container.children;
+          if (els[idx]) els[idx].classList.remove('pressed');
+        }
+      });
+    })();
+
+    /* ============================================================
+       WORDLE GAME
+       ============================================================ */
+    (function () {
+      const WORDS = ['REACT', 'REDIS', 'MONGO', 'NODES', 'STACK', 'PROXY', 'FETCH', 'ASYNC', 'CLOUD', 'ROUTE', 'QUERY', 'BUILD', 'CACHE', 'DEBUG', 'SHELL', 'ARRAY', 'CLASS', 'CONST', 'THROW', 'YIELD', 'BLOCK', 'INDEX', 'VALUE', 'TABLE', 'GRAPH', 'PIXEL', 'TOKEN', 'QUEUE', 'PARSE', 'REGEX'];
+      let wTarget = WORDS[Math.floor(Math.random() * WORDS.length)];
+      let wRow = 0, wCol = 0, wBoard = Array(6).fill(null).map(() => Array(5).fill(''));
+      let wFinished = false;
+      const wKbState = {};
+
+      function initWordle() {
+        wTarget = WORDS[Math.floor(Math.random() * WORDS.length)];
+        wRow = 0; wCol = 0; wFinished = false;
+        wBoard = Array(6).fill(null).map(() => Array(5).fill(''));
+        Object.keys(wKbState).forEach(k => delete wKbState[k]);
+        renderWordle();
+        renderWordleKB();
+      }
+
+      function renderWordle() {
+        const grid = document.getElementById('wordle-grid');
+        if (!grid) return;
+        grid.innerHTML = '';
+        for (let r = 0; r < 6; r++) {
+          const row = document.createElement('div');
+          row.className = 'wordle-row';
+          for (let c = 0; c < 5; c++) {
+            const cell = document.createElement('div');
+            cell.className = 'wordle-cell';
+            cell.id = 'wc-' + r + '-' + c;
+            cell.textContent = wBoard[r][c];
+            if (wBoard[r][c]) cell.classList.add('filled');
+            row.appendChild(cell);
+          }
+          grid.appendChild(row);
+        }
+      }
+
+      function renderWordleKB() {
+        const kb = document.getElementById('wordle-kb');
+        if (!kb) return;
+        const rows = [['Q','W','E','R','T','Y','U','I','O','P'],['A','S','D','F','G','H','J','K','L'],['ENTER','Z','X','C','V','B','N','M','⌫']];
+        kb.innerHTML = '';
+        rows.forEach(row => {
+          const r = document.createElement('div');
+          r.className = 'wordle-kb-row';
+          row.forEach(key => {
+            const btn = document.createElement('button');
+            btn.className = 'wordle-key' + (key.length > 1 ? ' big' : '') + (wKbState[key] ? ' ' + wKbState[key] : '');
+            btn.textContent = key;
+            btn.onclick = () => wordleInput(key);
+            r.appendChild(btn);
+          });
+          kb.appendChild(r);
+        });
+      }
+
+      function wordleInput(key) {
+        if (wFinished) return;
+        if (key === '⌫') {
+          if (wCol > 0) { wCol--; wBoard[wRow][wCol] = ''; renderWordle(); }
+          return;
+        }
+        if (key === 'ENTER') {
+          if (wCol < 5) return;
+          evaluateWordle();
+          return;
+        }
+        if (wCol >= 5) return;
+        wBoard[wRow][wCol] = key;
+        wCol++;
+        renderWordle();
+      }
+
+      function evaluateWordle() {
+        const guess = wBoard[wRow].join('');
+        const target = wTarget.split('');
+        const result = Array(5).fill('absent');
+        const used = Array(5).fill(false);
+        // Correct positions first
+        for (let i = 0; i < 5; i++) {
+          if (guess[i] === target[i]) { result[i] = 'correct'; used[i] = true; }
+        }
+        // Present letters
+        for (let i = 0; i < 5; i++) {
+          if (result[i] === 'correct') continue;
+          for (let j = 0; j < 5; j++) {
+            if (!used[j] && guess[i] === target[j]) { result[i] = 'present'; used[j] = true; break; }
+          }
+        }
+        // Animate and color
+        for (let i = 0; i < 5; i++) {
+          const cell = document.getElementById('wc-' + wRow + '-' + i);
+          setTimeout(() => {
+            cell.classList.add('flip', result[i]);
+          }, i * 120);
+          // Update keyboard state
+          const l = guess[i];
+          if (result[i] === 'correct') wKbState[l] = 'correct';
+          else if (result[i] === 'present' && wKbState[l] !== 'correct') wKbState[l] = 'present';
+          else if (!wKbState[l]) wKbState[l] = 'absent';
+        }
+        setTimeout(() => renderWordleKB(), 700);
+
+        if (guess === wTarget) {
+          wFinished = true;
+          setTimeout(() => notify('Wordle', 'You got it! The word was ' + wTarget + ' 🎉', '📖'), 800);
+          trackAchievement('easter');
+        } else if (wRow >= 5) {
+          wFinished = true;
+          setTimeout(() => notify('Wordle', 'The word was ' + wTarget + '. Try again!', '📖'), 800);
+        }
+        wRow++; wCol = 0;
+      }
+
+      // Listen for keyboard input when game tab is active
+      document.addEventListener('keydown', (e) => {
+        const gp = document.getElementById('gp-wordle');
+        if (!gp || !gp.classList.contains('on')) return;
+        const win = document.getElementById('win-games');
+        if (!win || win.style.display === 'none') return;
+        if (e.key === 'Enter') wordleInput('ENTER');
+        else if (e.key === 'Backspace') wordleInput('⌫');
+        else if (/^[a-zA-Z]$/.test(e.key)) wordleInput(e.key.toUpperCase());
+      });
+
+      // initialize wordle when game tab opens
+      const origGTab = window.gTab;
+      window.gTab = function (el, id) {
+        origGTab(el, id);
+        if (id === 'wordle' && wRow === 0 && wCol === 0) initWordle();
+      };
+
+      initWordle();
+    })();
+
+    /* ============================================================
+       EXTRA TERMINAL COMMANDS
+       ============================================================ */
+    (function () {
+      if (typeof CMDS === 'undefined') return;
+      CMDS['sudo'] = () => [{ c: 'te', t: '🔒 Nice try! Permission denied. You are not in the sudoers file.' }];
+      CMDS['rm -rf /'] = () => [{ c: 'te', t: '💥 I\'m sorry, Dave. I\'m afraid I can\'t do that.' }];
+      CMDS['rm'] = () => [{ c: 'te', t: '⚠️ rm: missing operand. What are you trying to delete? 🤔' }];
+      CMDS['cowsay'] = () => [
+        { c: 'to', t: ' __________________' },
+        { c: 'to', t: '< Hire Sudhanshu! >' },
+        { c: 'to', t: ' ------------------' },
+        { c: 'to', t: '        \\   ^__^' },
+        { c: 'to', t: '         \\  (oo)\\_______' },
+        { c: 'to', t: '            (__)\\       )\\/\\' },
+        { c: 'to', t: '                ||----w |' },
+        { c: 'to', t: '                ||     ||' }
+      ];
+      CMDS['fortune'] = () => {
+        const fortunes = [
+          '"Code is like humor. When you have to explain it, it\'s bad." — Cory House',
+          '"First, solve the problem. Then, write the code." — John Johnson',
+          '"Talk is cheap. Show me the code." — Linus Torvalds',
+          '"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." — Martin Fowler',
+          '"The best error message is the one that never shows up." — Thomas Fuchs',
+          '"It\'s not a bug, it\'s a feature." — Every developer ever',
+          '"There are only 10 types of people: those who understand binary and those who don\'t."',
+          '"In order to understand recursion, one must first understand recursion."'
+        ];
+        return [{ c: 'to', t: '🔮 ' + fortunes[Math.floor(Math.random() * fortunes.length)] }];
+      };
+      CMDS['neofetch'] = () => [
+        { c: 'th', t: '          ████████████          sudhanshu@portfolio' },
+        { c: 'th', t: '        ██            ██        -----------------------' },
+        { c: 'to', t: '       OS: SudhanshuOS Sequoia v2.0' },
+        { c: 'to', t: '       Shell: zsh 5.9 (portfolio-edition)' },
+        { c: 'to', t: '       Stack: Node.js · TypeScript · AWS' },
+        { c: 'to', t: '       Uptime: since 2022 (2+ yrs)' },
+        { c: 'to', t: '       Theme: macOS [Light/Dark]' },
+        { c: 'to', t: '       Terminal: Web-Based v1.0' },
+        { c: 'td', t: '       Coffee: ☕ 2,847 cups' },
+        { c: 'to', t: '       ███ ███ ███ ███ ███ ███' }
+      ];
+      CMDS['cat /etc/passwd'] = () => [{ c: 'te', t: '🙈 Nice try, hacker! This file is classified.' }];
+      CMDS['exit'] = () => [{ c: 'to', t: '👋 Logout? Where would I even go? I live here.' }];
+      CMDS['ping google.com'] = () => [
+        { c: 'to', t: 'PING google.com (142.250.80.46): 56 data bytes' },
+        { c: 'to', t: '64 bytes from 142.250.80.46: time=2ms ✨ (portfolio speed)' },
+        { c: 'to', t: '64 bytes from 142.250.80.46: time=1ms 🚀' },
+        { c: 'to', t: '--- google.com ping statistics ---' },
+        { c: 'to', t: '2 packets, 0% loss. Portfolio latency: 0ms 😎' }
+      ];
+      CMDS['ls'] = () => [
+        { c: 'td', t: 'experience/  education/  projects/  certs/  interests/' },
+        { c: 'to', t: 'README.md   portfolio.html   .secret_plans' }
+      ];
+      CMDS['cat README.md'] = () => [
+        { c: 'th', t: '# Sudhanshu Singh — Portfolio' },
+        { c: 'to', t: 'Backend Developer | Node.js · TypeScript · AWS' },
+        { c: 'to', t: 'Currently scaling systems to 10K+ RPM at Testlify 🚀' },
+        { c: 'to', t: '' },
+        { c: 'to', t: 'Type "help" for available commands.' }
+      ];
+      CMDS['cat .secret_plans'] = () => [{ c: 'te', t: '🔐 Access denied. These plans are for world domination, er, I mean... backend scaling.' }];
+      CMDS['npm install happiness'] = () => [
+        { c: 'to', t: '📦 Installing happiness@latest...' },
+        { c: 'to', t: '✅ added 1 package: happiness (no dependencies needed!)' },
+        { c: 'to', t: '💡 Tip: happiness works best with good code and coffee.' }
+      ];
+      CMDS['open piano'] = () => { OW('piano'); return [{ c: 'to', t: '🎹 Opening Piano...' }]; };
+      CMDS['open calculator'] = () => { OW('calculator'); return [{ c: 'to', t: '🔢 Opening Calculator...' }]; };
+      CMDS['open notes'] = () => { OW('notes'); return [{ c: 'to', t: '📝 Opening Sticky Notes...' }]; };
+      CMDS['open pomodoro'] = () => { OW('pomodoro'); return [{ c: 'to', t: '⏱️ Opening Pomodoro Timer...' }]; };
+    })();
+
+    /* ============================================================
+       DRAGGABLE DESKTOP ICONS
+       ============================================================ */
+    (function () {
+      if (window.innerWidth <= 768) return;
+      document.querySelectorAll('.deskico').forEach(icon => {
+        let dragging = false, sx, sy, ox, oy;
+        icon.addEventListener('mousedown', e => {
+          dragging = true;
+          const r = icon.getBoundingClientRect();
+          sx = e.clientX; sy = e.clientY;
+          ox = r.left; oy = r.top;
+          icon.style.zIndex = '50';
+          e.preventDefault();
+        });
+        document.addEventListener('mousemove', e => {
+          if (!dragging) return;
+          const dx = e.clientX - sx, dy = e.clientY - sy;
+          icon.style.position = 'absolute';
+          icon.style.left = (ox + dx) + 'px';
+          icon.style.top = (oy + dy) + 'px';
+          icon.style.right = 'auto';
+        });
+        document.addEventListener('mouseup', () => {
+          if (dragging) { dragging = false; icon.style.zIndex = ''; }
+        });
+      });
+    })();
 
   </script>
 </body>

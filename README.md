@@ -1,67 +1,82 @@
 <div align="center">
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=true&width=620&height=80&lines=Sudhanshu+Singh+%E2%80%94+Backend+Engineer;Distributed+Systems+%7C+AI+Pipelines+%7C+Multi-Cloud" alt="Sudhanshu Singh — Backend Engineer" />
-  </a>
+  <!-- Tactical Header -->
+  <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=800&size=36&duration=3000&pause=1000&color=2D3436&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=S.+SINGH+%E2%80%94+DISTRIBUTED+SYSTEMS;ARCHITECTURE+%7C+PERFORMANCE+%7C+RELIABILITY" alt="S. Singh — Distributed Systems Engineer" />
 
   <br>
 
-  <img src="https://komarev.com/ghpvc/?username=sudhanshu1402&style=flat-square&color=blueviolet" alt="Profile Views" />
+  <!-- Live Status & Traffic -->
+  <img src="https://komarev.com/ghpvc/?username=sudhanshu1402&style=flat-square&color=3b82f6" alt="Profile Views" />
   &nbsp;
   <a href="https://sudhanshu1402.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-LIVE-success?style=flat-square&logo=safari&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/System_Status-OPTIMAL-success?style=flat-square&logo=icloud&logoColor=white" alt="System Status" />
+  </a>
+  &nbsp;
+  <a href="https://sudhanshu1402.github.io">
+    <img src="https://img.shields.io/badge/Production_Vault-89_Projects-blue?style=flat-square&logo=target&logoColor=white" alt="Production Vault" />
   </a>
 
   <br><br>
 
+  <!-- Professional Registry -->
   <a href="https://www.linkedin.com/in/sudhanshusingh1402">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:sudhanshusingh1402@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/GMAIL-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/sudhanshu1402">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://sudhanshu1402.github.io">
+    <img src="https://img.shields.io/badge/PORTFOLIO-LIVE-636E72?style=flat-square&logo=safari&logoColor=white" alt="Portfolio" />
   </a>
+
 </div>
 
 ---
 
-## 🏛 [THE VAULT: Engineering Archive](https://sudhanshu1402.github.io)
-**A performance-driven collection of 83 historical projects decoded across 10 programming languages.**
-
-This is my primary engineering archive. It showcases production-grade system design, concurrency patterns, and architectural depth across multiple stacks.
-
-#### 🏆 [Explore the Interactive Vault ➔](https://sudhanshu1402.github.io)
-
----
-
-## `💻 >_ sudo whoami`
+### `💻 >_ sudo system_info --identity`
 
 ```typescript
-const sudhanshu: Engineer = {
+const sudhanshu: SystemsEngineer = {
     role: "Backend Developer @ Testlify (HNR Tech)",
-    architecture: "Distributed, Multi-Region SaaS (EU, USA, KSA)",
-    throughput: "10K+ RPM across 3 continents",
-    superpower: "Turning caffeine into event-driven pipelines ☕",
-    currentStatus: "Shipping to prod while you read this 🚀",
+    focus: "Distributed Execution & SaaS Orchestration",
+    infrastructure: ["Multi-Region AWS", "Auto-Scaling K8s", "Event-Driven Pipelines"],
+    throughput: "10K+ RPM across 3 Global Regions (EU, USA, KSA)",
+    motto: "Performance is a feature, not an afterthought."
 };
 ```
 
-### `📄 >_ cat about.txt`
-> Backend Engineer at [**Testlify**](https://testlify.com) architecting distributed systems that serve **10K+ requests/minute**. Previously automated **5GB+ daily ETL pipelines** at [**Policybazaar**](https://www.policybazaar.com/). Currently researching autonomous AI for robotics.
+---
+
+### `🏛️ >_ ls -la /vault`
+
+#### [**THE VAULT: Engineering Archive ★ ELITE**](https://sudhanshu1402.github.io)
+**A high-performance collection of 89 decoded engineering artifacts across 10 programming languages.**
+
+This is my primary production archive. It showcases expert-level system design, concurrency engines, and architectural depth. 
+From **Distributed Queue Engines** to **LLM Assessment Pipelines**, every artifact is built for scale.
+
+👉 [**Enter The Tactical Vault ➔**](https://sudhanshu1402.github.io)
 
 ---
 
-## `🛠️ >_ ls -la ./arsenal`
+### `🛠️ >_ cat arsenal.json`
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,python,go,rust,cpp,java,mongodb,aws&perline=5" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=go,rust,cpp,ts,nodejs,python,java,c,mongodb,aws,docker,kubernetes&perline=6" alt="Tech Stack" />
+</div>
+
+---
+
+### `📊 >_ sudo monitor --realtime`
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=nord&hide_border=true&bg_color=e0e5ec&title_color=2d3436&text_color=636e72&icon_color=3b82f6" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&theme=nord&hide_border=true&bg_color=e0e5ec&title_color=2d3436&text_color=636e72" alt="Top Languages" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Built with precision by <a href="https://github.com/sudhanshu1402">Sudhanshu Singh</a>.</sub><br>
-  <sub><i>Exploring the intersection of performance, design, and architecture.</i></sub>
+  <sub>Architected by <a href="https://github.com/sudhanshu1402">Sudhanshu Singh</a>.</sub><br>
+  <sub><i>Exploring the nexus of distributed performance and tactile design.</i></sub>
 </div>

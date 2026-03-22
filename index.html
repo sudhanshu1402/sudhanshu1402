@@ -3828,6 +3828,7 @@
         transition-duration: 0.01ms !important;
       }
     }
+
     /* ============================================================
        AMBIENT PARTICLES
        ============================================================ */
@@ -3841,23 +3842,56 @@
     }
 
     @keyframes particleFloat {
-      0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
-      10% { opacity: 1; }
-      90% { opacity: 1; }
-      100% { transform: translateY(-10vh) rotate(720deg); opacity: 0; }
+      0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 1;
+      }
+
+      90% {
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(-10vh) rotate(720deg);
+        opacity: 0;
+      }
     }
 
     /* ============================================================
        DOCK BOUNCE
        ============================================================ */
     @keyframes dockBounce {
-      0% { transform: translateY(0); }
-      25% { transform: translateY(-18px); }
-      50% { transform: translateY(0); }
-      65% { transform: translateY(-9px); }
-      80% { transform: translateY(0); }
-      90% { transform: translateY(-3px); }
-      100% { transform: translateY(0); }
+      0% {
+        transform: translateY(0);
+      }
+
+      25% {
+        transform: translateY(-18px);
+      }
+
+      50% {
+        transform: translateY(0);
+      }
+
+      65% {
+        transform: translateY(-9px);
+      }
+
+      80% {
+        transform: translateY(0);
+      }
+
+      90% {
+        transform: translateY(-3px);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
     }
 
     .dk.bouncing .dkico {
@@ -3878,22 +3912,48 @@
       transition: opacity 0.2s;
     }
 
-    .snap-zone.show { opacity: 1; }
-    .snap-left { top: 28px; left: 0; width: 50vw; height: calc(100vh - 28px - 76px); }
-    .snap-right { top: 28px; right: 0; width: 50vw; height: calc(100vh - 28px - 76px); }
-    .snap-top { top: 28px; left: 0; width: 100vw; height: calc(100vh - 28px - 76px); }
+    .snap-zone.show {
+      opacity: 1;
+    }
+
+    .snap-left {
+      top: 28px;
+      left: 0;
+      width: 50vw;
+      height: calc(100vh - 28px - 76px);
+    }
+
+    .snap-right {
+      top: 28px;
+      right: 0;
+      width: 50vw;
+      height: calc(100vh - 28px - 76px);
+    }
+
+    .snap-top {
+      top: 28px;
+      left: 0;
+      width: 100vw;
+      height: calc(100vh - 28px - 76px);
+    }
 
     /* ============================================================
        3D TILT CARDS
        ============================================================ */
-    .stat-card, .wc-item, .wx-detail, .frow {
+    .stat-card,
+    .wc-item,
+    .wx-detail,
+    .frow {
       transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.1s;
     }
 
     /* ============================================================
        RIPPLE EFFECT
        ============================================================ */
-    .ripple-host { position: relative; overflow: hidden; }
+    .ripple-host {
+      position: relative;
+      overflow: hidden;
+    }
 
     .ripple {
       position: absolute;
@@ -3905,7 +3965,10 @@
     }
 
     @keyframes rippleExpand {
-      to { transform: scale(4); opacity: 0; }
+      to {
+        transform: scale(4);
+        opacity: 0;
+      }
     }
 
     /* ============================================================
@@ -3922,7 +3985,9 @@
     }
 
     @keyframes twBlink {
-      50% { opacity: 0; }
+      50% {
+        opacity: 0;
+      }
     }
 
     /* ============================================================
@@ -3958,7 +4023,7 @@
       padding: 12px;
       font-size: 13px;
       line-height: 1.5;
-      box-shadow: 2px 3px 12px rgba(0,0,0,0.12);
+      box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.12);
       position: relative;
       cursor: default;
     }
@@ -3973,8 +4038,13 @@
       transition: opacity 0.15s;
     }
 
-    .sticky-note:hover .sticky-del { opacity: 0.6; }
-    .sticky-note:hover .sticky-del:hover { opacity: 1; }
+    .sticky-note:hover .sticky-del {
+      opacity: 0.6;
+    }
+
+    .sticky-note:hover .sticky-del:hover {
+      opacity: 1;
+    }
 
     .sticky-note textarea {
       width: 100%;
@@ -3993,13 +4063,13 @@
     .sticky-add {
       width: 160px;
       min-height: 140px;
-      border: 2px dashed rgba(0,0,0,0.15);
+      border: 2px dashed rgba(0, 0, 0, 0.15);
       border-radius: 4px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 32px;
-      color: rgba(0,0,0,0.2);
+      color: rgba(0, 0, 0, 0.2);
       cursor: pointer;
       transition: all 0.15s;
     }
@@ -4007,7 +4077,7 @@
     .sticky-add:hover {
       border-color: var(--blue);
       color: var(--blue);
-      background: rgba(0,122,255,0.04);
+      background: rgba(0, 122, 255, 0.04);
     }
 
     .sticky-toolbar {
@@ -4027,8 +4097,13 @@
       transition: transform 0.1s;
     }
 
-    .sticky-color:hover { transform: scale(1.2); }
-    .sticky-color.on { border-color: rgba(0,0,0,0.3); }
+    .sticky-color:hover {
+      transform: scale(1.2);
+    }
+
+    .sticky-color.on {
+      border-color: rgba(0, 0, 0, 0.3);
+    }
 
     /* ============================================================
        CALCULATOR
@@ -4075,12 +4150,38 @@
       font-family: 'DM Sans', sans-serif;
     }
 
-    .calc-btn:active { filter: brightness(0.75); }
-    .calc-btn.num { background: #333; color: #fff; }
-    .calc-btn.op { background: #ff9f0a; color: #fff; font-size: 26px; }
-    .calc-btn.op.active { background: #fff; color: #ff9f0a; }
-    .calc-btn.fn { background: #a5a5a5; color: #000; }
-    .calc-btn.zero { border-radius: 36px; aspect-ratio: auto; grid-column: span 2; justify-content: flex-start; padding-left: 28px; }
+    .calc-btn:active {
+      filter: brightness(0.75);
+    }
+
+    .calc-btn.num {
+      background: #333;
+      color: #fff;
+    }
+
+    .calc-btn.op {
+      background: #ff9f0a;
+      color: #fff;
+      font-size: 26px;
+    }
+
+    .calc-btn.op.active {
+      background: #fff;
+      color: #ff9f0a;
+    }
+
+    .calc-btn.fn {
+      background: #a5a5a5;
+      color: #000;
+    }
+
+    .calc-btn.zero {
+      border-radius: 36px;
+      aspect-ratio: auto;
+      grid-column: span 2;
+      justify-content: flex-start;
+      padding-left: 28px;
+    }
 
     /* ============================================================
        POMODORO TIMER
@@ -4100,7 +4201,7 @@
       width: 180px;
       height: 180px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.12);
+      background: rgba(255, 255, 255, 0.12);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -4120,8 +4221,14 @@
       stroke-linecap: round;
     }
 
-    .pom-ring .pom-bg { stroke: rgba(255,255,255,0.15); }
-    .pom-ring .pom-fg { stroke: #fff; transition: stroke-dashoffset 1s linear; }
+    .pom-ring .pom-bg {
+      stroke: rgba(255, 255, 255, 0.15);
+    }
+
+    .pom-ring .pom-fg {
+      stroke: #fff;
+      transition: stroke-dashoffset 1s linear;
+    }
 
     .pom-time {
       font-size: 42px;
@@ -4135,7 +4242,7 @@
     .pom-label {
       font-size: 14px;
       font-weight: 600;
-      color: rgba(255,255,255,0.8);
+      color: rgba(255, 255, 255, 0.8);
       text-transform: uppercase;
       letter-spacing: 2px;
     }
@@ -4156,9 +4263,19 @@
       font-family: inherit;
     }
 
-    .pom-btn.primary { background: #fff; color: #ee5a24; }
-    .pom-btn.secondary { background: rgba(255,255,255,0.2); color: #fff; }
-    .pom-btn:hover { transform: translateY(-2px); }
+    .pom-btn.primary {
+      background: #fff;
+      color: #ee5a24;
+    }
+
+    .pom-btn.secondary {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    .pom-btn:hover {
+      transform: translateY(-2px);
+    }
 
     .pom-sessions {
       display: flex;
@@ -4169,10 +4286,12 @@
       width: 10px;
       height: 10px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.25);
+      background: rgba(255, 255, 255, 0.25);
     }
 
-    .pom-dot.done { background: #fff; }
+    .pom-dot.done {
+      background: #fff;
+    }
 
     /* ============================================================
        PIANO KEYBOARD
@@ -4188,7 +4307,7 @@
     .piano-info {
       padding: 12px 16px;
       font-size: 12px;
-      color: rgba(255,255,255,0.4);
+      color: rgba(255, 255, 255, 0.4);
       text-align: center;
       flex-shrink: 0;
       font-family: 'JetBrains Mono', monospace;
@@ -4214,12 +4333,13 @@
       position: relative;
       z-index: 1;
       transition: background 0.05s;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    .piano-white:active, .piano-white.pressed {
+    .piano-white:active,
+    .piano-white.pressed {
       background: linear-gradient(180deg, #ddd, #e8e8e8);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
       height: 176px;
     }
 
@@ -4233,10 +4353,11 @@
       z-index: 2;
       margin: 0 -14px;
       transition: background 0.05s;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
 
-    .piano-black:active, .piano-black.pressed {
+    .piano-black:active,
+    .piano-black.pressed {
       background: linear-gradient(180deg, #444, #222);
       height: 106px;
     }
@@ -4248,11 +4369,13 @@
       transform: translateX(-50%);
       font-size: 10px;
       font-weight: 600;
-      color: rgba(0,0,0,0.3);
+      color: rgba(0, 0, 0, 0.3);
       pointer-events: none;
     }
 
-    .piano-black .piano-key-label { color: rgba(255,255,255,0.3); }
+    .piano-black .piano-key-label {
+      color: rgba(255, 255, 255, 0.3);
+    }
 
     /* ============================================================
        WORDLE GAME
@@ -4302,20 +4425,49 @@
       font-family: 'Outfit', sans-serif;
     }
 
-    .wordle-cell.filled { border-color: #565758; animation: wordlePop 0.1s; }
-    .wordle-cell.correct { background: #538d4e; border-color: #538d4e; }
-    .wordle-cell.present { background: #b59f3b; border-color: #b59f3b; }
-    .wordle-cell.absent { background: #3a3a3c; border-color: #3a3a3c; }
-
-    @keyframes wordlePop { 50% { transform: scale(1.1); } }
-
-    @keyframes wordleFlip {
-      0% { transform: rotateX(0); }
-      50% { transform: rotateX(90deg); }
-      100% { transform: rotateX(0); }
+    .wordle-cell.filled {
+      border-color: #565758;
+      animation: wordlePop 0.1s;
     }
 
-    .wordle-cell.flip { animation: wordleFlip 0.5s ease; }
+    .wordle-cell.correct {
+      background: #538d4e;
+      border-color: #538d4e;
+    }
+
+    .wordle-cell.present {
+      background: #b59f3b;
+      border-color: #b59f3b;
+    }
+
+    .wordle-cell.absent {
+      background: #3a3a3c;
+      border-color: #3a3a3c;
+    }
+
+    @keyframes wordlePop {
+      50% {
+        transform: scale(1.1);
+      }
+    }
+
+    @keyframes wordleFlip {
+      0% {
+        transform: rotateX(0);
+      }
+
+      50% {
+        transform: rotateX(90deg);
+      }
+
+      100% {
+        transform: rotateX(0);
+      }
+    }
+
+    .wordle-cell.flip {
+      animation: wordleFlip 0.5s ease;
+    }
 
     .wordle-kb {
       display: flex;
@@ -4348,10 +4500,22 @@
       padding: 0 8px;
     }
 
-    .wordle-key.big { min-width: 52px; font-size: 11px; }
-    .wordle-key.correct { background: #538d4e; }
-    .wordle-key.present { background: #b59f3b; }
-    .wordle-key.absent { background: #3a3a3c; }
+    .wordle-key.big {
+      min-width: 52px;
+      font-size: 11px;
+    }
+
+    .wordle-key.correct {
+      background: #538d4e;
+    }
+
+    .wordle-key.present {
+      background: #b59f3b;
+    }
+
+    .wordle-key.absent {
+      background: #3a3a3c;
+    }
 
     /* ============================================================
        ABOUT THIS MAC
@@ -4368,7 +4532,7 @@
 
     .atm-icon {
       font-size: 80px;
-      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
     }
 
     .atm-name {
@@ -4410,11 +4574,21 @@
     /* ============================================================
        DOCK APP ICONS FOR NEW APPS
        ============================================================ */
-    .ic-notes { background: linear-gradient(135deg, #ffcc00, #ff9500); }
-    .ic-calc { background: linear-gradient(135deg, #1c1c1e, #3a3a3c); }
-    .ic-pomo { background: linear-gradient(135deg, #ff6b6b, #ee5a24); }
-    .ic-piano { background: linear-gradient(135deg, #1a1a2e, #2d1b69); }
+    .ic-notes {
+      background: linear-gradient(135deg, #ffcc00, #ff9500);
+    }
 
+    .ic-calc {
+      background: linear-gradient(135deg, #1c1c1e, #3a3a3c);
+    }
+
+    .ic-pomo {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    }
+
+    .ic-piano {
+      background: linear-gradient(135deg, #1a1a2e, #2d1b69);
+    }
   </style>
 </head>
 
@@ -5114,7 +5288,8 @@
         <div class="sticky-add" onclick="addStickyNote()">+</div>
       </div>
       <div class="sticky-toolbar" id="sticky-toolbar">
-        <div class="sticky-color on" style="background:#fff9c4" data-color="#fff9c4" onclick="setStickyColor(this)"></div>
+        <div class="sticky-color on" style="background:#fff9c4" data-color="#fff9c4" onclick="setStickyColor(this)">
+        </div>
         <div class="sticky-color" style="background:#f8bbd0" data-color="#f8bbd0" onclick="setStickyColor(this)"></div>
         <div class="sticky-color" style="background:#c8e6c9" data-color="#c8e6c9" onclick="setStickyColor(this)"></div>
         <div class="sticky-color" style="background:#bbdefb" data-color="#bbdefb" onclick="setStickyColor(this)"></div>
@@ -5174,7 +5349,10 @@
       <div class="pom-body">
         <div class="pom-label" id="pom-label">FOCUS TIME</div>
         <div class="pom-ring">
-          <svg width="180" height="180"><circle class="pom-bg" cx="90" cy="90" r="82"/><circle class="pom-fg" id="pom-arc" cx="90" cy="90" r="82" stroke-dasharray="515" stroke-dashoffset="0"/></svg>
+          <svg width="180" height="180">
+            <circle class="pom-bg" cx="90" cy="90" r="82" />
+            <circle class="pom-fg" id="pom-arc" cx="90" cy="90" r="82" stroke-dasharray="515" stroke-dashoffset="0" />
+          </svg>
           <div class="pom-time" id="pom-time">25:00</div>
         </div>
         <div class="pom-controls">
@@ -5218,13 +5396,34 @@
         <div class="atm-name">SudhanshuOS Sequoia</div>
         <div class="atm-ver">Version 2.0.26</div>
         <div class="atm-specs">
-          <div class="atm-row"><div class="atm-row-label">Chip</div><div class="atm-row-val">Sudhanshu S1 Pro</div></div>
-          <div class="atm-row"><div class="atm-row-label">Memory</div><div class="atm-row-val">∞ GB Unified Memory</div></div>
-          <div class="atm-row"><div class="atm-row-label">Startup Disk</div><div class="atm-row-val">portfolio.html</div></div>
-          <div class="atm-row"><div class="atm-row-label">Serial No.</div><div class="atm-row-val">SUDHANSHU-1402</div></div>
-          <div class="atm-row"><div class="atm-row-label">Stack</div><div class="atm-row-val">Node.js · TypeScript · AWS · MongoDB · Redis</div></div>
-          <div class="atm-row"><div class="atm-row-label">Uptime</div><div class="atm-row-val" id="atm-uptime">0m 0s</div></div>
-          <div class="atm-row"><div class="atm-row-label">Coffee</div><div class="atm-row-val">☕ 2,847 cups consumed</div></div>
+          <div class="atm-row">
+            <div class="atm-row-label">Chip</div>
+            <div class="atm-row-val">Sudhanshu S1 Pro</div>
+          </div>
+          <div class="atm-row">
+            <div class="atm-row-label">Memory</div>
+            <div class="atm-row-val">∞ GB Unified Memory</div>
+          </div>
+          <div class="atm-row">
+            <div class="atm-row-label">Startup Disk</div>
+            <div class="atm-row-val">portfolio.html</div>
+          </div>
+          <div class="atm-row">
+            <div class="atm-row-label">Serial No.</div>
+            <div class="atm-row-val">SUDHANSHU-1402</div>
+          </div>
+          <div class="atm-row">
+            <div class="atm-row-label">Stack</div>
+            <div class="atm-row-val">Node.js · TypeScript · AWS · MongoDB · Redis</div>
+          </div>
+          <div class="atm-row">
+            <div class="atm-row-label">Uptime</div>
+            <div class="atm-row-val" id="atm-uptime">0m 0s</div>
+          </div>
+          <div class="atm-row">
+            <div class="atm-row-label">Coffee</div>
+            <div class="atm-row-val">☕ 2,847 cups consumed</div>
+          </div>
         </div>
       </div>
       <div class="resize-h" data-win="aboutmac"></div>
@@ -5386,7 +5585,7 @@
       ],
       projects: [
         {
-          icon: '🤖', name: 'Subconscious Mind for Robots', role: 'Active Research Project', badge: { t: 'ACTIVE', c: 'bg-g' }, period: '2024→Present', loc: 'Personal R&D', link: 'https://github.com/sudhanshu1402/Personal-Projects/tree/main/ML_Projects/subconscious-robotics',
+          icon: '🤖', name: 'Subconscious Mind for Robots', role: 'Active Research Project', badge: { t: 'ACTIVE', c: 'bg-g' }, period: '2024→Present', loc: 'Personal R&D', link: 'https://github.com/sudhanshu1402/personal-projects/tree/main/ML_Projects/subconscious-robotics',
           bullets: ['Autonomous <b>self-training AI framework</b> as a "subconscious layer" for robotic agents.', 'Enables <b>continuous unsupervised learning</b> + real-world environment mapping.', 'Exploring generative model architectures for adaptive, unstructured decision-making.']
         },
         {
@@ -7017,7 +7216,7 @@
         p.className = 'particle';
         const size = Math.random() * 4 + 2;
         const dur = Math.random() * 18 + 12;
-        p.style.cssText = `width:${size}px;height:${size}px;left:${Math.random()*100}vw;background:${colors[Math.floor(Math.random()*colors.length)]};animation-duration:${dur}s;animation-delay:${Math.random()*5}s;`;
+        p.style.cssText = `width:${size}px;height:${size}px;left:${Math.random() * 100}vw;background:${colors[Math.floor(Math.random() * colors.length)]};animation-duration:${dur}s;animation-delay:${Math.random() * 5}s;`;
         document.getElementById('desktop').appendChild(p);
         setTimeout(() => p.remove(), (dur + 5) * 1000);
       }
@@ -7109,7 +7308,7 @@
       ripple.className = 'ripple';
       const r = target.getBoundingClientRect();
       const size = Math.max(r.width, r.height) * 2;
-      ripple.style.cssText = `width:${size}px;height:${size}px;left:${e.clientX - r.left - size/2}px;top:${e.clientY - r.top - size/2}px;`;
+      ripple.style.cssText = `width:${size}px;height:${size}px;left:${e.clientX - r.left - size / 2}px;top:${e.clientY - r.top - size / 2}px;`;
       target.style.position = target.style.position || 'relative';
       target.style.overflow = 'hidden';
       target.appendChild(ripple);
@@ -7488,7 +7687,7 @@
       function renderWordleKB() {
         const kb = document.getElementById('wordle-kb');
         if (!kb) return;
-        const rows = [['Q','W','E','R','T','Y','U','I','O','P'],['A','S','D','F','G','H','J','K','L'],['ENTER','Z','X','C','V','B','N','M','⌫']];
+        const rows = [['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'], ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'], ['ENTER', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '⌫']];
         kb.innerHTML = '';
         rows.forEach(row => {
           const r = document.createElement('div');

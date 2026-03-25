@@ -1,74 +1,27 @@
-<div align="center">
+# Sudhanshu Singh
 
-  <!-- Cyber Glitch Header -->
-  <img src="https://readme-typing-svg.demolab.com?font=Syne&weight=900&size=40&duration=2500&pause=500&color=00FFCC&center=true&vCenter=true&multiline=true&width=1000&height=120&lines=S.+SINGH+%E2%80%94+SYSTEMS+ARCHMAGE;LVL_89+%7C+THROUGHPUT_SORCERER;CONCURRENCY_BENDER+%7C+SaaS_DRAGON" alt="S. Singh — Systems Archmage" />
+Backend engineer building distributed systems, authentication infrastructure, and observability tooling.
 
-  <br>
+Currently at **fiddle-tools**. Previously shipped queue orchestration, multi-tenant SSO, and multi-region data residency patterns in production TypeScript/Node.js.
 
-  <!-- RPG Navigation Badges -->
-  <a href="https://sudhanshu1402.github.io">
-    <img src="https://img.shields.io/badge/QUEST-THE_VAULT-FF0055?style=for-the-badge&logo=target&logoColor=white" alt="The Vault Quest" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/sudhanshusingh1402">
-    <img src="https://img.shields.io/badge/LINK-NEURAL_LINK-00FFCC?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:sudhanshusingh1402@gmail.com">
-    <img src="https://img.shields.io/badge/COMMS-SIGNAL_FIRE-FFCC00?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
-  </a>
+## Featured Work
 
-</div>
+**[distributed-queue-engine](https://github.com/sudhanshu1402/distributed-queue-engine)** -- Redis-backed job processing with priority queuing, exponential backoff, and horizontal worker scaling via BullMQ.
 
----
+**[enterprise-auth-stack](https://github.com/sudhanshu1402/enterprise-auth-stack)** -- B2B SSO gateway: SAML 2.0 + SCIM 2.0 provisioning with multi-tenant isolation and AWS Secrets Manager.
 
-### 💠 `STATUS_REPORT // IDENTITY_REGISTRY`
+**[otel-sdk-node](https://github.com/sudhanshu1402/otel-sdk-node)** -- Production OpenTelemetry wrapper for Node.js with OTLP/gRPC tracing, Pino structured logging, and Prometheus metrics.
 
-<div align="center">
+**[multi-region-mongo-patterns](https://github.com/sudhanshu1402/multi-region-mongo-patterns)** -- MongoDB Atlas zone sharding for GDPR-compliant data residency with region-aware writes.
 
-| ATTRIBUTE | LEVEL | CLASS | STATUS |
-| :--- | :--- | :--- | :--- |
-| **SYSTEMS_PERFORMANCE** | `99` | **LEGENDARY** | `STABLE` |
-| **ARCHITECTURE_DEPTH** | `95` | **ELITE** | `OPTIMAL` |
-| **CONCURRENCY_MASTERY** | `92` | **MASTER** | `ACTIVE` |
-| **THROUGHPUT_POTION** | `10K+ RPM` | **ALCHEMIST** | `BURNING` |
+**[llm-orchestration-engine](https://github.com/sudhanshu1402/llm-assessment-pipeline)** -- Fault-tolerant LLM orchestration with dual-model fallback (GPT-4o + Gemini) and Zod-validated structured output.
 
-</div>
+**[system-design-portal](https://github.com/sudhanshu1402/system-design-portal)** -- Architecture documentation with Mermaid diagrams for each system above.
 
----
+## Stack
 
-### ⚔️ `ACTIVE_MISSIONS // ACTIVE_QUESTS`
+TypeScript, Node.js, Redis, MongoDB, PostgreSQL, BullMQ, Docker, AWS, OpenTelemetry, LangChain
 
-#### 🧧 [**MISSION: SaaS_DRAGON_ORCHESTRATOR**](https://sudhanshu1402.github.io)
-**Objective**: Architecting distributed SaaS engines at [**Testlify**](https://testlify.com) serving 3 global regions with zero-downtime latency.
-**Rewards**: `+5000 EXP`, `Global Scalability Title`.
+## Links
 
-#### 🏛️ [**MISSION: THE_VAULT_RECOVERY**](https://sudhanshu1402.github.io)
-**Objective**: Decoding 89 historical engineering artifacts across 10 programming languages into a unified "Tactile Vault."
-**Rewards**: `+89 Artifacts`, `Master Archivist Badge`.
-
----
-
-### 🧪 `TECHNOMANCY_ARSENAL // INVENTORY`
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=go,rust,cpp,ts,nodejs,python,java,docker,kubernetes,aws,mongodb,postgres&perline=6" alt="Arsenal" />
-</div>
-
----
-
-### 📊 `SYSTEM_METRICS // PERFORMANCE_CHARTS`
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sudhanshu1402&theme=cyberpunk&no-bg=true&column=4" alt="Trophy Wall" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=sudhanshu1402&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFCC&text_color=A9B1D6&icon_color=FF0055" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudhanshu1402&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFCC&text_color=A9B1D6" alt="Top Languages" />
-</div>
-
----
-
-<div align="center">
-  <sub>Summoned from the binary by <a href="https://github.com/sudhanshu1402">Sudhanshu Singh</a>.</sub><br>
-  <sub><i>Merging high- stakes distributed engineering with pure creative technomancy.</i></sub>
-</div>
+[LinkedIn](https://www.linkedin.com/in/sudhanshusingh1402/) -- [Portfolio](https://sudhanshu1402.github.io) -- [System Design Articles](https://sudhanshu1402.github.io/system-design-portal)

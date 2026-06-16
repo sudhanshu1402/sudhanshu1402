@@ -2,7 +2,7 @@
 
 # Sudhanshu Singh
 
-Backend Engineer at fiddle-tools. I build distributed systems, authentication infrastructure, and observability tooling in TypeScript and Node.js.
+Backend Engineer at Testlify. I build distributed systems, authentication infrastructure, and observability tooling in TypeScript and Node.js.
 
 <a href="https://www.linkedin.com/in/sudhanshusingh1402/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://sudhanshu1402.github.io"><img src="https://img.shields.io/badge/Portfolio-0a0c10?style=for-the-badge&logo=githubpages&logoColor=6ea8fe" alt="Portfolio" /></a>

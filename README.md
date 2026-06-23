@@ -12,6 +12,8 @@ Backend Engineer at Testlify. I build distributed systems, authentication infras
 
 I work mostly on backend infrastructure: job orchestration, B2B authentication, distributed tracing, and LLM workflows. The projects below are systems I have shipped to production. My full project archive lives on [the portfolio site](https://sudhanshu1402.github.io).
 
+> **Open to backend and platform engineering roles.** Best reached on [LinkedIn](https://www.linkedin.com/in/sudhanshusingh1402/).
+
 ## Tech Stack
 
 <div align="center">

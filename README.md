@@ -10,7 +10,7 @@ Backend Engineer at Testlify. I build distributed systems, authentication infras
 
 </div>
 
-I work mostly on backend infrastructure: job orchestration, B2B authentication, distributed tracing, and LLM workflows. The projects below are systems I have shipped to production. My full project archive lives on [the portfolio site](https://sudhanshu1402.github.io).
+I work mostly on backend infrastructure: job orchestration, B2B authentication, distributed tracing, and LLM workflows. The projects below are backend systems I've designed and built end-to-end. My full project archive lives on [the portfolio site](https://sudhanshu1402.github.io).
 
 > **Open to backend and platform engineering roles.** Best reached on [LinkedIn](https://www.linkedin.com/in/sudhanshusingh1402/).
 
@@ -37,8 +37,8 @@ I work mostly on backend infrastructure: job orchestration, B2B authentication, 
 | :--- | :--- |
 | **[distributed-queue-engine](https://github.com/sudhanshu1402/distributed-queue-engine)** | Redis-backed job processing with priority queuing, exponential backoff, and horizontal worker scaling via BullMQ. |
 | **[enterprise-auth-stack](https://github.com/sudhanshu1402/enterprise-auth-stack)** | B2B SSO gateway with SAML 2.0 and SCIM 2.0 provisioning, multi-tenant isolation, and AWS Secrets Manager. |
-| **[otel-sdk-node](https://github.com/sudhanshu1402/otel-sdk-node)** | OpenTelemetry wrapper for Node.js with OTLP/gRPC tracing, Pino structured logging, and Prometheus metrics. |
-| **[multi-region-mongo-patterns](https://github.com/sudhanshu1402/multi-region-mongo-patterns)** | MongoDB Atlas zone sharding for GDPR-compliant data residency with region-aware writes. |
+| **[otel-sdk-node](https://github.com/sudhanshu1402/otel-sdk-node)** | OpenTelemetry wrapper for Node.js: OTLP/gRPC trace and metric export with Pino structured logging. |
+| **[multi-region-mongo-patterns](https://github.com/sudhanshu1402/multi-region-mongo-patterns)** | MongoDB Atlas zone-sharding patterns for regional data residency with region-aware writes. |
 | **[llm-assessment-pipeline](https://github.com/sudhanshu1402/llm-assessment-pipeline)** | LLM orchestration with dual-model fallback (GPT-4o and Gemini) and Zod-validated structured output. |
 | **[system-design-portal](https://github.com/sudhanshu1402/system-design-portal)** | Architecture write-ups with Mermaid diagrams for each system above. |
 

@@ -80,7 +80,7 @@ Run 1 charges a card and dies before shipping. Run 2 resumes and ships, without 
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhanshu1402&bg_color=0a0c10&color=6ea8fe&line=a78bfa&point=ffffff&area=true&hide_border=true" alt="Contribution activity graph" width="100%" />
+<img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/metrics.svg" alt="GitHub metrics: activity, calendar, languages, and stats" width="480" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/output/github-contribution-grid-snake-dark.svg" />

@@ -61,7 +61,7 @@ Backend systems designed and built end-to-end. Each has a matching architecture 
 | :-- | :-- |
 | **[keel](https://github.com/sudhanshu1402/keel)** [![npm](https://img.shields.io/npm/v/%40sudhanshu1402%2Fkeel.svg?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@sudhanshu1402/keel) | Durable execution for TypeScript. Write work as named steps; when a step finishes, keel saves its result, so a run that dies at step 7 restarts at step 7 instead of from the top. Same idea as Temporal, but no server, no database, no build step. Zero runtime dependencies. |
 | **[nocap](https://github.com/sudhanshu1402/nocap)** [![npm](https://img.shields.io/npm/v/%40sudhanshu1402%2Fnocap.svg?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@sudhanshu1402/nocap) | A plain-English terminal UI for Claude Code: a readable feed of what it's doing and a clear Yes/No gate before anything risky, on the same real permission system. |
-| **[applicant-exporter](https://github.com/sudhanshu1402/linkedin-applicant-exporter)** | MV3 browser extension for authorized recruiter workflows. The interesting part is the network layer: token-bucket rate limiting, bounded concurrency, and exponential backoff with `Retry-After` across two API generations. |
+| **[RecruitSync](https://github.com/sudhanshu1402/linkedin-RecruitSync)** | MV3 browser extension for authorized recruiter workflows. The interesting part is the network layer: token-bucket rate limiting, bounded concurrency, and exponential backoff with `Retry-After` across two API generations. |
 
 <details>
 <summary><b>See keel recover from a crash (demo)</b></summary>

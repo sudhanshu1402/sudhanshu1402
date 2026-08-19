@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="68" viewBox="0 0 1200 68" role="img" aria-label="TypeScript, Node.js, Express, MongoDB, Redis, Postgres, Docker, AWS, Git, GitHub Actions">
+  <title>Tools I work in</title>
+  <style>.m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; font-size: 13px; }</style>
+  <rect x="0" y="0" width="1200" height="68" fill="#0d1117" />
+  <rect x="84.5" y="14" width="116.0" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="102.0" cy="34" r="4.5" fill="#3178c6" />
+  <text class="m" x="114.5" y="39" fill="#c9d1d9">TypeScript</text>
+  <rect x="210.5" y="14" width="94.1" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="228.0" cy="34" r="4.5" fill="#5fa04e" />
+  <text class="m" x="240.5" y="39" fill="#c9d1d9">Node.js</text>
+  <rect x="314.6" y="14" width="94.1" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="332.1" cy="34" r="4.5" fill="#8b949e" />
+  <text class="m" x="344.6" y="39" fill="#c9d1d9">Express</text>
+  <rect x="418.7" y="14" width="94.1" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="436.2" cy="34" r="4.5" fill="#47a248" />
+  <text class="m" x="448.7" y="39" fill="#c9d1d9">MongoDB</text>
+  <rect x="522.8" y="14" width="79.5" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="540.3" cy="34" r="4.5" fill="#ff4438" />
+  <text class="m" x="552.8" y="39" fill="#c9d1d9">Redis</text>
+  <rect x="612.3" y="14" width="101.4" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="629.8" cy="34" r="4.5" fill="#4169e1" />
+  <text class="m" x="642.3" y="39" fill="#c9d1d9">Postgres</text>
+  <rect x="723.7" y="14" width="86.8" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="741.2" cy="34" r="4.5" fill="#2496ed" />
+  <text class="m" x="753.7" y="39" fill="#c9d1d9">Docker</text>
+  <rect x="820.5" y="14" width="64.9" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="838.0" cy="34" r="4.5" fill="#ff9900" />
+  <text class="m" x="850.5" y="39" fill="#c9d1d9">AWS</text>
+  <rect x="895.4" y="14" width="64.9" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="912.9" cy="34" r="4.5" fill="#f05033" />
+  <text class="m" x="925.4" y="39" fill="#c9d1d9">Git</text>
+  <rect x="970.3" y="14" width="145.2" height="40" rx="20" fill="#161b22" stroke="#30363d" />
+  <circle cx="987.8" cy="34" r="4.5" fill="#2088ff" />
+  <text class="m" x="1000.3" y="39" fill="#c9d1d9">GitHub Actions</text>
+</svg>

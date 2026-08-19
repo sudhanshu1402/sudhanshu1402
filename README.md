@@ -33,14 +33,17 @@ Backend Engineer at Testlify, Mumbai. Started in data analysis at Policybazaar, 
 </tr>
 <tr>
 <td><a href="https://github.com/sudhanshu1402/otel-sdk-node"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-otel-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-otel-light.svg" /><img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-otel-dark.svg" width="300" alt="otel-sdk-node: OpenTelemetry wiring for Node. Anything imported before start() is never patched and loses its spans. A thin config layer, not a rewrite." /></picture></a></td>
-<td><a href="https://sudhanshu1402.github.io/system-design-portal/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-portal-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-portal-light.svg" /><img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-portal-dark.svg" width="300" alt="system-design-portal: five architecture write-ups covering the problem, the decisions, what each one costs, and where it stops working. Next.js, Nextra, GitHub Pages." /></picture></a></td>
-<td><a href="https://sudhanshu1402.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-site-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-site-light.svg" /><img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-site-dark.svg" width="300" alt="sudhanshu1402.github.io: portfolio site with featured systems and reference implementations, written as one static page with no framework. GitHub Pages, no build step." /></picture></a></td>
+<td><a href="https://github.com/sudhanshu1402/system-design-portal"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-portal-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-portal-light.svg" /><img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/card-portal-dark.svg" width="300" alt="system-design-portal: five architecture write-ups covering the problem, the decisions, what each one costs, and where it stops working. Next.js, Nextra, GitHub Pages. Links to the repo; the nav above links to the live site." /></picture></a></td>
 </tr>
 </table>
 
 <br /><br />
 
-<img src="https://skillicons.dev/icons?i=ts,nodejs,express,mongodb,redis,postgres,docker,aws,git,githubactions&theme=dark" alt="TypeScript, Node.js, Express, MongoDB, Redis, Postgres, Docker, AWS, Git, GitHub Actions" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-light.svg" />
+  <img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" width="100%" alt="Tools I work in: TypeScript, Node.js, Express, MongoDB, Redis, Postgres, Docker, AWS, Git, GitHub Actions" />
+</picture>
 
 </div>
 
@@ -63,6 +66,16 @@ Run 1 charges a card and dies before shipping. Run 2 resumes and ships, and the 
 </div>
 
 That last number is the honest one, and note the gap is three decades wide, not a couple of steps. `FileStore` rewrites and fsyncs the whole file on every commit, so the 5,000th step costs far more than the first. It's the default because it needs nothing installed, not because it's fast. [Benchmark notes](https://github.com/sudhanshu1402/keel/blob/main/docs/BENCHMARKS.md).
+
+## nocap
+
+A terminal UI for Claude Code that reads in plain English and stops before anything irreversible. A fixed list of eight non-destructive tools runs without asking. Everything else gets classified and stopped at this card, and the border color is the risk level:
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/nocap-card.svg" alt="The nocap approval card in a terminal, with a red border marking it high risk: approval needed, Claude wants to use Bash, force-pushes and can overwrite history on the remote, git push --force origin main, then y to approve, a to always allow this, n to deny." width="620" />
+</div>
+
+The gate runs on the SDK's real permission system, so it isn't a confirmation dialog painted on top of a decision that already happened. Two details I'd point at: previews are redacted before they're truncated, because truncating first can cut a secret in half and let the tail slip past the regex. And once a `Bash` call is approved, nocap snapshots the git working tree, because the SDK's own checkpointing only restores files it tracked being written, and a shell command can change more than that. The snapshot is best-effort and never fails the call.
 
 <details>
 <summary><h2>How the repos fit together</h2></summary>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="172" viewBox="0 0 620 172" role="img" aria-label="The nocap approval card in a terminal, with a red border marking it high risk. Header: approval needed. Claude wants to use Bash. Reason: force-pushes and can overwrite history on the remote. The command shown is git push --force origin main. The choices are y to approve, a to always allow this, and n to deny.">
+  <title>nocap approval card</title>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; font-size: 13px; }
+    .b { font-weight: 700; }
+  </style>
+  <rect x="0" y="0" width="620" height="172" rx="10" fill="#0d1117" />
+  <rect x="20.5" y="20.5" width="579" height="130" rx="7" fill="none" stroke="#c85450" />
+  <text class="m b" x="38" y="46" fill="#c85450">&#9998; approval needed</text>
+  <text class="m" x="38" y="70" fill="#e8e6df">Claude wants to use Bash</text>
+  <text class="m" x="38" y="90" fill="#6b6f76">force-pushes and can overwrite history on the remote</text>
+  <rect x="38" y="102" width="1" height="20" fill="#3a3d44" />
+  <text class="m" x="50" y="117" fill="#6b6f76">git push --force origin main</text>
+  <text class="m" x="38" y="140" fill="#6b9b6f">[y] approve<tspan fill="#d99a4e">   [a] always allow this</tspan><tspan fill="#c85450">   [n] deny</tspan></text>
+</svg>

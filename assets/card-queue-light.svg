@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-label="distributed-queue-engine. Priority queues with backoff and worker pools. Hash-tagged keys so every queue key lands in one slot. BullMQ  ·  cluster-safe keys">
+  <title>distributed-queue-engine</title>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .t { font-size: 15px; font-weight: 600; fill: #bc4c00; }
+    .d { font-size: 11px; fill: #656d76; }
+    .f { font-size: 10px; fill: #6e7781; }
+  </style>
+  <defs><clipPath id="c"><rect x="0" y="0" width="300" height="150" rx="10" /></clipPath></defs>
+  <rect x="0.5" y="0.5" width="299" height="149" rx="10" fill="#ffffff" stroke="#d0d7de" />
+  <rect clip-path="url(#c)" x="0" y="0" width="300" height="4" fill="#bc4c00" />
+  <text class="m t" x="20" y="42">distributed-queue-engine</text>
+  <text class="m d" x="20" y="70">Priority queues with backoff and</text>
+  <text class="m d" x="20" y="88">worker pools. Hash-tagged keys so</text>
+  <text class="m d" x="20" y="106">every queue key lands in one slot.</text>
+  <text class="m f" x="20" y="132">BullMQ  ·  cluster-safe keys</text>
+</svg>

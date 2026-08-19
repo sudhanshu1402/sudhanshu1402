@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="216" viewBox="0 0 600 216" role="img" aria-label="keel throughput, steps per second on a log scale with decade gridlines: about 262,000 in memory, 13,400 on SQLite in WAL mode, 91 on the JSON file store. Single process, Node v22.12.0, my laptop.">
+  <title>keel throughput by store</title>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .h { font-size: 13px; fill: #e6edf3; }
+    .l { font-size: 12px; fill: #8b949e; }
+    .v { font-size: 12px; font-weight: 600; }
+    .tk { font-size: 10px; fill: #6e7681; }
+    .n { font-size: 10.5px; fill: #6e7681; }
+    .g { stroke: #21262d; stroke-width: 1; }
+    .p { opacity: 0; animation: p .45s ease-out both; }
+    .p1 { animation-delay: .15s } .p2 { animation-delay: .35s } .p3 { animation-delay: .55s }
+    @keyframes p { to { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) { .p { opacity: 1; animation: none } }
+  </style>
+  <rect x="0.5" y="0.5" width="599" height="215" rx="10" fill="#0d1117" stroke="#30363d" />
+  <text class="m h" x="20" y="32">keel throughput, steps/sec</text>
+  <line class="g" x1="170.0" y1="48" x2="170.0" y2="162" />
+  <text class="m tk" x="170.0" y="178" text-anchor="middle">10</text>
+  <line class="g" x1="244.0" y1="48" x2="244.0" y2="162" />
+  <text class="m tk" x="244.0" y="178" text-anchor="middle">100</text>
+  <line class="g" x1="318.0" y1="48" x2="318.0" y2="162" />
+  <text class="m tk" x="318.0" y="178" text-anchor="middle">1k</text>
+  <line class="g" x1="392.0" y1="48" x2="392.0" y2="162" />
+  <text class="m tk" x="392.0" y="178" text-anchor="middle">10k</text>
+  <line class="g" x1="466.0" y1="48" x2="466.0" y2="162" />
+  <text class="m tk" x="466.0" y="178" text-anchor="middle">100k</text>
+  <line class="g" x1="540.0" y1="48" x2="540.0" y2="162" />
+  <text class="m tk" x="540.0" y="178" text-anchor="middle">1M</text>
+  <text class="m l" x="20" y="68">in memory</text>
+  <g class="p p1"><circle cx="497.0" cy="64" r="7" fill="#58a6ff" /><text class="m v" x="511.0" y="68" fill="#58a6ff">262,000</text></g>
+  <text class="m l" x="20" y="104">SQLite, WAL</text>
+  <g class="p p2"><circle cx="401.4" cy="100" r="7" fill="#3fb950" /><text class="m v" x="415.4" y="104" fill="#3fb950">13,400</text></g>
+  <text class="m l" x="20" y="140">JSON file store</text>
+  <g class="p p3"><circle cx="241.0" cy="136" r="7" fill="#d29922" /><text class="m v" x="255.0" y="140" fill="#d29922">91</text></g>
+  <text class="m n" x="20" y="202">log scale, one gridline per decade. single process, Node v22.12.0, my laptop.</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-label="enterprise-auth-stack. SAML and SCIM for B2B tenants. Per-tenant secrets, and a rotation that takes effect on the next request. reference implementation">
+  <title>enterprise-auth-stack</title>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .t { font-size: 15px; font-weight: 600; fill: #bf3989; }
+    .d { font-size: 11px; fill: #656d76; }
+    .f { font-size: 10px; fill: #6e7781; }
+  </style>
+  <defs><clipPath id="c"><rect x="0" y="0" width="300" height="150" rx="10" /></clipPath></defs>
+  <rect x="0.5" y="0.5" width="299" height="149" rx="10" fill="#ffffff" stroke="#d0d7de" />
+  <rect clip-path="url(#c)" x="0" y="0" width="300" height="4" fill="#bf3989" />
+  <text class="m t" x="20" y="42">enterprise-auth-stack</text>
+  <text class="m d" x="20" y="70">SAML and SCIM for B2B tenants.</text>
+  <text class="m d" x="20" y="88">Per-tenant secrets, and a rotation</text>
+  <text class="m d" x="20" y="106">that takes effect on the next request.</text>
+  <text class="m f" x="20" y="132">reference implementation</text>
+</svg>

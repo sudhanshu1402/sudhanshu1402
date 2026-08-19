@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-label="multi-region-mongo-patterns. Region-pinned shards. A write whose region breaks its tenant's residency is rejected with a 409, not stored. zone sharding  ·  data residency">
+  <title>multi-region-mongo-patterns</title>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .t { font-size: 15px; font-weight: 600; fill: #3fb950; }
+    .d { font-size: 11px; fill: #8b949e; }
+    .f { font-size: 10px; fill: #6e7681; }
+  </style>
+  <defs><clipPath id="c"><rect x="0" y="0" width="300" height="150" rx="10" /></clipPath></defs>
+  <rect x="0.5" y="0.5" width="299" height="149" rx="10" fill="#0d1117" stroke="#30363d" />
+  <rect clip-path="url(#c)" x="0" y="0" width="300" height="4" fill="#3fb950" />
+  <text class="m t" x="20" y="42">multi-region-mongo-patterns</text>
+  <text class="m d" x="20" y="70">Region-pinned shards. A write whose</text>
+  <text class="m d" x="20" y="88">region breaks its tenant's residency</text>
+  <text class="m d" x="20" y="106">is rejected with a 409, not stored.</text>
+  <text class="m f" x="20" y="132">zone sharding  ·  data residency</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sudhanshu Singh, Backend Engineer at Testlify, Mumbai. Focus: durable execution, job orchestration, distributed tracing. Diagram: a keel run that crashed at step 4. Steps 1 to 3 replay from the journal and step 4 is the only one that re-runs.">
+  <title>Sudhanshu Singh, backend engineer</title>
+  <style>
+    .bg { fill: #ffffff; stroke: #d0d7de; }
+    .name { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 60px; font-weight: 700; fill: #1f2328; letter-spacing: 0.5px; }
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .role { font-size: 16px; letter-spacing: 4.5px; fill: #0969da; }
+    .focus { font-size: 15px; fill: #656d76; }
+    .meta { font-size: 13px; fill: #6e7781; }
+    .cap { font-size: 12px; fill: #656d76; }
+    .ul { fill: #0969da; transform-origin: 64px 0; animation: ul .7s cubic-bezier(.2,.8,.2,1) .2s both; }
+    @keyframes ul { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .fade { opacity: 0; animation: fade .5s linear both; }
+    .f1 { animation-delay: .5s } .f2 { animation-delay: .8s } .f3 { animation-delay: 1.1s }
+    @keyframes fade { to { opacity: 1 } }
+    .sq { fill: #eaeef2; }
+    .s1 { animation: s1 8s linear infinite } .s2 { animation: s2 8s linear infinite }
+    .s3 { animation: s3 8s linear infinite } .s4 { animation: s4 8s linear infinite }
+    .s5 { animation: s5 8s linear infinite } .s6 { animation: s6 8s linear infinite }
+    @keyframes s1 { 0%,10% { fill: #eaeef2 } 11%,52% { fill: #1a7f37 } 53%,100% { fill: #a2cfae } }
+    @keyframes s2 { 0%,21% { fill: #eaeef2 } 22%,52% { fill: #1a7f37 } 53%,100% { fill: #a2cfae } }
+    @keyframes s3 { 0%,32% { fill: #eaeef2 } 33%,52% { fill: #1a7f37 } 53%,100% { fill: #a2cfae } }
+    @keyframes s4 { 0%,33% { fill: #eaeef2 } 34%,52% { fill: #cf222e } 53%,100% { fill: #1a7f37 } }
+    @keyframes s5 { 0%,61% { fill: #eaeef2 } 62%,100% { fill: #1a7f37 } }
+    @keyframes s6 { 0%,71% { fill: #eaeef2 } 72%,100% { fill: #1a7f37 } }
+    @media (prefers-reduced-motion: reduce) {
+      .ul { animation: none } .fade { opacity: 1; animation: none }
+      .s1, .s2, .s3 { animation: none; fill: #a2cfae }
+      .s4, .s5, .s6 { animation: none; fill: #1a7f37 }
+    }
+  </style>
+
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#eaeef2" />
+    </pattern>
+  </defs>
+
+  <rect class="bg" x="0.5" y="0.5" width="1199" height="299" rx="14" />
+  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#dots)" />
+
+  <text class="name" x="64" y="132">Sudhanshu Singh</text>
+  <rect class="ul" x="64" y="152" width="184" height="4" rx="2" />
+  <text class="m role fade f1" x="64" y="192">BACKEND ENGINEER &#183; TESTLIFY &#183; MUMBAI</text>
+  <text class="m focus fade f2" x="64" y="226">durable execution, job orchestration, distributed tracing</text>
+  <text class="m meta fade f3" x="64" y="258">npm: keel, nocap &#160;&#183;&#160; open to backend and platform roles</text>
+
+  <g class="fade f2">
+    <text class="m cap" x="800" y="104">a keel run that crashed at step 4</text>
+    <rect class="sq s1" x="800" y="120" width="42" height="42" rx="6" />
+    <rect class="sq s2" x="854" y="120" width="42" height="42" rx="6" />
+    <rect class="sq s3" x="908" y="120" width="42" height="42" rx="6" />
+    <rect class="sq s4" x="962" y="120" width="42" height="42" rx="6" />
+    <rect class="sq s5" x="1016" y="120" width="42" height="42" rx="6" />
+    <rect class="sq s6" x="1070" y="120" width="42" height="42" rx="6" />
+    <text class="m cap" x="800" y="196">steps 1 to 3 replay from the journal,</text>
+    <text class="m cap" x="800" y="214">step 4 is the only one that re-runs</text>
+  </g>
+</svg>

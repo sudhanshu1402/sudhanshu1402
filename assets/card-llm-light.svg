@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" role="img" aria-label="llm-assessment-pipeline. Schema-checked model output with provider failover. A Zod refinement enforces exactly one right answer. structured output  ·  retries">
+  <title>llm-assessment-pipeline</title>
+  <style>
+    .m { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace; }
+    .t { font-size: 15px; font-weight: 600; fill: #1b7c83; }
+    .d { font-size: 11px; fill: #656d76; }
+    .f { font-size: 10px; fill: #6e7781; }
+  </style>
+  <defs><clipPath id="c"><rect x="0" y="0" width="300" height="150" rx="10" /></clipPath></defs>
+  <rect x="0.5" y="0.5" width="299" height="149" rx="10" fill="#ffffff" stroke="#d0d7de" />
+  <rect clip-path="url(#c)" x="0" y="0" width="300" height="4" fill="#1b7c83" />
+  <text class="m t" x="20" y="42">llm-assessment-pipeline</text>
+  <text class="m d" x="20" y="70">Schema-checked model output with</text>
+  <text class="m d" x="20" y="88">provider failover. A Zod refinement</text>
+  <text class="m d" x="20" y="106">enforces exactly one right answer.</text>
+  <text class="m f" x="20" y="132">structured output  ·  retries</text>
+</svg>

@@ -8,7 +8,6 @@
 
 <a href="https://www.linkedin.com/in/sudhanshusingh1402/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://sudhanshu1402.github.io"><img src="https://img.shields.io/badge/Portfolio-0a0c10?style=for-the-badge&logo=githubpages&logoColor=6ea8fe" alt="Portfolio" /></a>
-<a href="https://sudhanshu1402.github.io/system-design-portal"><img src="https://img.shields.io/badge/System%20Design-30363d?style=for-the-badge&logo=readthedocs&logoColor=white" alt="System Design Portal" /></a>
 <a href="https://www.npmjs.com/package/@sudhanshu1402/keel"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
 
 </div>
@@ -31,21 +30,26 @@ I'm a Backend Engineer at Testlify, based in Mumbai. I started out as a data ana
 
 </details>
 
+### See keel recover from a crash
+
+Run 1 charges a card and dies before shipping. Run 2 resumes and ships, without charging the card twice.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/sudhanshu1402/keel/main/demo/demo.gif" alt="keel: run 1 charges a card and crashes, run 2 resumes and ships without re-charging" width="720" />
+</div>
+
 ## Tech
 
 | | |
 | :-- | :-- |
 | **Languages** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) |
-| **Backend** | ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square) ![Microservices](https://img.shields.io/badge/Microservices-4b5563?style=flat-square) ![BullMQ](https://img.shields.io/badge/BullMQ-E0234E?style=flat-square&logo=redis&logoColor=white) |
-| **Data** | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **Cloud & Infra** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
-| **Auth & Security** | ![SAML 2.0](https://img.shields.io/badge/SAML%202.0-30363d?style=flat-square) ![OIDC](https://img.shields.io/badge/OIDC-30363d?style=flat-square&logo=openid&logoColor=white) ![SSO](https://img.shields.io/badge/SSO-30363d?style=flat-square) ![SCIM](https://img.shields.io/badge/SCIM-30363d?style=flat-square) ![RBAC](https://img.shields.io/badge/RBAC-30363d?style=flat-square) |
-| **Observability** | ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square) ![Mimir](https://img.shields.io/badge/Mimir-F46800?style=flat-square) |
-| **AI / LLM** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white) |
+| **Backend & Data** | ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square) ![BullMQ](https://img.shields.io/badge/BullMQ-E0234E?style=flat-square&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **Infra & Observability** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square) |
+| **Auth & AI** | ![SAML 2.0](https://img.shields.io/badge/SAML%202.0-30363d?style=flat-square) ![OIDC](https://img.shields.io/badge/OIDC-30363d?style=flat-square&logo=openid&logoColor=white) ![SCIM](https://img.shields.io/badge/SCIM-30363d?style=flat-square) ![RBAC](https://img.shields.io/badge/RBAC-30363d?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white) |
 
 ## Systems I've built
 
-Backend systems designed and built end-to-end. Each has a matching architecture write-up on the [system design portal](https://sudhanshu1402.github.io/system-design-portal).
+Backend systems designed and built end-to-end. Architecture notes for each are on the [system design portal](https://sudhanshu1402.github.io/system-design-portal).
 
 | Project | What it does |
 | :-- | :-- |
@@ -62,19 +66,6 @@ Backend systems designed and built end-to-end. Each has a matching architecture 
 | **[keel](https://github.com/sudhanshu1402/keel)** [![npm](https://img.shields.io/npm/v/%40sudhanshu1402%2Fkeel.svg?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@sudhanshu1402/keel) | Durable execution for TypeScript. Write work as named steps; when a step finishes, keel saves its result, so a run that dies at step 7 restarts at step 7 instead of from the top. Same idea as Temporal, but no server, no database, no build step. Zero runtime dependencies. |
 | **[nocap](https://github.com/sudhanshu1402/nocap)** [![npm](https://img.shields.io/npm/v/%40sudhanshu1402%2Fnocap.svg?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@sudhanshu1402/nocap) | A plain-English terminal UI for Claude Code: a readable feed of what it's doing and a clear Yes/No gate before anything risky, on the same real permission system. |
 | **[RecruitSync](https://github.com/sudhanshu1402/linkedin-RecruitSync)** | MV3 browser extension for authorized recruiter workflows. The interesting part is the network layer: token-bucket rate limiting, bounded concurrency, and exponential backoff with `Retry-After` across two API generations. |
-
-<details>
-<summary><b>See keel recover from a crash (demo)</b></summary>
-
-<br />
-
-Run 1 charges a card and dies before shipping. Run 2 resumes and ships, without charging the card twice.
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/sudhanshu1402/keel/main/demo/demo.gif" alt="keel: run 1 charges a card and crashes, run 2 resumes and ships without re-charging" width="720" />
-</div>
-
-</details>
 
 ## Activity
 

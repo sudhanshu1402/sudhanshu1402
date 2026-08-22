@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/hero-light.svg" />
-  <img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/hero-dark.svg" alt="Sudhanshu Singh, Backend Engineer at Testlify, Mumbai. Focus: durable execution, job orchestration, distributed tracing. On npm: keel and nocap. Open to backend and platform roles. Alongside, a diagram of a keel run that crashed at step 4: steps 1 to 3 replay from the journal and step 4 is the only one that re-runs." width="100%" />
+  <img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/hero-dark.svg" alt="Sudhanshu Singh, Backend Engineer, Mumbai. Focus: durable execution, job orchestration, distributed tracing. On npm: keel and nocap. Open to backend and platform roles. Alongside, a diagram of a keel run that crashed at step 4: steps 1 to 3 replay from the journal and step 4 is the only one that re-runs." width="100%" />
 </picture>
 
 <samp>
@@ -17,7 +17,7 @@
 
 I build backend infrastructure in TypeScript. I care more about a system staying correct after it crashes than about it looking clever before it does, and everything below is built around that one idea.
 
-Backend Engineer at Testlify, Mumbai. Started in data analysis at Policybazaar, which is where the systems questions got interesting: why a pipeline stalls, where records go missing, what happens under load. **Open to backend and platform engineering roles.**
+Backend Engineer, Mumbai. Started in data analysis at Policybazaar, which is where the systems questions got interesting: why a pipeline stalls, where records go missing, what happens under load. **Open to backend and platform engineering roles.**
 
 <div align="center">
 <table>

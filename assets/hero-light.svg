@@ -43,7 +43,7 @@
   <rect class="ul" x="64" y="152" width="184" height="4" rx="2" />
   <text class="m role fade f1" x="64" y="192">BACKEND ENGINEER &#183; MUMBAI</text>
   <text class="m focus fade f2" x="64" y="226">durable execution, job orchestration, distributed tracing</text>
-  <text class="m meta fade f3" x="64" y="258">npm: keel, nocap &#160;&#183;&#160; open to backend and platform roles</text>
+  <text class="m meta fade f3" x="64" y="258">npm: keel, nocap, receipts &#160;&#183;&#160; open to backend and platform roles</text>
 
   <g class="fade f2">
     <text class="m cap" x="800" y="104">a keel run that crashed at step 4</text>

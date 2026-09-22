@@ -15,7 +15,7 @@
 
 </div>
 
-Backend infrastructure in TypeScript. I care more about a system staying correct after it crashes than about it looking clever before it does, and everything below is built around that one idea.
+Backend infrastructure in TypeScript. I care more about a system staying correct after it crashes than about it looking clever before it does, and everything below is built around that one idea. The repositories below are reference implementations, not production deployments — each README says what it is and what it is not.
 
 Backend Engineer, Mumbai. Started in data analysis at Policybazaar, which is where the systems questions got interesting: why a pipeline stalls, where records go missing, what happens under load. **Open to backend and platform engineering roles.**
 
@@ -43,7 +43,7 @@ Backend Engineer, Mumbai. Started in data analysis at Policybazaar, which is whe
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-light.svg" />
-  <img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" width="100%" alt="Tools I work in: TypeScript, Node.js, Express, MongoDB, Redis, Postgres, Docker, AWS, Git, GitHub Actions" />
+  <img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" width="100%" alt="Tools I work in: TypeScript, Node.js, Express, MongoDB, Redis, Postgres, Docker, AWS Secrets Manager, Git, GitHub Actions" />
 </picture>
 
 </div>
@@ -105,7 +105,7 @@ graph LR
     WORK -.-> OTEL
 ```
 
-Reference implementations, not production deployments. Each README says what it is and what it isn't. The failure mode in the second column is what each one is actually for.
+Each README says what it is and what it isn't. The failure mode in the second column is what each one is actually for.
 
 | Repo | The problem it exists to handle |
 | :-- | :-- |
@@ -138,25 +138,6 @@ All three are early. Each ships from CI only when the version in `package.json` 
 - I reach for the boring, well-understood tool first. Novelty is a cost you pay at 3am.
 - I like problems that only show up under failure: retries, partial writes, a process that dies mid-transaction. That's usually where the real design is.
 - I write the runbook and the traces before I call something done. If I can't see what a system is doing, I don't trust it.
-
-</details>
-
-<details>
-<summary><h2>Activity</h2></summary>
-
-<br />
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/metrics.svg" alt="GitHub metrics: activity, calendar, languages, and stats" width="480" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
-
-</div>
 
 </details>
 

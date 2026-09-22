@@ -15,7 +15,7 @@
 
 </div>
 
-Backend infrastructure in TypeScript. I care more about a system staying correct after it crashes than about it looking clever before it does, and everything below is built around that one idea. The repositories below are reference implementations, not production deployments — each README says what it is and what it is not.
+Backend infrastructure in TypeScript. I care more about a system staying correct after it crashes than about it looking clever before it does, and everything below is built around that one idea. The repositories below are reference implementations, not production deployments - each README says what it is and what it is not.
 
 Backend Engineer, Mumbai. Started in data analysis at Policybazaar, which is where the systems questions got interesting: why a pipeline stalls, where records go missing, what happens under load. **Open to backend and platform engineering roles.**
 

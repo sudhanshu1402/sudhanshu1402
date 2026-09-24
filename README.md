@@ -38,14 +38,6 @@ Backend Engineer, Mumbai. Started in data analysis at Policybazaar, which is whe
 </tr>
 </table>
 
-<br /><br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-light.svg" />
-  <img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/tech-dark.svg" width="100%" alt="Tools I work in: TypeScript, Node.js, Express, MongoDB, Redis, Postgres, Docker, AWS Secrets Manager, Git, GitHub Actions" />
-</picture>
-
 </div>
 
 ## keel

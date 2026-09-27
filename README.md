@@ -118,7 +118,7 @@ Each README says what it is and what it isn't. The failure mode in the second co
 | **[nocap](https://www.npmjs.com/package/@sudhanshu1402/nocap)** | A plain-English terminal UI for Claude Code: a readable feed of what it's doing, and a Yes/No gate before anything risky, on the real permission system. |
 | **[receipts](https://www.npmjs.com/package/@sudhanshu1402/receipts)** | Reads a Claude Code transcript and checks each claim against the tool calls behind it. Zero dependencies. |
 
-All three are early. Each ships from CI only when the version in `package.json` changes.
+All three are early. Each has a CI job that publishes only when the version in `package.json` changes: nocap to npm, keel and receipts to GitHub Packages.
 
 </details>
 

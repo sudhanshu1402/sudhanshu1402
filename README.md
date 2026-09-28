@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/front-page.svg" width="100%" alt="The Crash Report, a journal by Sudhanshu Singh, backend engineer in Mumbai. Headline: Systems that stay correct after they crash. Lead case: keel. The process died after the card was charged. On restart, charge and reserve replayed from disk and ship ran once. The card was charged exactly once." />
+<img src="https://raw.githubusercontent.com/sudhanshu1402/sudhanshu1402/main/assets/front-page.svg" width="100%" alt="The Crash Report, a journal by Sudhanshu Singh, backend developer. Headline: Systems that stay correct after they crash. Lead case: keel. The process died after the card was charged. On restart, charge and reserve replayed from disk and ship ran once. The card was charged exactly once." />
 
 [![Portfolio](https://img.shields.io/badge/portfolio-f3efe6?style=for-the-badge&logo=githubpages&logoColor=141414&labelColor=f3efe6)](https://sudhanshu1402.github.io)
 [![System design](https://img.shields.io/badge/system_design-f3efe6?style=for-the-badge&logo=readthedocs&logoColor=141414)](https://sudhanshu1402.github.io/system-design-portal/)
